@@ -1,0 +1,68 @@
+{
+  "classic_model": {
+    "formula": "E + A*N^(-alpha) + B*D^(-beta)",
+    "objective": "log_huber",
+    "parameters": {
+      "E": 1.6898377701724516,
+      "A": 0.35396872032343074,
+      "alpha": 0.3399854249374161,
+      "B": 1.240274629904435,
+      "beta": 0.2798924654948758
+    }
+  },
+  "quality_model": {
+    "kind": "reducible_linear",
+    "parameters": [
+      0.47754320017108975
+    ],
+    "evidence": "B7 semi-synthetic grouped-(N,D) CV; B8 is pressure test only"
+  },
+  "mixture_bridge": {
+    "delta": 0.0001,
+    "domain_names": [
+      "arxiv",
+      "freelaw",
+      "nih_exporter",
+      "pubmed_central",
+      "wikipedia_en",
+      "dm_mathematics",
+      "github",
+      "philpapers",
+      "stackexchange",
+      "enron_emails",
+      "gutenberg_pg_19",
+      "pile_cc",
+      "ubuntu_irc",
+      "europarl",
+      "hackernews",
+      "pubmed_abstracts",
+      "uspto_backgrounds"
+    ],
+    "reference": "A4 compositional empirical center",
+    "formula": "psi_p(p;eta_p)=exp(-eta_p*R_A(p)); eta_p is not identified by B data",
+    "eta_p_default": 0.0,
+    "reason": "No joint B-source p variation or A/B absolute-Loss anchor; eta_p not identifiable",
+    "A_source_descriptive_eta_range": [
+      0.3690830703773464,
+      0.4145782342366113
+    ],
+    "conditional_sensitivity_grid": [
+      0.0,
+      0.25,
+      0.5
+    ],
+    "warning": "Nonzero eta_p values are scenarios, not B-source estimates"
+  },
+  "generalized_law": "L=E+R_Q(N,D,Q)*exp(-eta_p*R_A(p)); eta_p=0 for identified main prediction",
+  "units": {
+    "N": "billion parameters",
+    "D": "billion tokens",
+    "C": "FLOPs, C=6*(N*1e9)*(D*1e9)"
+  },
+  "evidence_limits": [
+    "A/B absolute Loss not pooled",
+    "B6/B7 overlap removed",
+    "Q effect is semi-synthetic",
+    "p-to-B amplitude is conditional, not identified"
+  ]
+}

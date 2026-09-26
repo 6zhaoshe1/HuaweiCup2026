@@ -1,0 +1,7 @@
+{
+  "bootstrap_success": 300,
+  "bootstrap_total": 300,
+  "N_compute_exponent": 0.4515283894053452,
+  "D_compute_exponent": 0.5484716105946549,
+  "note": "Selected Q and conditional p factors multiply the whole reducible loss, so they do not alter N:D optimum under fixed Q,p."
+}

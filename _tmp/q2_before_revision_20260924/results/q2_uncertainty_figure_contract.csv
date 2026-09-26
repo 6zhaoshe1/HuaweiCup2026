@@ -1,0 +1,3 @@
+﻿figure,result_source,assertion
+q2_09_parameter_uncertainty.pdf,q2_classic_trajectory_bootstrap.csv,按完整模型轨迹重采样评估指数不确定性
+q2_10_compute_optimal.pdf,q2_compute_optimal.csv,在 B1 已观测算力范围内给出 N-D 最优分配曲线

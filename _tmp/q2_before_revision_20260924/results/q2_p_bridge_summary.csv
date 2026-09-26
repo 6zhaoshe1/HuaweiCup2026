@@ -1,0 +1,5 @@
+﻿scale,n,spearman_p_index_vs_better_loss,eta_A_within_source,standardized_loss_rmse,evidence_level,interpretation
+1M_train,512,0.9162721122154701,0.38845470969708035,0.19402213531217,real_observational,A-source relative effect only; not an identified B-source coefficient
+1M_holdout,256,0.9088642996108949,0.3690830703773464,0.17233819527876842,real_holdout,A-source relative effect only; not an identified B-source coefficient
+60M_holdout,256,0.8927908274204623,0.3790572109399676,0.20356331870559663,real_holdout,A-source relative effect only; not an identified B-source coefficient
+1B_holdout,64,0.7521520146520146,0.4145782342366113,0.1888798009468292,real_holdout,A-source relative effect only; not an identified B-source coefficient

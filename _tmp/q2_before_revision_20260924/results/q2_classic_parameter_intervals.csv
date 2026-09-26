@@ -1,0 +1,6 @@
+﻿parameter,point_estimate,bootstrap_median,ci2p5,ci97p5,successful_replicates,resampling_unit,evidence_level
+E,1.6898377701724516,1.689813164471777,1.6896216349491315,1.6899600936420938,300,complete N trajectory,real_observational_group_bootstrap
+A,0.3539687203234307,0.35395555670897416,0.3537503916732562,0.354139166230901,300,complete N trajectory,real_observational_group_bootstrap
+alpha,0.3399854249374161,0.3399908763858863,0.33977935320689634,0.34016051937549463,300,complete N trajectory,real_observational_group_bootstrap
+B,1.240274629904435,1.2403137063047556,1.2401619763465415,1.2404289752066686,300,complete N trajectory,real_observational_group_bootstrap
+beta,0.2798924654948758,0.2798792424582325,0.27982633252327843,0.27993399266497065,300,complete N trajectory,real_observational_group_bootstrap

@@ -1,0 +1,51 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "check": "B6_exact_subset_B7",
+      "pass": true,
+      "value": 360
+    },
+    {
+      "check": "classic_parameters_independent_curve_fit",
+      "pass": true,
+      "max_relative_difference": 5.1223068711192146e-05,
+      "independent_parameters": [
+        1.6897975629251782,
+        0.35398032065887647,
+        0.3399765819011052,
+        1.2403055835508983,
+        0.279878128543884
+      ]
+    },
+    {
+      "check": "quality_coefficient_closed_form_ols",
+      "pass": true,
+      "ols": 0.4599713060909819,
+      "robust_log_fit": 0.47754320017108975,
+      "absolute_difference": 0.01757189408010784
+    },
+    {
+      "check": "quality_oof_metric_recomputed",
+      "pass": true,
+      "recomputed_rmse": 0.06282562509812761,
+      "recorded_rmse": 0.0628256250981276
+    },
+    {
+      "check": "p_bridge_finite_and_directional",
+      "pass": true,
+      "min_spearman": 0.7521520146520146
+    },
+    {
+      "check": "eta_p_unidentified_default_zero",
+      "pass": true,
+      "eta_p_default": 0.0
+    },
+    {
+      "check": "finite_marginal_scenarios",
+      "pass": true,
+      "rows": 36
+    }
+  ],
+  "note": "Independent implementation; no imports from q2_modeling.py."
+}

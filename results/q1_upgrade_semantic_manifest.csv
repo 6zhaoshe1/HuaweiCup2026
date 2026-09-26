@@ -1,0 +1,26 @@
+﻿semantic_position,source_field,storage_type,meaning,role,direction,transform,evidence_level,note
+1,fineweb_edu,scalar,education value,quality,positive,A1 ECDF,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+2,fluency_en,2 logits,English fluency,quality,positive margin,z_fluent-z_nonfluent then A1 ECDF,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+3,ad_en,2 logits,advertising,quality,negative ad / positive no-ad,z_no_ad-z_ad then A1 ECDF,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+4,modernbert_cleanliness,6 logits,cleanliness,quality,positive,softmax expected level; uncalibrated,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+5,modernbert_readability,6 logits,readability,quality,positive,softmax expected level; uncalibrated,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+6,modernbert_reasoning,6 logits,reasoning,quality,positive,softmax expected level; uncalibrated,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+7,modernbert_professionalism,6 logits,professionalism,quality,positive,softmax expected level; uncalibrated,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+8,qurater[0],scalar list element,writing style,quality,positive,separate A1 ECDF,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+9,qurater[1],scalar list element,required expertise,quality,positive,separate A1 ECDF,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+10,qurater[2],scalar list element,facts/trivia,quality,positive,separate A1 ECDF,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+11,qurater[3],scalar list element,educational value,quality,positive,separate A1 ECDF,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+12,dsir_books,scalar,Books-domain similarity,auxiliary,domain preference only,per-word then domain length residual,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+13,dsir_wiki,scalar,Wikipedia-domain similarity,auxiliary,domain preference only,per-word then domain length residual,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+14,dsir_math,scalar,Math-domain similarity,auxiliary,domain preference only,per-word then domain length residual,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+15,rps_doc_word_count,scalar,word count,structure,non-monotone,length bands/anomaly only,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+16,rps_doc_num_sentences,scalar,sentence count,structure,non-monotone,anomaly only,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+17,rps_doc_mean_word_length,scalar,mean word length,structure,non-monotone,anomaly only,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+18,rps_doc_unigram_entropy,scalar,unigram entropy,quality,mild positive,domain×length ECDF,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+19,rps_doc_frac_unique_words,scalar,unique-word share,quality,mild positive,domain×length ECDF,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+20,rps_lines_ending_with_terminal_punctution_mark,scalar,terminal-punctuation share,quality,mild positive,domain×length ECDF,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+21,rps_doc_frac_no_alph_words,scalar,non-alphabetic-word share,quality,domain conditional,domain×length centrality,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+22,rps_lines_numerical_chars_fraction,scalar,numeric-character share,quality,domain conditional,domain×length centrality,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+23,rps_lines_uppercase_letter_fraction,scalar,uppercase share,quality,domain conditional,domain×length centrality,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+24,rps_doc_frac_chars_top_2gram,scalar,top-2gram share,quality,negative repetition,domain×length reverse ECDF,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements
+25,rps_doc_frac_chars_top_3gram,scalar,top-3gram share,quality,negative repetition,domain×length reverse ECDF,metadata,22 source fields expand to 25 semantic dimensions because qurater has four elements

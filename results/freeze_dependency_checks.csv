@@ -1,0 +1,5 @@
+﻿interface,file,exists,boundary,sha256
+Q1_to_Q2,results/q1_upgrade_interface_to_q2.json,True,"four facets; scalar Q provisional; pass source-internal mixture effects, not absolute A Loss",b855a016de049c7a2224577ec7d37c68214bd27d3350bb6a699cc5b8a4653f00
+Q2_to_Q3,results/q2_interface_to_q3.json,True,N-D law plus B7 semi-synthetic Q; Q1 scale unmapped; eta_p=0 in main model,682c56472c90aaba475faceed3be8e2bd2b85040ea7271f70f803c1287f97a83
+Q3_to_Q4,results/q3_interface_to_q4.json,True,"resource configurations are conditional model scenarios, not interventions",7cab4e101ad44707e37e1ee688641e5b0ef7e3b89120610d8c4cac1aabac63fa
+Q4_final,results/q4_final_closure_interface.json,True,frozen record process and 5000-path conditional scenario forecast,6d4febc956ad457890ccf5d18d3e528087545ad12cdd053d0832b6ab347ea88a

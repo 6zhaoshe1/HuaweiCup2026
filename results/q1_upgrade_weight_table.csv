@@ -1,0 +1,20 @@
+﻿facet,indicator,equal_weight,entropy_weight,critic_weight,geometric_weight,fit_source,interpretation,evidence_level
+content_value,fineweb_edu,0.3333333333333333,0.3334100002006161,0.3246668100646399,0.329396938258483,A1_only,"statistical sensitivity, not true importance",real_observational
+content_value,qurater_facts,0.3333333333333333,0.3332393877233495,0.37678036200685855,0.3547591401944402,A1_only,"statistical sensitivity, not true importance",real_observational
+content_value,qurater_education,0.3333333333333333,0.3333506120760344,0.29855282792850163,0.31584392154707674,A1_only,"statistical sensitivity, not true importance",real_observational
+language_quality,fluency_margin,0.16666666666666666,0.1695630290385125,0.14971867669987732,0.15988583250493252,A1_only,"statistical sensitivity, not true importance",real_observational
+language_quality,readability_expected,0.16666666666666666,0.16955354326992955,0.15012119183523812,0.16009613461931504,A1_only,"statistical sensitivity, not true importance",real_observational
+language_quality,qurater_style,0.16666666666666666,0.16941286855359647,0.13292722982619462,0.150586689119309,A1_only,"statistical sensitivity, not true importance",real_observational
+language_quality,rps_terminal,0.16666666666666666,0.1531382761791479,0.19731556540711434,0.17443312437532754,A1_only,"statistical sensitivity, not true importance",real_observational
+language_quality,rps_unique,0.16666666666666666,0.1695480850688542,0.18702177392649358,0.1786894615337133,A1_only,"statistical sensitivity, not true importance",real_observational
+language_quality,rps_entropy,0.16666666666666666,0.16878419788995933,0.18289556230508214,0.17630875784740266,A1_only,"statistical sensitivity, not true importance",real_observational
+cleanliness,cleanliness_expected,0.14285714285714285,0.1428962308163312,0.14376513819987843,0.14367753912130948,A1_only,"statistical sensitivity, not true importance",real_observational
+cleanliness,ad_margin,0.14285714285714285,0.14289661706552753,0.1558474893594731,0.14959345059080378,A1_only,"statistical sensitivity, not true importance",real_observational
+cleanliness,rps_no_alpha,0.14285714285714285,0.14473943329348943,0.1477334625085343,0.14658332656061393,A1_only,"statistical sensitivity, not true importance",real_observational
+cleanliness,rps_numeric,0.14285714285714285,0.11531096501870229,0.14497634768407477,0.1296091258960431,A1_only,"statistical sensitivity, not true importance",real_observational
+cleanliness,rps_uppercase,0.14285714285714285,0.14241436581574174,0.14802651973105682,0.1455453602590457,A1_only,"statistical sensitivity, not true importance",real_observational
+cleanliness,rps_top2,0.14285714285714285,0.1472723048903045,0.1325198307456083,0.14004018609306162,A1_only,"statistical sensitivity, not true importance",real_observational
+cleanliness,rps_top3,0.14285714285714285,0.1644700830999033,0.12713121177137413,0.14495101147912237,A1_only,"statistical sensitivity, not true importance",real_observational
+reasoning_professional,reasoning_expected,0.3333333333333333,0.3333455025098439,0.39840164562966623,0.3652606607202304,A1_only,"statistical sensitivity, not true importance",real_observational
+reasoning_professional,professionalism_expected,0.3333333333333333,0.3333539996629558,0.29846055425365664,0.3161486591751336,A1_only,"statistical sensitivity, not true importance",real_observational
+reasoning_professional,qurater_expertise,0.3333333333333333,0.3333004978272003,0.30313780011667707,0.3185906801046361,A1_only,"statistical sensitivity, not true importance",real_observational

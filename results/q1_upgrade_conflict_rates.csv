@@ -1,0 +1,10 @@
+﻿dataset,domain,n,main_conflict_rate,conditional_conflict_rate,jaccard_with_main,evidence_level
+A1,arxiv,1419,0.07963354474982381,0.0,0.0,real_observational
+A1,book,171,0.0,0.005847953216374269,0.0,real_observational
+A1,c4,10000,0.0301,0.0157,0.015521064301552107,real_observational
+A1,commoncrawl,9640,0.035062240663900415,0.0,0.0,real_observational
+A1,github,10000,0.0112,0.032,0.006993006993006993,real_observational
+A1,stackexchange,10000,0.0249,0.0,0.0,real_observational
+A1,wikipedia,10000,0.0168,0.0003,0.0,real_observational
+A2,arxiv,17523,0.06751127090110141,0.0,0.0,real_observational
+A3,github,203752,0.011268601044406926,0.03463524284424202,0.008627197239296884,real_observational

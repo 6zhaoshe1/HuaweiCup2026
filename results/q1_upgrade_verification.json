@@ -1,0 +1,9 @@
+{
+  "semantic_dimensions_25": true,
+  "all_scores_finite": true,
+  "all_q_in_unit_interval": true,
+  "conditional_threshold_finite": true,
+  "benchmark_rows_complete": true,
+  "figures_created": true,
+  "a6_not_used_for_tuning": true
+}

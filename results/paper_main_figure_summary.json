@@ -1,0 +1,8 @@
+{
+  "generated_figures": 6,
+  "pdf_count": 6,
+  "png_count": 6,
+  "uses_synthetic_data": false,
+  "style_module": "_模板/scripts/mpl_cn.py",
+  "advanced_library_use": "verified layout references only"
+}

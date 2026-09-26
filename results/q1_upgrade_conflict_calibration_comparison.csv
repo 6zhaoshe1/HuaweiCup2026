@@ -1,0 +1,10 @@
+﻿dataset,domain,n,statistic,global_permutation_threshold,domain_length_permutation_threshold,global_flag_rate,domain_length_flag_rate,jaccard_global_vs_domain_length,conditional_is_subset_of_global,evidence_level
+A1,arxiv,1419,conditional_max_pair_conflict,9.917818069458008,11.582937240600586,0.0,0.0,1.0,True,real_observational
+A1,book,171,conditional_max_pair_conflict,9.917818069458008,11.582937240600586,0.005847953216374269,0.005847953216374269,1.0,True,real_observational
+A1,c4,10000,conditional_max_pair_conflict,9.917818069458008,11.582937240600586,0.0252,0.0157,0.623015873015873,True,real_observational
+A1,commoncrawl,9640,conditional_max_pair_conflict,9.917818069458008,11.582937240600586,0.0,0.0,1.0,True,real_observational
+A1,github,10000,conditional_max_pair_conflict,9.917818069458008,11.582937240600586,0.0651,0.032,0.4915514592933948,True,real_observational
+A1,stackexchange,10000,conditional_max_pair_conflict,9.917818069458008,11.582937240600586,0.0,0.0,1.0,True,real_observational
+A1,wikipedia,10000,conditional_max_pair_conflict,9.917818069458008,11.582937240600586,0.001,0.0003,0.3,True,real_observational
+A2,arxiv,17523,conditional_max_pair_conflict,9.917818069458008,11.582937240600586,0.00011413570735604634,0.0,0.0,True,real_observational
+A3,github,203752,conditional_max_pair_conflict,9.917818069458008,11.582937240600586,0.06781773921237583,0.03463524284424202,0.5107106672456216,True,real_observational

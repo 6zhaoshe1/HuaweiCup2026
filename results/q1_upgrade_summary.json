@@ -1,0 +1,120 @@
+{
+  "generated_at": "2026-09-24T08:05:12+0800",
+  "seed": 42,
+  "runtime_seconds": 139.11670446395874,
+  "quality_records": {
+    "A3": 203752,
+    "A1": 51230,
+    "A2": 17523
+  },
+  "storage_field_pit": {
+    "A1_content_retained": false,
+    "streaming_decoder": true,
+    "source_fields": 22,
+    "semantic_dimensions": 25
+  },
+  "weight_stability": [
+    {
+      "scope": "A1",
+      "method": "equal",
+      "spearman_vs_huber_definition": 0.9877519375582936,
+      "mean_abs_difference_vs_huber": 0.01894634031613305,
+      "evidence_level": "real_observational"
+    },
+    {
+      "scope": "A1",
+      "method": "entropy",
+      "spearman_vs_huber_definition": 0.9874051964040321,
+      "mean_abs_difference_vs_huber": 0.018955839332952053,
+      "evidence_level": "real_observational"
+    },
+    {
+      "scope": "A1",
+      "method": "critic",
+      "spearman_vs_huber_definition": 0.9849515170782952,
+      "mean_abs_difference_vs_huber": 0.02122395662043268,
+      "evidence_level": "real_observational"
+    },
+    {
+      "scope": "A1",
+      "method": "geometric",
+      "spearman_vs_huber_definition": 0.9865445353231761,
+      "mean_abs_difference_vs_huber": 0.019823016341089107,
+      "evidence_level": "real_observational"
+    },
+    {
+      "scope": "pooled_unique",
+      "method": "equal",
+      "spearman_vs_huber_definition": 0.9798901790274177,
+      "mean_abs_difference_vs_huber": 0.021877531457567906,
+      "evidence_level": "real_observational"
+    },
+    {
+      "scope": "pooled_unique",
+      "method": "entropy",
+      "spearman_vs_huber_definition": 0.9791762572454963,
+      "mean_abs_difference_vs_huber": 0.02204692584911506,
+      "evidence_level": "real_observational"
+    },
+    {
+      "scope": "pooled_unique",
+      "method": "critic",
+      "spearman_vs_huber_definition": 0.9742368637243258,
+      "mean_abs_difference_vs_huber": 0.02431474511339498,
+      "evidence_level": "real_observational"
+    },
+    {
+      "scope": "pooled_unique",
+      "method": "geometric",
+      "spearman_vs_huber_definition": 0.9771141624244267,
+      "mean_abs_difference_vs_huber": 0.022991671312647646,
+      "evidence_level": "real_observational"
+    }
+  ],
+  "conflict": {
+    "conditional_threshold_q99": 11.582937240600586,
+    "global_threshold_q99": 9.917818069458008,
+    "a1_observed_rate_conditional_threshold": 0.009389029865313293,
+    "permutations": 200,
+    "permutation_sample_n": 20000,
+    "families_exclude_dsir_and_structural": true
+  },
+  "mixture_candidate_decision": {
+    "per_domain_alpha_status": "removed_from_active_model",
+    "quadratic_cv_improvement": 0.15061396020287018,
+    "quadratic_a6_improvement": 0.18186330178665494,
+    "promote_quadratic": true,
+    "cv_selected_model": "log_shift_ridge",
+    "cv_selected_improvement_vs_ilr": 0.3143571981523194,
+    "a6_confirmation_improvement_vs_ilr": 0.29828334302337584,
+    "a6_confirmation_spearman_change": 0.04408716569537119,
+    "promote_cv_selected_model": true,
+    "a6_quadratic_macro_rmse_penalty_vs_log": 0.11069101582449092,
+    "a6_quadratic_micro_rmse_penalty_vs_log": 0.16590747858020305,
+    "frozen_dual_model_policy": {
+      "primary_prediction": "log_shift_ridge",
+      "structural_interaction": "quadratic_ilr_ridge",
+      "transparent_baseline": "ilr_shared_alpha",
+      "per_domain_alpha": "removed"
+    }
+  },
+  "dual_model_consistency": {
+    "scope": "overall",
+    "validation_domain": "all_13",
+    "n_effect_cells": 221,
+    "effect_rank_spearman": 0.6653962889257007,
+    "sign_agreement_all": 0.7873303167420814,
+    "sign_agreement_material": 0.8863636363636364,
+    "material_cell_count": 132,
+    "top5_beneficial_jaccard": 0.6373626373626374,
+    "best_domain_same": true,
+    "evidence_level": "model_scenario"
+  },
+  "main_definition_unchanged": "four facets + Huber/equal; scalar Q remains definition-based",
+  "excluded_from_generic_q": [
+    "DSIR",
+    "word_count",
+    "num_sentences",
+    "mean_word_length"
+  ]
+}

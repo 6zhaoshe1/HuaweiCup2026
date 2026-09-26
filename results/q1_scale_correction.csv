@@ -1,0 +1,14 @@
+domain,logN_slope,slope_iqr,calibration_sets,evidence_level
+arxiv,-0.38672877220384666,0.08042588479793344,A6_A7+A8_A9,real_observational
+freelaw,-0.3255743996887792,0.044670183756915116,A6_A7+A8_A9,real_observational
+pubmed_central,-0.3946398295147738,0.13357881062868665,A6_A7+A8_A9,real_observational
+wikipedia_en,-0.32964930229524525,0.018008754248242664,A6_A7+A8_A9,real_observational
+dm_mathematics,-0.3295450393395038,0.40132316941303653,A6_A7+A8_A9,real_observational
+github,-0.5869781382766346,0.09378176270767324,A6_A7+A8_A9,real_observational
+stackexchange,-0.39542038957634135,0.033421838394326386,A6_A7+A8_A9,real_observational
+gutenberg_pg_19,-0.22928183884655007,0.022988962695074,A6_A7+A8_A9,real_observational
+pile_cc,-0.26029484192983543,0.009901166652128479,A6_A7+A8_A9,real_observational
+ubuntu_irc,-0.4819281296952727,0.15052896541411798,A6_A7+A8_A9,real_observational
+hackernews,-0.23808988949466894,0.01798534530760723,A6_A7+A8_A9,real_observational
+pubmed_abstracts,-0.3273879520448879,0.016573675548007316,A6_A7+A8_A9,real_observational
+uspto_backgrounds,-0.33893368412346203,0.03412084566644069,A6_A7+A8_A9,real_observational

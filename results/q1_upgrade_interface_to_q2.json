@@ -1,0 +1,169 @@
+{
+  "status": "q1_engineering_frozen_pending_three_member_merge_and_human_face_validity",
+  "quality": {
+    "representation": "four_facets",
+    "facets": [
+      "content_value",
+      "language_quality",
+      "cleanliness",
+      "reasoning_professional"
+    ],
+    "scalar_q": "provisional_definition_based_huber_mean_not_independent_ground_truth",
+    "human_validation": "two-rater blinded descriptive face-validity check pending",
+    "excluded": [
+      "DSIR",
+      "word_count",
+      "num_sentences",
+      "mean_word_length"
+    ],
+    "q2_rule": "calibrate scalar Q with B6-B8 under non-circular validation"
+  },
+  "primary_prediction_model": {
+    "model": "log_shift_ridge",
+    "formula": "L_h=b_h+sum_j beta_hj*log(p_j+epsilon)",
+    "epsilon": 0.0001,
+    "alpha": 1.0,
+    "parameter_file": "results/q1_upgrade_selected_parameters.csv",
+    "effect_file": "results/q1_upgrade_selected_domain_effects.csv",
+    "metrics": [
+      {
+        "model": "log_shift_ridge",
+        "dataset": "A4_A5_oof",
+        "rmse_micro": 0.2701527727655895,
+        "rmse_macro": 0.2558396846387808,
+        "mae_macro": 0.2022978909924986,
+        "r2_macro": 0.8566762540658996,
+        "spearman_macro": 0.9340768486350226,
+        "spearman_median": 0.9353361643263408,
+        "tuning_scope": "A4_A5_train_only",
+        "evidence_level": "real_observational"
+      },
+      {
+        "model": "log_shift_ridge",
+        "dataset": "A6_A7_1m",
+        "rmse_micro": 0.2435926657909146,
+        "rmse_macro": 0.2317741214184031,
+        "mae_macro": 0.1864165821907586,
+        "r2_macro": 0.8651335470479863,
+        "spearman_macro": 0.9338136807401798,
+        "spearman_median": 0.9440210860608832,
+        "tuning_scope": "A4_A5_train_only",
+        "evidence_level": "real_holdout"
+      },
+      {
+        "model": "log_shift_ridge",
+        "dataset": "A8_A9_60m",
+        "rmse_micro": 1.578071150655744,
+        "rmse_macro": 1.5253196745687307,
+        "mae_macro": 1.4872849820498983,
+        "r2_macro": -7.579071196376075,
+        "spearman_macro": 0.9304837293342956,
+        "spearman_median": 0.9379398889906156,
+        "tuning_scope": "A4_A5_train_only",
+        "evidence_level": "real_holdout"
+      },
+      {
+        "model": "log_shift_ridge",
+        "dataset": "A10_A11_1b",
+        "rmse_micro": 2.777566323899873,
+        "rmse_macro": 2.734915221017973,
+        "mae_macro": 2.7058445083414853,
+        "r2_macro": -505.86068675529054,
+        "spearman_macro": 0.8907755705832628,
+        "spearman_median": 0.9075549450549448,
+        "tuning_scope": "A4_A5_train_only",
+        "evidence_level": "real_holdout"
+      }
+    ],
+    "claim_scope": "source-internal prediction and ranking; substitution effects are noncausal model scenarios"
+  },
+  "structural_interaction_model": {
+    "model": "quadratic_ilr_ridge",
+    "formula": "L_h=b_h+gamma_h^T z(p)+z(p)^T B_h z(p), where z is an ILR coordinate",
+    "parameter_file": "results/q1_upgrade_quadratic_parameters.csv",
+    "raw_domain_interaction_file": "results/q1_quadratic_ilr_interactions.csv",
+    "effect_file": "results/q1_dual_model_domain_effects.csv",
+    "metrics": [
+      {
+        "model": "quadratic_ilr_ridge",
+        "dataset": "A4_A5_oof",
+        "rmse_micro": 0.3346698793908649,
+        "rmse_macro": 0.3070505980100285,
+        "mae_macro": 0.2330545439943586,
+        "r2_macro": 0.8263972443316264,
+        "spearman_macro": 0.9141580970449484,
+        "spearman_median": 0.9232821816241518,
+        "tuning_scope": "A4_A5_train_only",
+        "evidence_level": "real_observational"
+      },
+      {
+        "model": "quadratic_ilr_ridge",
+        "dataset": "A6_A7_1m",
+        "rmse_micro": 0.2840065107729153,
+        "rmse_macro": 0.257429434360035,
+        "mae_macro": 0.2019101214322165,
+        "r2_macro": 0.8661472704478553,
+        "spearman_macro": 0.934352551631248,
+        "spearman_median": 0.9406364442664223,
+        "tuning_scope": "A4_A5_train_only",
+        "evidence_level": "real_holdout"
+      },
+      {
+        "model": "quadratic_ilr_ridge",
+        "dataset": "A8_A9_60m",
+        "rmse_micro": 1.599333867959756,
+        "rmse_macro": 1.544205972395324,
+        "mae_macro": 1.5060437806723048,
+        "r2_macro": -7.752112320019948,
+        "spearman_macro": 0.929890113034139,
+        "spearman_median": 0.9367711432822154,
+        "tuning_scope": "A4_A5_train_only",
+        "evidence_level": "real_holdout"
+      },
+      {
+        "model": "quadratic_ilr_ridge",
+        "dataset": "A10_A11_1b",
+        "rmse_micro": 2.6963496728536795,
+        "rmse_macro": 2.658083835805251,
+        "mae_macro": 2.6202882452073952,
+        "r2_macro": -483.6776209503142,
+        "spearman_macro": 0.8412651451112989,
+        "spearman_median": 0.8420787545787544,
+        "tuning_scope": "A4_A5_train_only",
+        "evidence_level": "real_holdout"
+      }
+    ],
+    "interpretation_rule": "ILR coefficients are basis-dependent; raw-domain combinations use closed scenario contrasts",
+    "claim_scope": "structural sensitivity and noncausal interaction scenarios, not the primary point predictor"
+  },
+  "dual_model_consistency": {
+    "file": "results/q1_dual_model_consistency.csv",
+    "overall": {
+      "scope": "overall",
+      "validation_domain": "all_13",
+      "n_effect_cells": 221,
+      "effect_rank_spearman": 0.6653962889257007,
+      "sign_agreement_all": 0.7873303167420814,
+      "sign_agreement_material": 0.8863636363636364,
+      "material_cell_count": 132,
+      "top5_beneficial_jaccard": 0.6373626373626374,
+      "best_domain_same": true,
+      "evidence_level": "model_scenario"
+    },
+    "rule": "disclose disagreement rather than force structural and predictive conclusions to coincide"
+  },
+  "transparent_baseline": "linear ILR-Ridge retained only as the compositional-geometry baseline",
+  "removed_model": "per-domain-alpha ILR removed because prior improvement was below 0.1%",
+  "transfer_to_q2": [
+    "four facets and domain uncertainty",
+    "source-internal mixture ranking/effects",
+    "model parameters and applicable scale",
+    "cross-scale failure evidence"
+  ],
+  "do_not_transfer": [
+    "A-group absolute Loss as if directly compatible with B",
+    "Q as a physical treatment variable",
+    "10B/70B estimated Loss as real holdout",
+    "substitution effects as causal or optimal allocation"
+  ]
+}

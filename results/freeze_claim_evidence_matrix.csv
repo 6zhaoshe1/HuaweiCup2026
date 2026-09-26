@@ -1,0 +1,9 @@
+﻿question,claim,result_file,evidence_boundary,exists
+Q1,same-scale mixture prediction,q1_upgrade_interface_to_q2.json,real holdout A6-A11; absolute cross-scale Loss transfer rejected,True
+Q1,quality score,q1_upgrade_weight_domain_scores.csv,definition-based four facets; two-rater face-validity still pending,True
+Q2,generalized scaling law,q2_interface_to_q3.json,"N,D supported by B1; Q supported by B7 semi-synthetic; p magnitude unidentified",True
+Q3,resource optimum,q3_interface_to_q4.json,numerical optimum inside stated support/scenario; not causal intervention,True
+Q4,30-day record forecast MAE,q4_final_record_metrics.csv,9 complete windows,True
+Q4,60-day record forecast MAE,q4_final_record_metrics.csv,8 complete windows; last nominal 60-day window excluded because only 40 days observed,True
+Q4,12/24-month frontier scenarios,q4_frozen_frontier_forecast.csv,5000-path conditional extrapolation; interval not empirically 90%-calibrated,True
+Q4,non-scale progress proxy,q4_final_decomposition_sensitivity.csv,descriptive Shapley identity; not causal technology contribution,True

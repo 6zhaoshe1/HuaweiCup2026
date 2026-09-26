@@ -1,0 +1,2342 @@
+﻿review_id,content_excerpt,overall_quality_1to5,content_value_1to5,language_quality_1to5,cleanliness_1to5,reasoning_professional_1to5,measurement_error_yes_no,reviewer_note
+165d12b5907f,"Q: Finding generators for matrix group Given the group
+$$ G = \left \{ \begin{pmatrix}
+    a & b \\
+    0 & 1 \\
+    \end{pmatrix}, a = \pm1, b \in \Bbb Z \right\}
+$$
+I need to find elements $x$ and $y$ in $G$ such that $G=\langle x,y \rangle$.
+I've read the theory from my textbook but I don't really understand how to find $x$ and $y$. Any help would be appreciated.
+I also got a hint:
+first show that $H = \bigg\{\begin{pmatrix}1 & b \\ 0 & 1\end{pmatrix}$ with $b \in \Bbb Z\bigg\}$ is a cyclic group.
+Edit:
+So with the hint I found that $\begin{pmatrix}1 & 1 \\ 0 & 1\end{pmatrix}$ is a generator for $H$, say that's my $x$. Does $G=\langle x,y \rangle$ mean that I have to find another element $y$ such that $xy$ is a generator for $G$?
+
+A: For  $b \in \mathbb Z$, we have
+$$
+\begin{pmatrix}1 & 1 \\ 0 & 1\end{pmatrix}^b 
+=
+\begin{pmatrix}1 & b \\ 0 & 1\end{pmatrix},
+\qquad
+\begin{pmatrix}1 & b \\ 0 & 1\end{pmatrix}
+\begin{pmatrix}-1 & 0 \\ 0 & 1\end{pmatrix}
+=
+\begin{pmatrix}-1 & b \\ 0 & 1\end{pmatrix}
+$$
+",,,,,,,
+488b24f13260,"
+
+Джексонпорт — місто, штат Арканзас
+ Джексонпорт — місто, штат Вісконсин",,,,,,,
+f568e26cb2cd,"We present a discussion of the use of amplitude modulation techniques with regard to the length sensing and control of optical cavities for laser interferometric gravitational-wave detectors. Traditional radio-frequency amplitude modulation techniques automatically include phase modulation as a product of the modulation process, which can contaminate the signal after demodulation. In particular, with many length-sensing and control schemes the detected signals are demodulated in quadrature, which, in the case of a traditional amplitude modulation scheme, will result in offsets due to the additional phase modulation. We demonstrate this effect using a simple optical cavity configuration and show that minor adjustments to the modulator system can be used to compensate for the extra modulation components and provide additional flexibility.",,,,,,,
+73bfdedd82fb," 
+NIKOLAJ GOGOL
+
+# KEJSARINNANS TOFFLOR
+
+OCH BERÄTTELSEN OM HUR IVAN IVANOVITJ  
+OCH IVAN NIKIFOROVITJ BLEV OVÄNNER
+
+NORSTEDTS
+ISBN: 978-91-1-306190-0
+
+© Norstedts, Stockholm 2014
+
+Originalets titel: _Notj pered rozjdestvom_
+
+_Povest o tom, kak possorilsia Ivan Ivanovitj s Ivanom Nikiforovitjem_
+
+Översättning: E. von Sabsay och C. Sterzel
+
+Omslag: Ulla Sundin
+
+Eboksproduktion Publit 2014
+
+www.norstedts.se
+
+*
+
+_Norstedts ingår i Norstedts Förlagsgrupp AB,  
+grundad 1823_
+
+# KEJSARINNANS TOFFLOR
+
+JULAFTON led mot sitt slut. Den klara vinternatten bröt in. Stjärnorna tindrade och månen höjde sig majestätiskt på himlen att lysa för de goda människorna världen runt. Så kunde alla sjunga koljada1 och lovprisa Kristus. Det var kallare än på morgonen, men samtidigt var det så lugnt att man kunde höra snön knarra under skosulorna på en halv versts avstånd. Ännu syntes inga små klungor av unga män utanför stugornas fönster; det var bara månen som förstulet tittade in genom rutorna precis som om den ville locka de unga flickorna därinne, som fortfarande höll på att pynta sig, att skynda på och springa ut i den knarrande snön. Ur skorstenen på en av stugorna vällde ett tjockt rökmoln mot himmelen och med röken höjde sig en häxa på sitt kvastskaft upp i luften.
+
+Om assessorn från Sorotjinets just då hade kört förbi med sitt trespann herrskapshästar, i sin pälskantade ulanmössa, sin korta mörkblåa päls, som var fodrad med svart lammskinn, och sin djävulskt snodda piska, som han brukade använda till att skynda på sin kusk med, skulle han nog genast ha sett henne, ty det finns inte en häxa i världen som skulle kunna undgå assessorn från Sorotjinets. Han vet på sina fem fingrar, hur många grisar varje bondhustrus sugga får, hur mycket linne hon har i sin kista och vilka klädespersedlar och husgeråd hederligt folk har fått sätta i pant på krogen på söndagen.
+
+Men assessorn kom inte förbi — förresten intresserade han sig inte för främmande folk, han hade tillräckligt att göra i sitt e",,,,,,,
+8d387e8ac079,"
+
+**Complete Photo Guide to**
+
+# **Crochet**
+
+**Deborah Burger**
+
+## **CONTENTS**
+
+  1. **Author's Message for Grown-ups**
+  2. **Introduction for Creative Kids**
+  3. **Let's Get Started: The Basics**
+    1. Tools and Materials
+    2. The Slip Knot
+    3. The Chain Stitch
+    4. Project 1: Braided Chains Friendship Bracelet
+  4. **Making Connections: Slip Stitch and Single Crochet**
+    1. The Slip Stitch
+    2. The Single Crochet
+    3. Project 2: Ring Thing Bookmark
+    4. Project 3: Water Bottle Net
+  5. **Something Solid: Single Crochet in Rounds**
+    1. Making a Stitch on Top of a Stitch
+    2. Project 4: Eenie Meenie Easy Beanie
+    3. Project 5: Trinkets and Treasures Drawstring Bag
+  6. **Row by Row: Single Crochet with Turning Chains**
+    1. Chain Foundations for Working in Rows
+    2. Project 6: Felted Phone Pocket
+    3. Project 7: Monster Madness!
+  7. **Ribbing: Make it Stretchy!**
+    1. Ribbing Basics
+    2. Project 8: Ribbie Mitts
+    3. Project 9: The ""Howl"" (Hat + Cowl)
+  8. **A Taller Stitch: Double Crochet in Rounds and Rows**
+    1. Making the Double Crochet Stitch
+    2. Going on with Rounds or Rows
+    3. One More ""Tricky Bit""—the Turning Chain, in Rows
+    4. Project 10: Great Grannies Scarf
+  9. **Pattern Stitches: More Shapes and Textures**
+    1. Decreasing in Single Crochet
+    2. Decreasing in Double Crochet
+    3. Combining the Basics in Pattern Stitches
+    4. Stitch Symbol Charts
+    5. Project 11: Big Buttons Belt
+    6. Project 12: Bright Triangles Pillow
+  10. **Abbreviations**
+  11. **Stitch Symbol Key**
+  12. **Glossary**
+  13. **A Final Word to Young Crocheters**
+  14. **About the Author**
+  15. **Acknowledgments**
+  16. **Index**
+
+## Guide
+
+  1. Cover
+  2. Start of Content
+  3. Table of Contents
+  4. Acknowledgments
+  5. Index
+
+## Author's Message for Grown-ups
+
+Few things in life are more satisfying than the opportunity to pass on a beloved craft to a younger generation. The connection that develops between the parent, gran",,,,,,,
+13560c51eb7a,"
+
+Contents
+
+Part One Suad: Remembering and Forgetting
+
+1. They Missed Mama's Cooking
+
+Part Two Andoni: A Master Builder's Passion
+
+2. The Smile
+
+3. Museum of Tolerance and Co-existence
+
+Part Three Huda
+
+4. Golda Slept Here
+
+5. Whose House is This?
+
+6. Mother and Child
+
+7. Husband and Wife
+
+8. Jealousy Was Only to Be Expected
+
+9. Photo Albums
+
+10. The Visit
+
+11. A Dream House
+
+12. The Prison
+
+13. The Iraqi Officer
+
+Part Four Elie: A Bird's-Eye View
+
+14. A Businessman from Tel Aviv
+
+Part Five Homage to My Mother-in-Law: 1911–2005
+
+15. That Very Moment
+
+The Never-Ending Chapter
+
+Glossary
+
+Acknowledgements
+
+A Note on the Author
+
+Also by the author
+Part One
+
+Suad: Remembering and Forgetting
+
+From Jerusalem 1948: The Arab Neighborhoods and Their Fate in the War, Salim Tamari, Editor
+1.
+
+They Missed Mama's Cooking
+
+November 2011
+
+EXHAUSTED, I LIE ON my back in bed, waiting for my adrenaline levels to drop.
+
+The night promises to be long, very long.
+
+With eyes wide open I gaze at the beautiful cross-vaulted ceiling of my bedroom at Rema and Alex's house. For the last twenty-some years they have lived in the gorgeous Hindiyeh family house in Sheikh Jarrah, an East Jerusalem Arab neighbourhood recently targeted by Jewish settlers.
+
+I would like to think that both Rema and Alex are delighted to have a close friend descend on them from the other side of the Separation Wall. I cannot claim that I have been fun company this evening, as the acrobatics of 'illegally' sneaking into Jerusalem with Huda's help has totally drained me. Not to mention the conflicting emotions that swell my veins and the confused, and confusing, thoughts that jam my skull.
+
+My emotions feel like a ball of entangled threads.
+
+My head like a pressure cooker.
+
+Though excited to see Rema and Alex, I am not in the mood to sit and chat with them all night long, as we have often done. I am extremely nervous at the mere thought of writing this book, which has been simmering within me for years now, since May 2008",,,,,,,
+364e64a6ac02,"\section{Summary of CMB Calibration}
+
+The Planck satellite~\cite{Ade:2013sjv,Adam:2015rua} has measured CMB intensity maps at several different frequencies with both the Low Frequency Instrument (LFI) and the High Frequency Instrument (HFI). The detectors are calibrated using a given known source, which allows to fix the proportionality constant (the {\it gain} factor) between the detector's response and a known intensity value. In the 2013 release~\cite{Ade:2013sjv,Aghanim:2013bta,Ade:2013eta} such a source was the dipolar temperature pattern induced by the Doppler boosting of the primordial temperature monopole due to the velocity  $\boldsymbol{\beta_S}$ of the Sun with respect to the CMB rest frame, except for the two highest frequency channels which were calibrated on planets.
+
+Such a dipole, called the ``solar dipole'' by the Planck collaboration, is practically time-independent during the observation time. Its amplitude $\beta_S$ is of order $10^{-3}$ in units of the speed of light, \emph{assuming} that the measured CMB dipole is mostly due to the Sun velocity compared to the CMB. This is generally considered a safe assumption and can be directly tested through measurements of the aberration of the CMB~\cite{Kosowsky:2010jm,Amendola:2010ty,Notari:2011sb}; such a test was performed on the Planck 2013 data~\cite{Aghanim:2013suk}, with still quite large error bars $\sim40\%$. In any case its value is not known independently {\it a priori} in order to calibrate the instrument (which poses a big disadvantage to the method) and for this reason the Planck team had to use the value measured by WMAP5~\cite{Hinshaw:2008kr,2011ApJS..192...14J}, which is itself subject to WMAP calibration uncertainties.
+
+In the 2015 release~\cite{Adam:2015rua,Adam:2015vua,Ade:2015ads} such a source was replaced by the Doppler effect due to the motion with velocity $\boldsymbol{\beta_O}$ of the Planck satellite around the Sun, called the ``orbital dipole''. Although it is one order of magn",,,,,,,
+7b73d8d0625d,"\section{Introduction}
+Vortices play important roles in many areas of theoretical physics including condensed-matter physics, cosmology, superconductivity theory, optics, electroweak theory, and quantum Hall effect. Recently, Wang and Yang \cite{WY} studied Bogomol'nyi system arising in the abelian Higgs theory defined on a rectangular domain and subject
+to a 't Hooft type periodic boundary condition and established a sufficient and necessary condition for the existence of multivortex solutions of the Bogomol'nyi system. In the past two decades, the topological, non-topological and doubly periodic multivortices to the generalized self-dual Chern-Simons model and the generalized Abelian Higgs model were established; see, for example, \cite{CI, Ha, T, TY, Y} and the references therein. In particular, Lin and Yang \cite{LY} investigated a system of non-Ablian multiple vortex equations governing coupled $SU(N)$ and $U(1)$ gauge and Higgs fields which may be embedded in a supersymmetric field theory framework.
+
+In recent years, equations on graphs have attracted extensive attention; see, for example, \cite{ ALY, Bdd, GJ, GC, Hu, HWY, HLY, LCT, LP, TZZ, WN, WC} and the references therein. In particular, Huang, Lin and Yau \cite{HLY} proved the existence of solutions to mean field equations 
+$$
+\Delta u+e^{u}=\rho \delta_{0}
+$$
+and
+$$
+\Delta u=\lambda e^{u}\left(e^{u}-1\right)+4 \pi \sum_{j=1}^{M} \delta_{p_{j}}
+$$
+on graphs.
+ 
+ Let $G=(V,E)$ is a connected finite graph, and $V$ denotes the vetex set and $E$ denotes the edge set.
+ 
+ Inspired by the work of Huang-Lin-Yau \cite{HLY}, we investigate a system of non-Abelian multiple vortex equations  
+\begin{equation}\label{1}
+	\begin{aligned}
+		&\Delta u_{1}=-N m_{e}^{2}+m_{e}^{2}\left(\mathrm{e}^{\frac{u_{1}}{N}+\frac{(N-1)}{N} u_{2}}+[N-1] \mathrm{e}^{\frac{u_{1}}{N}-\frac{u_{2}}{N}}\right)+4 \pi \sum_{j=1}^{n} \delta_{p_{j}}(x), \\
+		&\Delta u_{2}=m_{g}^{2}\left(\mathrm{e}^{\frac{u_{1}}{N}+\frac{(N-1)}{N} u_{2}}-\mathrm{e}",,,,,,,
+998716fcfb66,"""""""
+.. _tut-source-estimate-class:
+
+The :class:`SourceEstimate <mne.SourceEstimate>` data structure
+===============================================================
+
+
+Source estimates, commonly referred to as STC (Source Time Courses),
+are obtained from source localization methods.
+Source localization method solve the so-called 'inverse problem'.
+MNE provides different methods for solving it:
+dSPM, sLORETA, LCMV, MxNE etc.
+
+Source localization consists in projecting the EEG/MEG sensor data into
+a 3-dimensional 'source space' positioned in the individual subject's brain
+anatomy. Hence the data is transformed such that the recorded time series at
+each sensor location maps to time series at each spatial location of the
+'source space' where is defined our source estimates.
+
+An STC object contains the amplitudes of the sources over time.
+It only stores the amplitudes of activations but
+not the locations of the sources. To get access to the locations
+you need to have the :class:`source space <mne.SourceSpaces>`
+(often abbreviated ``src``) used to compute the
+:class:`forward operator <mne.Forward>` (often abbreviated `fwd`).
+
+See :ref:`tut-forward` for more details on forward modeling, and
+:ref:`tut-inverse-methods`
+for an example of source localization with dSPM, sLORETA or eLORETA.
+
+Source estimates come in different forms:
+
+    - :class:`mne.SourceEstimate`: For cortically constrained source spaces.
+
+    - :class:`mne.VolSourceEstimate`: For volumetric source spaces
+
+    - :class:`mne.VectorSourceEstimate`: For cortically constrained source
+      spaces with vector-valued source activations (strength and orientation)
+
+    - :class:`mne.MixedSourceEstimate`: For source spaces formed of a
+      combination of cortically constrained and volumetric sources.
+
+.. note::
+
+    :class:`(Vector) <mne.VectorSourceEstimate>`
+    :class:`SourceEstimate <mne.SourceEstimate>` are surface representations
+    mostly used together with :ref:`FreeSurfer <tut-freesurfer>`
+    surface repres",,,,,,,
+7cffefd5db2e,"package Framework.Gui;
+
+import Framework.Utils;
+import org.lwjgl.BufferUtils;
+import org.lwjgl.LWJGLException;
+import org.lwjgl.input.Keyboard;
+import org.lwjgl.input.Mouse;
+import org.lwjgl.opengl.Display;
+import org.lwjgl.opengl.DisplayMode;
+
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import java.nio.ByteBuffer;
+
+import static Framework.Utils.*;
+import static org.lwjgl.opengl.GL11.*;
+
+/**
+ * Created by rafael on 5/28/17.
+ */
+public class Vis3DOpenGL{
+    final boolean active;
+    public final int xDim;
+    public final int yDim;
+    public final int zDim;
+    final int maxDim;
+    final float scaleDims;
+    final float trans;
+    final float[]circlPtsDefault= Utils.GenCirclePoints(1,20);
+    //final float transZ;
+    public final int xPix;
+    public final int yPix;
+    long lastFrameTime=-1;
+    TickTimer tt=new TickTimer();
+    Camera camera;
+    private static int BLACK=RGB(0,0,0),WHITE=RGB(1,1,1);
+
+    public Vis3DOpenGL(String title, int xPix, int yPix, int xDim, int yDim, int zDim, boolean active) {
+        camera=new Camera();
+        this.active = active;
+        int maxDim = Math.max(xDim, yDim);
+        this.maxDim = Math.max(maxDim, zDim);
+        this.xDim = xDim;
+        this.yDim = yDim;
+        this.zDim = zDim;
+        this.xPix = xPix;
+        this.yPix = yPix;
+        scaleDims = (float) (2.0 / this.maxDim);
+        trans = (float) (-this.maxDim / 2.0);
+        //transZ = (float) (-zDim * 0.6);
+
+        if (active) {
+            try {
+                Display.setDisplayMode(new DisplayMode(xPix, yPix));
+                Display.setTitle(title);
+                Display.create();
+            } catch (LWJGLException e) {
+                e.printStackTrace();
+                System.err.println(""unable to create Vis3D display"");
+            }
+            glEnable(GL_DEPTH_TEST);
+            glMatrixMode(GL_PROJECTION);
+            glLoadIdentity();
+            glFrustum(-1, 1, -1, 1",,,,,,,
+a43966148dc5,"Get seduced by a stay in our casino hotel with forty luxurious rooms.JazzLab.5 casino beginnen in nederland Bert Dockx Ottla op donderdag 31 januari om 20u.De beste albums, muzikanten, stijlen en mengvormen van de afgelopen 25 jaar Belgische jazz liggen onder de loep.Jazzkenner Frederik Goossens maakt je in..
+La seule ville dIle-de-France jusque-là autorisée à avoir un casino du fait de son statut de ville thermale.Situé à seulement 15 kilomètres de Paris, il dispose de 500 machines à sous et 40 tables de jeux.Après quoi, vous pourrez voir si la salle de jeux dispose dun service..
+Its more than just poverty that bonus akureyri öffnungszeiten is the problem; theres also the absence of parental love.
+That sweet, beautiful actress I love so much proved her talent by portraying a woman whose soul IS SO corrupted she makes some of the girls who belonged to the manson family seem sweet AND cuddly.
+Petty gives the audience a glimpse into her rather tragic childhood.The DVD also includes the films trailer and a slideshow of production photos. .Anything can happen, then anything does.Shipping, add to Cart, total Price.99, shipping, add Both to Cart.Jennifer lawrence who was mesmerizing as usual.The protagonist is Agnes, who is meant to be first-time director Lori Petty.Its a good movie, not suitable for children, it deals with very adult situations.This is able to work thanks to some really great performances.With the exception of the three young actresses who were excellent, this movie was poorly written, paced and directed.Skip to main content eBay, enter your search keyword, all Categories, advanced ""delay 300.This aids in showing the seriousness of their troubles and the motivations behind their actions.Start your free trial.I usually stick to movies with Aliens, Terrorists, Serial Killers, or World Wide Catastrophes.The father is out of the picture and replaced by the mothers pimp, who crosses the line in his relationship with Agnes. .However, the fact that she wrote an",,,,,,,
+02998d19ecdc,"Q: How to control web-form buttons availability I have a web-form with text fields. I want to make form buttons available only under certain conditions. When text fields are filled in. 
+Below there is my javascript code, but it does not work as expected. 
+What did I miss there? 
+Thank you.
+function validate(input, name) {
+    if(name=='name') {
+        if(input==null || input=='') {
+            document.getElementById('nameDiv').style.visibility='visible';
+            document.getElementById('next').disabled='disabled';
+        } else {
+            document.getElementById('nameDiv').style.visibility='hidden';
+            var emailField = document.getElementByID('email').value;
+            if(emailField!="""" || emailField!=null) {
+                document.getElementById('next').disabled='';
+            }
+        }
+    }
+
+    if(name=='email') {
+        if(input==null || input=='') {
+            document.getElementById('emailDiv').style.visibility='visible';
+            document.getElementById('next').disabled='disabled';
+        } else {
+            document.getElementById('emailDiv').style.visibility='hidden';
+            var nameField = document.getElementByID('name').value;
+            if(nameField!="""" || nameField!=null) {
+                document.getElementById('next').disabled='';
+            }
+        }
+    }
+}
+
+
+A: Try With this...
+document.getElementById('next').disabled= false;
+document.getElementById('next').disabled=true;
+
+
+A: Try to change the below two lines
+if(emailField!="""" || emailField!=null) {
+if(nameField!="""" || nameField!=null) {
+
+like
+if(emailField!="""" && emailField!=null) {
+if(nameField!="""" && nameField!=null) {
+
+",,,,,,,
+1b77a34b025d,"\section{Introduction}
+The interest on  polynomial foliations in $\mathbb{C}^2$ arises as an approach to the Hilbert Sixteen Problem \cite{hosseinabelian, Ro}. These foliations are given by 1-forms $\omega=P(x,y)dy-Q(x,y)dx$, where $P$ and $Q$ are polynomials. The classical notation for the foliation associated to the form $\omega$ is  $\mathcal F(\omega)$. In this context, a point $p\in \mathbb{C}^2$  is a singularity of $\mathcal F(\omega)$ if $P(p)=Q(p)=0$.   We say that the singularity $p$ is a \textbf{center singularity} if there is a local chart  such that $p$ is mapped to $0\in \mathbb{C}^2$,  and a  non-degenerated function $f:(\mathbb{C}^2,0)\to \mathbb{C}$ with fibers tangent to  the leaves of $\mathcal F(\omega)$. The degree of a foliation $\mathcal F(\omega)$ is  the greatest degree of the polynomials $P$ and $Q$, and the space of foliations  of degree  $d$ is  denoted by $\mathcal F(d)$. The closure of the set of foliations in $\mathcal F(d)$   with at least one center  is denote by $\mathcal{Mu}(d)$.
+
+
+It is known that   $\mathcal{Mu}(d)$ is an algebraic subset of $\mathcal F(d)$ (e.g. \cite[\S 6.1]{Netocomponentesbook} \cite{hosseinabelian}). The problem of describing its irreducible components is formulated by Lins Neto \cite{netoFwithcenter}. In \cite{Il},  Y. Ilyashenko  proves that the space of Hamiltonian foliation $\mathcal F(df)$, where $f$ is a  polynomial of degree $d+1$, is an irreducible component of $\mathcal{Mu}(d)$. In   \cite{hosseincenterlog}, H. Movasati considers the logarithmic foliations $\mathcal F\left(\sum_{i=1}^s\lambda_i\frac{df_i}{f_i}\right)$, with $f_i\in \mathbb{C}[x,y]_{\leq d_i}$ and $\lambda_i\in \mathbb{C}^*$. He  proves that the set of logarithmic foliations  form an irreducible component of $\mathcal{Mu}(d)$, where  $d=\sum_{i=1}^s d_i-1$. Moreover, in  \cite{yadollahcenter}, Y. Zare works with pullback foliations $\mathcal F(P^*\omega)$, where $P=(R,S):\mathbb{C}^2\to \mathbb{C}^2$ is a generic morphism with $R,S\in",,,,,,,
+22a334da38d6,"Q: Why does my skype crash? Skype worked great since i installed it when OMG!Ubuntu! came with that this article. but randomly now it doesn't work.
+when i type skype into the terminal i get this:
+jeggy@jeggy-XPS:~$ skype
+/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
+
+(skype:10592): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+
+/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
+
+(skype:10592): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+
+/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
+
+(skype:10592): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+
+/usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so: wrong ELF class: ELFCLASS64
+
+(skype:10592): Gtk-WARNING **: Failed to load type module: /usr/lib/gtk-2.0/2.10.0/menuproxies/libappmenu.so
+
+/usr/bin/pulseaudio: error while loading shared libraries: libpulsecommon-1.1.so: cannot open shared object file: No such file or directory
+/usr/bin/pulseaudio: error while loading shared libraries: libpulsecommon-1.1.so: cannot open shared object file: No such file or directory
+*** glibc detected *** skype: free(): invalid pointer: 0xf766eef0 ***
+======= Backtrace: =========
+/lib/i386-linux-gnu/libc.so.6(+0x75ee2)[0xf4951ee2]
+/usr/lib/i386-linux-gnu/libasound.so.2(snd_config_substitute+0x6d)[0xf766960d]
+/usr/lib/i386-linux-gnu/libasound.so.2(+0x22158)[0xf766b158]
+/usr/lib/i386-linux-gnu/libasound.so.2(snd_config_update_r+0x229)[0xf766bdc9]
+/usr/lib/i386-linux-gnu/libasound.so.2(snd_config_update+0x48)[0xf766c358]
+/usr/lib/i386-linux-gnu/libasound.so.2(snd_pcm_open+0x3f)[0xf768dd2f]
+skype[0x92354d6]
+skype[0x9235dd9]
+skype[0x908dc79]
+skype[0x8ef3c67]
+skype[0x8ef2b81]
+skype[0x8e9c52a]
+skype[0x8e9c40e]
+skype[0x8edfe5e]
+skype[0x8ddea3e]
+skype[0x8deca5f]
+skype[0x8b24455]
+======= Memory map: ========
+08048000-",,,,,,,
+116915fc0a74,"Calculates the number of Mapped Exonic Non-Duplicate (MEND) reads in a bam file containing RNA-Seq data.
+
+## Overview
+[samblaster](https://github.com/GregoryFaust/samblaster) is used to mark duplicates and [sambamba](http://lomereiter.github.io/sambamba/) is used to sort. Then [RSeqQC](http://rseqc.sourceforge.net/) calculates the reads distribution over exons skipping reads marked qc_failed, PCR duplicate, Unmapped, Non-primary (or secondary). The [MEND qc](https://github.com/UCSC-Treehouse/mend_qc)script parseReadDist.R estimates the number of MEND reads by counting tags in CDS exons, 5' UTR exons and 3' UTR exons and multiplying by reads per tag. 
+
+## Output
+* readDist.txt: The output of RSeqQC read_distribution.py (~1kb)
+* bam_mend_qc.tsv: MND, MEND and treehouse_compendium_qc (PASS/FAIL)
+* bam_mend_qc.json: Same as bam_mend_qc.tsv but in json format
+* sortedByCoord.md.bam: BAM with duplicates marked sorted by coordinate
+* sortedByCoord.md.bam.bai: Index for sortedByCoord.md.bam
+
+## Running 
+via Docker:
+
+```
+docker run --rm \
+  -v <path to bam file>:/inputs/sample.bam \
+  -v <path to output>:/outputs \
+  -v <path to tmp space>:/tmp \
+  ucsctreehouse/bam-mend-qc \
+    /inputs/sample.bam \
+    /outputs
+```
+
+Optionally, specify a bed file as the third argument (after ""/outputs""). The bed file needs to be formatted as specified by RSeQC
+
+Note: Intermediate bam files are created under /tmp within the docker container.
+
+Directly:
+
+```
+run.sh <path to bam> <path to output folder> <optionally: path to bed file>
+```
+
+NOTE: See Dockerfile for installation of required libraries
+
+## Example expected stdout
+```
+Sorting by name...
+Marking duplicates...
+samblaster: Version 0.1.24
+samblaster: Inputting from stdin
+samblaster: Outputting to stdout
+samblaster: Loaded 195 header sequence entries.
+samblaster: Marked 1 of 999 (0.10%) read ids as duplicates using 1340k memory in 0.005S CPU seconds and 0S wall tim
+e.
+Sorting by coordinate...
+Writing sorted chunks to temporary directory",,,,,,,
+a579f935a79a,"September 6, 2021 /in Questions, Non-plagiarized Essay, RESEARCH PAPER, Scenario Questions /by Jenna Hough
+James Madison was brought in as assistant to Computron's chairman, who had the task of getting the company back into a sound financial position. Madison must prepare an analysis of where the company is now, what it must do to regain its financial health, and what actions to take. Your assignment is to help her answer the following questions, using the recent and projected financial information shown next. Provide clear explanations, not yes or no answers.
+a. Why are ratios useful? What three groups use ratio analysis and for what reasons?
+b. Calculate the profit margin, operating profit margin, basic earning power (BEP), return on assets (ROA), and return on equity (ROE). What can you say about these ratios?
+c. Calculate the inventory turnover, days sales outstanding (DSO), fixed assets turnover, operating capital requirement, and total assets turnover. How does Computron's utilization of assets stack up against other firms in its industry?
+d. Calculate the current and quick ratios based on the projected balance sheet and income statement data. What can you say about the company's liquidity position and its trend?
+e. Calculate the debt ratio, liabilities-to-assets ratio, times-interest-earned, and EBITDA coverage ratios. How does Computron compare with the industry with respect to financial leverage? What can you conclude from these ratios?
+f. Calculate the price/earnings ratio and market/book ratio. Do these ratios indicate that investors are expected to have a high or low opinion of the company?
+g. Use the extended DuPont equation to provide a summary and overview of Computron's projected financial condition. What are the firm's major strengths and weaknesses?
+h. What are some potential problems and limitations of financial ratio analysis?
+i. What are some qualitative factors analysts should consider when evaluating a company's likely future financial perform",,,,,,,
+ccf88724f08e,"# Table of Contents
+
+  1. Title Page
+  2. Table of Contents
+  3. Copyright
+  4. Dedication
+  5. Special Delivery
+  6. Sheriff Joe
+  7. Is There a Sidekick in the House?
+  8. The Mad Scientist's Lair
+  9. Meanwhile, Back at the Jacuzzi
+  10. Jo Schmo Has an Idea
+  11. Dr. Dastardly's Evil Plan
+  12. The Schmomobile
+  13. Simon and Ralph
+  14. The Abandoned Warehouse District
+  15. Every Superhero Needs a Hideout
+  16. Dr. Dastardly
+  17. Knuckle Sandwich . . . on Rye
+  18. Mwah-ha-ha!
+  19. The Re-animator Laminator
+  20. ZAP!
+  21. Volkswagens, Chevys, and Fords, Oh My!
+  22. Halt Because I Said So!
+  23. Put Me Down!
+  24. Jo and Raymond to the Rescue
+  25. Lofty Thoughts
+  26. Sample Chapter from PINKBEARD'S REVENGE
+  27. Buy the Book
+  28. The Jo Schmo Series
+  29. About the Author and Illustrator
+
+",,,,,,,
+c10240908320,"Q: Google OAuth Consent Screen approved but users get risky access alert I created my app on the Google Cloud Platform to integrate my web application with Google Calendar. I have approved the OAuth consent screen
+Approved App
+but today one of my users send me this screen:
+First issue
+What did I wrong? How can I solve this issue? Thank you in advance for your help.
+PS. another user send me this screen
+Second issue
+",,,,,,,
+d5a23cfcd932,"Historically, the goal of periodontal surgery was to arrest disease progression. Today, the ideal treatment outcome of periodontal surgery is to regenerate the supporting structures of the teeth through guided tissue regeneration. With the increasing prevalence of perio-implantitis, guided tissue regeneration principles are also being used to treat peri-implant disease. This lecture will review basic principles of periodontal guided tissue regeneration, including an overview of techniques and materials for both tooth and implant applications.
+To understand the most current evidence-based treatment recommendations for guided tissue regeneration.
+To learn the emerging techniques and translational research to support new developments in the field.
+Lecture: 8:45 a.m. - 1:00 p.m.",,,,,,,
+585133f906b5,"<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class=""ie ie6"" lang=""en""> <![endif]-->
+<!--[if IE 7 ]><html class=""ie ie7"" lang=""en""> <![endif]-->
+<!--[if IE 8 ]><html class=""ie ie8"" lang=""en""> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang=""en""> <!--<![endif]-->
+<head>
+  <meta charset=""utf-8"">
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1"">
+  <title>Matt Swanson - Sample post</title>
+  <meta name=""author"" content=""Matt Swanson"" />
+  <meta name=""description"" content=""The blog of Matt Swanson"" />
+  <link rel=""canonical"" href=""http://example.com/blog/2013/08/20/sample-post.html"" />
+
+  <link href=""//fonts.googleapis.com/css?family=Open+Sans:600,800"" rel=""stylesheet"" type=""text/css"">
+  <link rel=""shortcut icon"" href=""/favicon.png"">
+  <link rel=""alternate"" type=""application/rss+xml"" title=""Matt Swanson"" href=""http://example.com/atom.xml"" />
+
+  <link rel=""stylesheet"" href=""/assets/css/all.css"">
+  <link rel=""stylesheet"" href=""//netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.min.css"">
+</head>
+<body>
+  <div class=""container"">
+    <div class=""four columns sidebar"">
+      <nav>
+  <h1>Hi.</h1>
+  <a href=""/"">
+    <img src=""/logo.png"" id=""logo"" alt=""Blog logo""/>
+  </a>
+  <h2>I'm <a href=""/"">Matt Swanson</a>.</h2>
+  <hr/>
+  <ul>
+  <p>A brief bio or something witty.</p>
+  <p>
+    Edit me in <code>_includes/sidebar.html</code>
+  </p>
+  <hr/>
+  <div>
+    <div id=""social"">
+      Follow me:
+<div id=""stalker"">
+  
+  <a title=""swanson on Github"" href=""https://github.com/swanson"">
+    <i class=""fa fa-github-square""></i>
+  </a>
+  
+
+  
+
+  
+  <a title=""swanson on Hacker News"" href=""https://news.ycombinator.com/user?id=swanson"">
+     <span class=""fa-stack"">
+      <i class=""fa fa-stack-1x fa-square""></i>
+      <i class=""fa fa-stack-1x fa-hn"">Y</i>
+    </span>
+  </a>
+  
+
+  
+
+  
+
+  
+  <a title=""_swanson on Twitter"" href=""https://twitter.com/_swanson"">
+    <i class=""fa fa-twitter-square""></i>
+  </a>
+  
+
+  
+
+  
+
+  
+
+  
+
+  <a title=""RSS feed"" id=""rss"" href=""/atom.",,,,,,,
+0928a74bfbca,"Q: inotify_init() function not implemented ERROR I am working on a Linux based router, I wrote code using inotify_init() for monitoring a file. The cross compilation was done without a warning or error message, but when I try to execute that code it shows an error like function not implemented
+ if ( (fp = inotify_init()) < 0  ) {
+    printf(""something went wrong with inotify_init()! %s\n"", strerror(errno));
+    printf(""#### 1 can't open file\n"");
+    goto err; //exit(0);
+}
+
+
+A: The kernel your system is using is missing the inotify functionality. Check your kernel config and make sure it is there.
+",,,,,,,
+d1bd5fce13aa,"Celisse Henderson
+December 7, 2017 Ken David Rubenstein Atrium, Lincoln Center 0
+December 7, 2017 | 7:30 pm | 61 W 62 St | New York, NY | All Ages | FREE!
+With soulful vocals and infectious, blues-tinged hooks, singer, songwriter, and multi-instrumentalist Celisse Henderson keeps the torch of rock 'n' roll lit with her full band at this high-octane show. Beyond performing solo shows and in concert alongside artists including Phish, Melissa Etheridge, and Mariah Carey, Henderson has also appeared onstage in the recent revival of Godspell at Circle in the Square Theatre and Bridget Everett's Rock Bottom at Joe's Pub at The Public, and on television in PBS's The Electric Company, 30 Rock, Rescue Me, and more.",,,,,,,
+9864270058b4,"On January 3, a week before beginning a third round of negotiations with the Mexican government, the Zapatista Liberation Army convened a National Forum on Indigenous Rights. The locale, timing and cool weather of the forum recalled the first days of the new year, two years ago, when the Zapatistas burst onto the national and international scene with their armed occupation of San Cristobal de Las Casas, Chiapas. An uneasy truce has held since February, 1995, the last time that the Mexican army tried and failed to defeat the Zapatistas militarily. In last year's negotiations, the government finally conceded that the agenda could expand beyond regional grievances. Now, the Zapatistas had poised themselves to entertain a national dialogue on peaceful reform of the archaic Mexican political system.
+Some three hundred indigenous participants, speaking 24 native languages from over half the states of Mexico, including Oaxacan migrant workers from the United States, traveled to San Cristobal. Another 200 non-indigenous Mexican nationals and international observers came. On January 7, the plenary session reported the participants' conclusion from five days of workshops to the Zapatista leadership.
+Indigenous autonomy emerged as a central theme. The forum called for autonomy in territories with majority indigenous population at community, municipal and regional levels. Autonomy included control over natural resources, judicial administration, internal security, agrarian system and internal conflict resolution, informed by the norms and customs of each indigenous group. Women participants clarified that traditional norms and customs decidedly did not include women's subordination.
+The plenary session was suspended on the evening of the opening day, as Subcomandante Marcos appeared amidst Red Cross security, his first time out of hiding since the 1994 truce. Marcos' address to the gathering invoked the history of the seven rainbows, a Mayan origin myth. On a day of cold rain a",,,,,,,
+a348f5c86903,"<?xml version=""1.0"" encoding=""utf-8""?>
+<!-- Copyright (C) 2015 Vikram Kakkar
+
+     Licensed under the Apache License, Version 2.0 (the ""License"");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an ""AS IS"" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<FrameLayout xmlns:android=""http://schemas.android.com/apk/res/android""
+    android:layout_width=""match_parent""
+    android:layout_height=""192dp""
+    android:background=""@drawable/bitmap_header_bg""
+    android:paddingTop=""16dp""
+    android:paddingBottom=""16dp""
+    android:theme=""@style/ThemeOverlay.AppCompat.Light"">
+
+    <LinearLayout
+        android:layout_width=""wrap_content""
+        android:layout_height=""wrap_content""
+        android:orientation=""vertical""
+        android:layout_gravity=""right|bottom""
+        android:gravity=""right"">
+
+        <TextView
+            android:id=""@+id/tvFirstMenu""
+            android:layout_width=""wrap_content""
+            android:layout_height=""wrap_content""
+            android:text=""FIRST MENU""
+            android:paddingTop=""10dp""
+            android:paddingBottom=""10dp""
+            android:paddingLeft=""16dp""
+            android:paddingRight=""16dp""
+            android:background=""?attr/selectableItemBackground""
+            android:textAppearance=""@style/TextAppearance.AppCompat.Body1"" />
+
+        <TextView
+            android:id=""@+id/tvSecondMenu""
+            android:layout_width=""wrap_content""
+            android:layout_height=""wrap_content""
+            android:text=""SECOND MENU""
+            android:paddingTop=""10dp""
+            android:paddingBottom=""10dp""
+            android:paddingLeft",,,,,,,
+d9e6583e96fe,"Juan Soto, Washington Nationals 6.15 Baltimore Ravens at New England Patriots 'Nov.We need to start paying the Internet bill again.New York Jets NFL $3B 20.Gerrit Cole, New York Yankees 20.
+25 Tampa Bay Buccaneers at Las Vegas Raiders 'Nov.Max Scherzer, Washington Nationals 8.I wake up in the morning and I'm like a big-ass kid.Freddie Freeman, Atlanta Braves 2020 NBC SUNDAY NIGHT FOOTBALL SCHEDULE 'Oct.Its going to be a fun time for us right now.
+Cody Bellinger, Los Angeles Dodgers 7.He's right.Boston Red Sox MLB $3B 17.
+Rawlings is the official baseball, helmet, face guard and glove for MLB, the official baseball for MiLB and the official baseball and softball for the NCAA and the NAIA.Back to Home Page.TNT will exclusively air the event, scheduled for Nov.Mike Trout, Los Angeles Angels 15.
+'Rawlings Sporting Goods has signed a make your own jersey to acquire Easton Diamond Sports, which Custom Authentic Football Jersey bats, bags, helmets and other baseball and softball equipment and apparel.13 Pittsburgh Steelers at Buffalo Bills 'Dec.PBR's roots run deep in rodeo, and we will continue to champion the western lifestyle on all fronts, Sean Gleason, CEO for PBR, said in a statement.
+The Jacksonville Jaguars, already in the third year of a four-year commitment as part of the NFL International Series to play one home game in London per year through 2016, also have extended that agreement through 2020.Manziel's first NFL Rookie Cards and autographed cards will arrive in the May release of Panini America's 2014 Score Football, where he will debut on NFL-licensed product packaging as a Panini athlete.New York Giants NFL $3B 10.We feel that this will be a great home for Puma, and a place the local Chicago consumer will truly embrace.Formula 1 sponsors include Heineken, financial firm UBS, Rolex, Pirelli, Puma and Tata Communications.
+Today's athletes understand how nutrition impacts performance – and there's nothing that compares to BodyArmor, which is why I chose to inv",,,,,,,
+feb42b31feb4,"Q: What does it mean to say that ""$h$ is a coordinate measured normal from the surface""? How does this work in practice? I am currently studying the textbook Microwave Engineering, fourth edition, by David Pozar. Section Fields at a General Material Interface of chapter 1.3 FIELDS IN MEDIA AND BOUNDARY CONDITIONS says the following:
+
+For the tangential components of the electric field we use the phasor form of (1.6),
+$$\oint_C \bar{E} \cdot d\bar{l} = -j\omega \int_S \bar{B} \cdot d\bar{s} - \int_S \bar{M} \cdot d \bar{s}, \tag{1.33}$$
+in connection with the closed contour $C$ shown in Figure 1.7. In the limit as $h \to 0$, the surface integral of $\bar{B}$ vanishes (because $S = h \Delta \mathscr{l}$ vanishes). The contribution from the surface integral of $\bar{M}$, however, may be nonzero if a magnetic surface current density $\bar{M}_s$ exists on the surface. The Dirac delta function can then be used to write
+$$\bar{M} = \bar{M}_s \delta(h), \tag{1.34}$$
+where $h$ is a coordinate measured normal from the surface.
+
+
+(1.6) is given as follows:
+
+Applying Stokes' theorem (B.16) to (1.1a) gives
+$$\oint_C \bar{\mathcal{E}} \cdot d\bar{l} = - \dfrac{\partial}{\partial{t}} \int_S \bar{\mathcal{B}} \cdot d \bar{s} - \int_S \bar{\mathcal{M}} \cdot d \bar{s}, \tag{1.6}$$
+which, without the $\bar{\mathcal{M}}$ term, is the usual form of Faraday's law and forms the basis for Kirchhoff's voltage law.
+
+Chapter 1.2 Maxwell's Equations introduces Maxwell's equations as follows:
+
+The general form of time-varying Maxwell equations, then, can be written in ""point,"" or differential, form as
+$$\nabla \times \overline{\mathcal{E}} = \dfrac{-\partial{\overline{\mathcal{B}}}}{\partial{t}} - \overline{\mathcal{M}}, \tag{1.1a}$$
+$$\nabla \times \overline{\mathcal{H}} = \dfrac{\partial{\overline{\mathcal{D}}}}{\partial{t}} + \overline{\mathcal{J}}, \tag{1.1b}$$
+$$\nabla \cdot \overline{\mathcal{D}} = \rho, \tag{1.1c}$$
+$$\nabla \cdot \overline{\mathcal{B}} = 0 \tag{1.1d}$$
+The MKS system o",,,,,,,
+4685807e833e,"HomeBMWBMW presented 8K cinema for cars [VIDEO]
+BMW presented 8K cinema for cars [VIDEO]
+Emmanuel January 07, 2022 0
+At CES 2022, BMW made a surprise announcement by unveiling a giant screen called Theater Screen. It will be built into the ceiling of cars and will not allow passengers in the rear seats to get bored during long trips.
+Theater Screen with a diagonal of 31 inches and a resolution of 8000x2000 pixels is capable of playing content with an aspect ratio of 16: 9, 21: 9 or 32: 9. The display supports 5G networks and runs Amazon's Fire OS, which allows you to access most of the Fire TV video streaming services and apps. Theater Screen supports touch input, but it can also be controlled using a small display built into the door.
+The ""private cinema"" effect in the Theater Screen complements the sound BMW is positioning as 4D: some of the 30 British-made Bowers & Wilkins speakers are integrated into the seats, allowing viewers to feel the sound vibrations. Another interesting detail will help to make watching the movie more comfortable: when the screen is lowered from the ceiling, the curtains on the rear and side windows are also lowered, and the lighting in the rear of the car becomes dim.
+While BMW did not provide a price or exact release date for Theater Screen, it did say the system is ready to go into production. The company did not disclose whose matrix is ​​used in this car cinema and in which models it will be installed.",,,,,,,
+5393baabe151,"Q: Как добавить нумерацию кода в Adobe Flash Builder 4.5? Подскажите, пожалуйста, как добавить нумерацию кода в Adobe Flash Builder 4.5 Premium?
+A: Правая кнопка мыши на серой полосе слева от текста, выбрать - ""Show line numbers""",,,,,,,
+a23b2be76cff,"• ❃ • ❋ • ❁ • tanglebucket • ✿ • ✽ • ❀ •: ❃ tangle jar, deconstructed.
+Greetings, tanglers! If you wandered onto this page by accident, you should probably first read the original blog post about the tangle jar so we're all on the same page.
+✿ PINK: Patterns that require grids, dots, or other rigid structure in order to work.
+✿ YELLOW: Flowy, randomly placed, freeform patterns.
+✿ GREEN: Patterns that are good for strings or borders.
+I have nixed the green category because any pattern can be used as a border if you're willing to get a little creative, but I listed it here to eliminate confusion because it's in the original blog post. I thought it was interesting that nearly all of the border patterns came from the yellow list.
+✿ ORANGE: This list contains around a hundred buzzwords, phrases, or specific directions to apply to the tangles you pick from the jar.
+This is meant to be an artistic/creative exercise. Rick and Maria created and shared the Zentangle method so that we might have a relaxing, distracting way to refocus our minds. This idea is not necessarily in line with their method. This is something I created for myself, meant to challenge me and make me look at the patterns I already knew in new ways. When I first created it I never really thought about sharing it, but the Zentangle method (and the community that embraces it) has enriched my life so much that I feel a strong desire to give back.
+This list is my intellectual property. I would be honored if you decided to give it a whirl. I only ask two things: 1) Please do not repost this list anywhere on the internet, in whole or in part (although you can post a link to this page if you want to) and 2) please do not sell it, in any form.
+Thank you, Sandy! This will help me--and I am sure many others!--to get started on my on tangle jar. I look forward to your orange list, too, when you are satisfied with the ""tweaking.""
+Some of these are tangles I have never heard of, so I am excited to look them up and add ",,,,,,,
+05c41d011b98,"\section{Introduction}
+
+The existence  of the large--scale clustering of  galaxies had already
+been well established by the early 1970's mainly due to the pioneering
+work of {\scite{totsuji:correlation}} and {\scite{peebles:nature}} who
+showed that  the two--point correlation  function for galaxies  in the
+Lick and  Zwicky catalogues  was positive and  had the  power-law form
+$\xi(r)\propto{r^{-1.8}}$  on scales $\lesssim10\ifmmode{h^{-1}{\rm Mpc}}\else{$h^{-1}{\rm Mpc}$}\fi$.   Their result
+was later  extended to  three--dimensional galaxy catalogues  as well.
+Although  the clustering  of galaxies  is  now a  well--known fact,  a
+complete  description  of clustering  which  includes its  geometrical
+features has  so far eluded researchers.   This is perhaps  due to the
+fact  that the galaxy  density field  which we  observe appears  to be
+strongly non--Gaussian.  A Gaussian random field is uniquely described
+by its  power spectrum $P(k)$, or its  two--point correlation function
+$\xi(r)$  since $\xi(r)$  and $P(k)$  form a  Fourier  transform pair.
+This is no longer true for  a non--Gaussian field for which $\xi$ must
+be complemented  by other statistical descriptors  which are sensitive
+to  the  structure  of  matter  on large  scales.   In  the  so-called
+``standard  model''  of  structure  formation, an  initially  Gaussian
+density  distribution becomes non--Gaussian  due to  mode-coupling and
+the resultant  build up of  phase correlations during  the non--linear
+regime.  These  phase correlations give rise to  the amazing diversity
+of form, which  is characteristic of a highly  evolved distribution of
+matter,  and is  often  referred to  as  being cellular,  filamentary,
+sheet--like, network--like,  sponge--like, a cosmic web  etc.  Most of
+these  descriptions  are  based  either  on  a  visual  appearance  of
+large--scale structure or on the  presence of features that are absent
+in  the  reference  Gaussian  distribution which,  by  definition,  is
+assumed  to ",,,,,,,
+25e120735a7c," 
+Rem Koolhaas has been part of the international avant-garde since the nineteen-seventies and has been named the Pritzker Architecture Prize for the year 2000. This book, which builds on six canonical projects, traces the discursive practice behind the design methods used by Koolhaas and his office OMA. It uncovers recurring key themes—such as wall, void, montage, trajectory, infrastructure, and shape—that have structured this design discourse over the span of Koolhaas's oeuvre. The book moves beyond the six core pieces, as well: It explores how these identified thematic design principles manifest in other works by Koolhaas as both practical reapplications and further elaborations.
+
+In addition to Koolhaas's individual genius, these textual and material layers are accounted for shaping the very context of his work's relevance. By comparing the design principles with relevant concepts from the architectural Zeitgeist in which OMA has operated, the study moves beyond its specific subject—Rem Koolhaas—and provides novel insight into the broader history of architectural ideas.
+
+Ingrid Böck is a researcher at the Institute of Architectural Theory, Art History and Cultural Studies at the Graz University of Technology, Austria.
+
+""Despite the prominence and notoriety of Rem Koolhaas... there is not a single piece of scholarly writing coming close to the... length, to the intensity, or to the methodological rigor found in the manuscript by Ingrid Böck...""
+
+Ole W. Fischer, University of Utah, Salt Lake City
+
+""... an innovative and comprehensive analysis of all existing interpretative frameworks of the work of Rem Koolhaas."" Albena Yaneva, University of Manchester
+
+""... an excellent exploration that could pave the way for an advanced study of... recent architectural history..."" Carsten Ruhl, Goethe-Universität Frankfurt am Main
+
+# **Six Canonical Projects by Rem Koolhaas**
+
+Published with the generous support of the Austrian Science Fund (FWF): PUB 258-V26
+
+# **Six Canonical ",,,,,,,
+11387f9c9b4d,"  overflow: hidden;
+  padding: 20px;
+  height: 90px;
+  border-bottom: 1px solid #f5f5f5;
+}
+#section .section_main .basic_setup .setup_content ul li {
+  box-sizing: border-box;
+  float: left;
+  line-height: 50px;
+  height: 50px;
+}
+#section .section_main .basic_setup .setup_content ul li:nth-of-type(1) {
+  width: 43px;
+}
+#section .section_main .basic_setup .setup_content ul li:nth-of-type(2) {
+  padding: 0 25px;
+  border-right: 1px solid #f5f5f5;
+  width: 115px;
+}
+#section .section_main .basic_setup .setup_content ul li:nth-of-type(2) span {
+  color: #323232;
+  font-size: 16px;
+  font-weight: bold;
+}
+#section .section_main .basic_setup .setup_content ul li:nth-of-type(3) {
+  padding-left: 25px;
+  width: 647px;
+}
+#section .section_main .basic_setup .setup_content ul li:nth-of-type(4) {
+  width: 135px;
+  text-align: center;
+}
+#section .section_main .basic_setup .setup_content ul li:nth-of-type(4) a {
+  color: #005ea7;
+}
+#section .section_main .basic_setup .setup_content ul li:nth-of-type(4) input {
+  height: 28px;
+  width: 80px;
+  line-height: 28px;
+  border-radius: 5px;
+  background-color: #f10180;
+  color: #fff;
+}
+#section .section_main .basic_setup .setup_content ul:last-of-type li:nth-of-type(3),
+#section .section_main .basic_setup .setup_content ul:last-of-type li:nth-of-type(4) {
+  line-height: 25px;
+}
+#section .section_main .bound_taobao {
+  padding: 100px 290px;
+}
+#section .section_main .bound_taobao label {
+  color: #969696;
+  font-size: 14px;
+}
+#section .section_main .bound_taobao > input {
+  width: 200px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #969696;
+  border-radius: 5px;
+}
+#section .section_main .bound_taobao p {
+  color: #969696;
+  font-size: 12px;
+  padding-top: 10px;
+}
+#section .section_main .bound_taobao p span {
+  color: #323232;
+  font-size: 14px;
+}
+#section .section_main .bound_taobao p.btns {
+  margin-top: 40px;
+}
+#section .section_main .bound_taobao p.btns input {
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px ",,,,,,,
+238d922fd928,"Numerical methods for differential equations may refer to:
+Numerical methods for ordinary differential equations, methods used to find numerical approximations to the solutions of ordinary differential equations
+Numerical methods for partial differential equations,  the branch of numerical analysis that studies the numerical solution of partial differential equations
+
+See also
+Differential equations
+Numerical analysis#Differential equations",,,,,,,
+8a6f0a7619d2," 
+THE STORY OF MAPPING AOTEAROA NEW ZEALAND
+
+——
+
+The very first maps, oral maps made by early Polynesian and Māori settlers, were waypoints, lists of places in songs, chants, karakia and stories that showed direction.
+
+Hundreds of years later, Abel Tasman made the first attempt at a physical map; followed more than a century later by James Cook, whose more detailed map was made as he circumnavigated Aotearoa. Once the detail of the coastline was filled in, it was the turn of the surveyors, explorers, rockhounds, gold diggers and politicians to negotiate the internal detail.
+
+The story of these maps is also the story of Aotearoa New Zealand.
+
+CONTENTS
+
+———
+
+INTRODUCTION
+
+—————
+
+PART ONE
+
+COAST
+
+—————
+
+ONE
+
+TE ATA O TE MĀTAURANGA
+
+—————
+
+TWO
+
+BEACHED AS
+
+—————
+
+THREE
+
+DUTCH COURAGE
+
+—————
+
+FOUR
+
+THOROUGHLY COOKED
+
+—————
+
+FIVE
+
+SEALING THE DEAL
+
+—————
+
+PART TWO
+
+INTERIOR
+
+—————
+
+SIX
+
+SETTLING DOWN
+
+—————
+
+SEVEN
+
+ONWARDS, INWARDS
+
+—————
+
+EIGHT
+
+CADASTRE VS AHI KAA
+
+—————
+
+PART THREE
+
+CHANGING VIEWS
+
+—————
+
+NINE
+
+GREATER NEW ZEALAND
+
+—————
+
+TEN
+
+PLACES IN THE HEART
+
+—————
+
+ELEVEN
+
+A MOVING STORY
+
+—————
+
+TWELVE
+
+SCRUTINY ON THE BOUNTY
+
+—————
+
+FURTHER READING
+
+—————
+
+ACKNOWLEDGEMENTS
+DISCLAIMER
+
+———
+
+Due to limitations of ebook files, the finer details of some maps in this ebook are not entirely clear.
+INTRODUCTION
+
+———
+
+Maps mean different things to different people. For me, they have meant a range of things, according to the various stages of my life.
+
+When I was a child, my brothers and I used to explore our neighbourhood—the playing fields, the stinky creek, the big subdivision, the boundaries of the farmlet from which the subdivision had been carved. We named significant features: a glade where the foetid water of the creek pooled we named 'Minty Pools' after our dog, a constant companion on our voyages of exploration; the clay hills of the subdivision we named 'the clay hills' (James Cook, ever the prosaic namer, would have nodded in approval at that one); a thicket ",,,,,,,
+5e72c715d913,"In digital signal processing, a cascaded integrator–comb (CIC) is an optimized class of finite impulse response (FIR) filter combined with an interpolator or decimator.
+
+A CIC filter consists of one or more integrator and comb filter pairs.  In the case of a decimating CIC, the input signal is fed through one or more cascaded integrators, then a down-sampler, followed by one or more comb sections (equal in number to the number of integrators).  An interpolating CIC is simply the reverse of this architecture, with the down-sampler replaced with a zero-stuffer (up-sampler).
+
+The CIC filter
+
+CIC filters were invented by Eugene B. Hogenauer, and are a class of FIR filters used in multi-rate digital signal processing.  The CIC filter finds applications in interpolation and decimation.  Unlike most FIR filters, it has a decimator or interpolator built into the architecture.  The figure at the right shows the Hogenauer architecture for a CIC interpolator.
+
+The system function for the composite CIC filter referenced to the high sampling rate, fs is:
+
+Where:
+R = decimation or interpolation ratio
+M  = number of samples per stage (usually 1 but sometimes 2)
+N = number of stages in filter
+
+Characteristics of CIC Filters
+ Linear phase response;
+ Utilize only delay and addition and subtraction; that is, it requires no multiplication operations;
+
+CIC as a moving average filter 
+
+A CIC filter is an efficient implementation of a moving-average filter.  To see this, consider how a moving average filter can be implemented recursively by adding the newest sample  to the previous result  and subtracting the oldest sample.  Omitting the division by , we have:
+
+The second equality corresponds to a comb () followed by an integrator ().  The conventional CIC structure is obtained by cascading  identical moving average filters, then rearranging the sections to place all integrators first (decimator) or combs first (interpolator).  Such rearrangement is possible because both combs and integra",,,,,,,
+0edc4f1bbe41,"DIGITAL SHORTS
+SAMUEL C. SPITALE
+BERNIE SANDERS and the Curse of Cassandra
+In Greek mythology, Cassandra was gifted with the power of prophecy - she alone could see what others could not. But her gift was also a curse, for no one believed her. Thus, in the city of Troy, her warnings of a Trojan horse fell on deaf ears.
+History is full of Cassandras - those who speak the truth no matter how painful.
+In 1543, Nicolaus Copernicus claimed the sun, not the Earth, was the center of the universe. The Catholic Church refused to accept this fact until 1822.
+In the 1950s, Dr. Alice Stewart's pioneering studies proved that fetal x-rays caused childhood cancer. Yet it was a quarter of a century before she gained worldwide acceptance, even from American medical organizations.
+And as recently as 2000, securities executive Harry Markopolos alerted the SEC to Bernie Madoff's Ponzi scheme, yet he was ignored until 2008.
+Cassandras are often scientists, journalists, and whistleblowers. They are those baffled by their peers' willful blindness and frustrated by the public's refusal to listen.
+They are very rarely politicians. It does not behoove those in office to speak of painful truths. Such honesty may cost them their job. Just ask former President Jimmy Carter.
+In 1979, Carter pleaded with the nation to get off fossil fuels, conserve energy, and question our consumption of material goods. He did not hide from the truth. And it cost him the election.
+The lesson: Americans were not ready to hear it.
+As a country, we preferred the consoling rhetoric of Ronald Reagan. And we slept better at night pretending the problems weren't that bad.
+So the country began a 35 year march to our current quagmire, ushered in by deregulation that generated a short-term boom, but resulted in airwaves of propaganda (Fairness Doctrine), a dysfunctional health-care system (profiting off sick people), and a collapsing financial market (Out: Glass-Steagall. In: Ayn Rand).
+Reagan demonstrated his dismissal of",,,,,,,
+b70a4459f92d,"Q: Eigen Matrix Decomposition. Jordan not working I am applying Jordan decomposition, but I am uncertain whether matrix $M$ can actually be decomposed.
+Let $J=MDM^{-1}$, where $D$ is the diagonalized matrix and $M$ is the matrix made of the eigenvectors.
+Jordan decomposition states that if a $N\times N$ matrix has $N$ eigenvalues then matrix $J$ can be decomposed into diagonalized matrix $D$. 
+The below matrix has $3$ eigenvalues and $3$ columns and rows. However I cannot seem to apply Jacobian decomposition.
+$$ J = 
+    \begin{bmatrix}
+    1-p & 1-p & 0 \\
+    p & 0 & 1-p \\
+    0 & p & p \\
+    \end{bmatrix}
+$$ 
+with eigenvalues
+$$
+    \begin{bmatrix}
+    1 & \sqrt{p-p^2} & -\sqrt{p-p^2} \\
+    \end{bmatrix}
+$$ 
+where p is probability between 0 and 1.
+The matrix gives eigenvalues $$(p-1)(p-p^2)^2=0$$ which give matrix $M$ which is made up of eigenvectors
+$$ M =
+    \begin{bmatrix}
+    1 & 1 & 1 \\
+    p/(1-p) & \frac{p-1-\sqrt{p-p^2}}{(1-p)} & \frac{\sqrt{ρ-ρ^2}+p-1}{1-p} \\
+    \frac{P^2}{(1-p)^2} & \frac{\sqrt{p-p^2}+1-p}{(1-p)(p+\sqrt{p-p^2})} & \frac{\sqrt{p-p^2}-1+p}{(1-p)(p-\sqrt{p-p^2})} \\
+    \end{bmatrix}
+$$
+I cannot seem to find the diagonal $M^{-1}$ of the above matrix. This is because there is no $0$ (zero terms).
+Does this simply mean that the diagonalized matrix is made of complex terms?
+",,,,,,,
+02f13e99d285,"Listening to Jojo's Chillin
+Air Date: Jun 17, 2012
+Killer Mike R.A.P. Music Jojo's Chillin
+Amazon MP3: Killer Mike - R.A.P. Music [Explicit]
+Killer Mike - R.A.P. Music [Explicit] is available from Amazon.
+Amazon CD: Killer Mike - R.A.P. Music
+Killer Mike - R.A.P. Music is available from Amazon.
+Amazon Vinyl: Killer Mike - R.A.P. Music Vinyl, Limited Edition
+Killer Mike - R.A.P. Music Vinyl, Limited Edition is available from Amazon.
+iTunes: Killer Mike - R.A.P. Music [EXPLICIT ]
+Killer Mike - R.A.P. Music [EXPLICIT ] is available from iTunes.
+iTunes: Killer Mike - R.A.P. Music [CLEAN ]
+Killer Mike - R.A.P. Music [CLEAN ] is available from iTunes.
+Amazon MP3: Killer Mike - R.A.P. Music [CLEAN ]
+Killer Mike - R.A.P. Music [CLEAN ] is available from Amazon.
+Amazon MP3: Killer Mike - R.A.P. Music [INSTRUMENTALS ]
+Killer Mike - R.A.P. Music [INSTRUMENTALS ] is available from Amazon.
+Amazon Vinyl: Killer Mike - R.A.P. Music
+iTunes: Killer Mike - R.A.P. Music [INSTRUMENTALS ]
+Killer Mike - R.A.P. Music [INSTRUMENTALS ] is available from iTunes.",,,,,,,
+ab73cf8c1182," 
+""He's single, of legal age, and wearing black boots. You promised you'd flirt with the first man who fit that description.""
+
+She managed to twist so she landed on her hands and her hip, a sharp pain arcing down her side bringing a sting to her eyes and a filthy word to her lips. Her shopping bags landed upside down, scattering cellophane bags of pastel-colored Jordan almonds and boxes of white votive candles onto the cold concrete.
+
+Perfect. Just flipping perfect. If that just wasn't the cherry on this craptastic morning, she didn't know what was.
+
+Until a pair of worn black motorcycle boots stepped in front of her. Then she knew that as bad as turfing it on the sidewalk in the middle of downtown was, it didn't compare to being caught ass up by the next man she was supposed to flirt with.
+
+He squatted, the faded denim at his knees pulling tight, exposing another inch of the pair of sexy boots. Two straps of butter-soft leather held a round silver buckle in place at the ankle. Small scuff marks were etched around the squared-off toes. She loved the squared-off toe on men's boots.
+
+""Are you all right?"" he asked, his voice a soothing rumble and genuine concern lacing his words. ""Do you need me to call an ambulance?""
+
+Allison sat back on her feet and sighed. She wanted nothing more than to retreat to her restaurant and grab a bag of ice for her hip and a shot of whiskey from the bottle she kept in her office. But a deal was a deal. Time to get her flirt on. ""I'm fine. I just..."" Her eyes caught up with her mouth, and she froze. He was beautiful, the hottest man she'd ever seen in person.
+Cover Copy
+
+SOMETIMES YOU GET WHAT YOU NEED . . .
+
+Allison Stuart has always been the odd-woman-out of her family. She wears her jeans a little too tight, colors her hair a little too blonde, and instead of going into medicine and law like her sisters, she runs a diner. She's also the only single sibling left. And while she won't change her style, and her meatloaf is to die for, thank",,,,,,,
+2097bdc34ad1,"Q: REİNDEX SYMFONY ERROR SCREENSHOT Magento facing indindex issue, please check with below url -
+CommandNotFoundException ERROR
+My Screenshot KALİ: https://image.ibb.co/gu6fWb/Screenshot_from_2017_12_29_03_05_41.png
+HELP THANX GUYS 
+",,,,,,,
+a5736e7718ea,"<nav class=""navbar navbar-default navbar-fixed-top"">
+    <div class=""container"">
+        <div class=""navbar-header"">
+            <button type=""button"" class=""navbar-toggle collapsed"" data-toggle=""collapse"" data-target=""#navbar""
+                    aria-expanded=""false"" aria-controls=""navbar"">
+                <span class=""sr-only"">Toggle navigation</span>
+                <span class=""icon-bar""></span>
+                <span class=""icon-bar""></span>
+                <span class=""icon-bar""></span>
+            </button>
+            <a class=""navbar-brand"" href=""#"">Gamecraft CI</a>
+        </div>
+        <div id=""navbar"" class=""navbar-collapse collapse"">
+            <ul class=""nav navbar-nav"">
+                <li><a href=""#"" onclick=""window.location.replace(location.protocol + '//' + document.domain + ':' + location.port);"">Home</a></li>
+                <li><a href=""#"" onclick=""window.location.replace(location.protocol + '//' + document.domain + ':' + location.port + '/users');"">Users</a></li>
+                <!-- <li><a href=""#"" onclick=""window.location.replace(location.protocol + '//' + document.domain + ':' + location.port + '/teams');"">Teams</a></li> -->
+                <li><a href=""#"" onclick=""window.location.replace(location.protocol + '//' + document.domain + ':' + location.port + '/projects');"">Projects</a></li>
+                <!-- <li><a href=""#"" onclick=""window.location.replace(location.protocol + '//' + document.domain + ':' + location.port + '/pipelines');"">Pipelines</a></li> -->
+                <li><a href=""#"" onclick=""window.location.replace(location.protocol + '//' + document.domain + ':' + location.port + '/engines');"">Engines</a></li>
+                <li class=""nav-item dropdown"">
+                    <a class=""nav-link dropdown-toggle"" id=""notifications"" href=""#"" data-toggle=""dropdown"" aria-haspopup=""true"" aria-expanded=""false"">
+                        Notifications
+                    </a>
+                    <ul class=""dropdown-menu"" aria-labelledby=""no",,,,,,,
+645f602a8066,"Donald, one of our sales reps is always the first one at work every single day. Always by 8 am. Not 8:05 am but 8:00 am sharp. Donald also wears his suit coat at his desk. I've known very few men who wear their suit coats while sitting in their own office unless they were cold. Donald wasn't cold, he is particular.
+Here's what Donald does the first thing each and every day: he writes Thank You notes. Donald is the sales manager so he was aware of every order that the company received. If you bought something on a Monday, Donald would write you a Thank You note on Tuesday.
+One day I asked Donald why he wrote a Thank You note to each and every person that bought something from our company. The reason was simple enough: Donald wanted folks to know that he was thankful for their business and he was trying to differentiate our company from our competition.
+1) As the Sales Manager, Donald was not involved in every sale. This made his Thank You seem hollow and contrived.
+2) Many customers made repeat purchases on a monthly or more frequent basis. Donald sent them a Thank You just the same as he did for a new customer. This gave his Thank You's the impact of wallpaper. ""Oh, here's another card from Donald - the 15th we've received this year!""
+3) His Thank You's were reflexive. Somebody sneezes and half the office says, ""God Bless you."" Somebody buys something and Donald fires off a Thank You.
+Don't get me wrong. There is obviously nothing wrong with blessing someone when they sneeze and there is nothing wrong with thanking someone that has done business with you. In the South it isn't unusual for someone to bless you when you do business with them and I'm okay with that, too.
+1) Send a Thank You the first time someone does business with you. If your Sales Manager would like to send a Thank You, make sure that he sends it a couple of days after yours has gone out.
+2) Make a reference to something specific that happened during the course of the transaction so that the custome",,,,,,,
+2db5b12f1757,"\section{Introduction}
+Swarmalators, short for ``swarming'' oscillators,  are mobile phase oscillators that can both synchronize in time and swarm through space~\cite{ref:swarmalators}.
+They were recently introduced to model the numerous systems in which synchronization and swarming co-exist and interact.
+Examples are sperm~\cite{ref:sperms},
+vinegar eels~\cite{ref:vinegareels}, magnetotactic bacteria,
+starfish embroys~\cite{ref:livingcrystals},
+Japanese Tree frogs~\cite{ref:Japanesefrogs},
+Janus particles~\cite{ref:Janusparticles}, Quincke rollers~\cite{ref:Quinckerollers},
+and robotic swarms~\cite{ref:robots}.
+
+Research on swarmalators began to gain traction about  15 years ago when Iwasa and Tanaka introduced a universal model of chemotactic oscillators which produced diverse states~\cite{ref:chemo,ref:diverse}. O'Keeffe, Hong, and Strogatz later introduced a generalized Kuramoto model which produced five collective states that are commonly observed in nature~\cite{ref:swarmalators}. This swarmalator model is being used as a spring-board to further study the collective behavior of swarmalators. The effects of pinning \cite{ref:pinning}, forcing \cite{ref:forcing}, and various types of coupling (delayed \cite{ref:delay}, finite-range \cite{ref:finiterange} stochastic \cite{ref:stochastic},
+mixed sign \cite{ref:coupling, ref:gourab, ref:adv, ref:pre-coupling})
+as well as other phenomena/scenarios \cite{ref:ring,ref:mfl,ref:topological,ref:jimenz,ref:ha,ref:steven} have been explored.  For reviews of swarmalators, see \cite{ref:review1,ref:review2}.
+
+Theoretical results on swarmalators are scarce due to the complexity of the system, which is characterized by nonlinear couplings of numerous degrees of freedom. For a system of $N$ particles, each with position $x \in \mathbb{R}^d$ and phase $\theta \in S^1$, the analysis of the  nonlinear coupled ordinary differential equations (ODEs) is challenging. What is missing in the swarmalator field is the ``right'' or natural",,,,,,,
+8faa5cc37f7a,"Q: Physical intuition/interpretation of fractional derivatives/integrals? Oftentimes, when the derivative and integral operations are introduced within the realm of physics, we are taught some physical interpretation of them: 
+
+
+*
+
+*Velocity is the derivative of position
+
+*Velocity is the integral of acceleration
+
+
+Integrals can additionally be used for finding quantities such as the centroid of a mass.
+Where do fractional derivatives/integrals ""naturally"" arise in physics? How would one go about interpreting these phenomena in a physical sense? These need not be just derivatives with respect to time (space or some other quantity might make sense as well). One application I've seen fractional derivatives used in as well is in the definition of fractional Brownian motion (which has some ""memory"" associated with it). 
+
+A: Consider the drift diffusion equation 
+$$\dfrac{\partial}{\partial t}\psi=\mu\dfrac{\partial}{\partial x}\psi+\kappa^2\dfrac{\partial^2}{\partial x^2}\psi.$$
+Dimensional analysis tells us that $\mu$ is a characteristic length per time (drift velocity) while $\kappa$ is a characteristic length per square root of time. This small factoid has curious consequences. 
+In statistical physics, $\kappa^2=2D$ is the diffusion coefficient. What follows also applies to non relativistic quantum mechanics, except the diffusion coefficient is imaginary, $\kappa^2=\frac{i\hbar}{2m}$.
+
+Given the value $x(t)$ of a curve/stochastic process at time $t$, for any time interval $\Delta t > 0$, we can test for $x(t+\Delta t)$ and the increment $\Delta x\equiv x(t+\Delta t)-x(t)$ is probabilistic and dependents on $\Delta t$ (and possibly on $t$ or even on $x(t)$). 
+For example, in the case of a Brownian motion each new $\Delta x$ takes values according to the distribution
+$P(\Delta x)=\dfrac{1}{\kappa\sqrt{\Delta t}\sqrt{2\pi}}\exp \left( -\dfrac{1}{2}\dfrac{(\Delta x)^2}{\kappa^2\,\Delta t} \right)$.
+(I set $\mu=0$ and note that usually one uses a variable $\sigma=\kappa\s",,,,,,,
+f218d1390d5b,"JingBlog
+========
+
+Please view on 
+
+https://jingblogost.appspot.com/
+
+Note 1: When you writing python script, be sure to compare tab and space!",,,,,,,
+85956e740fd9,"\section{Introduction}
+\input{sections/intro.tex}
+\section{Dataset Construction}
+\input{sections/data.tex}
+\section{Experiments}
+\input{sections/exp.tex}
+\section{Conclusion}
+\input{sections/conclusion.tex}
+\section*{Acknowledgement}
+
+This research is partially based upon work supported in part by the Office of the Director of National Intelligence (ODNI), Intelligence Advanced Research Projects Activity (IARPA), via contract \#FA8650-17-C-9117. The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies, either expressed or implied, of ODNI, IARPA, or the U.S. Government. The U.S. Government is authorized to reproduce and distribute reprints for governmental purposes notwithstanding any copyright annotation therein.
+
+This research is also partially based upon work supported by the National Science Foundation under Grant No. IIS-1618193. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+
+
+
+
+
+
+
+
+\section{Introduction}
+\input{sections/intro.tex}
+\section{Dataset Construction}
+\input{sections/data.tex}
+\section{Experiments}
+\input{sections/exp.tex}
+\section{Conclusion}
+\input{sections/conclusion.tex}
+\section*{Acknowledgement}
+
+This research is partially based upon work supported in part by the Office of the Director of National Intelligence (ODNI), Intelligence Advanced Research Projects Activity (IARPA), via contract \#FA8650-17-C-9117. The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies, either expressed or implied, of ODNI, IARPA, or the U.S. Government. The U.S. Government is authorized to reproduce and distribute reprints for governmental purposes notwithstanding any copyright annotation therein.
+
+This research is also partially based upon work ",,,,,,,
+0de22165792c,"
+
+#
+
+# Contents
+
+Introduction
+
+One: Food Worth Defending
+
+Sugar Fuels Noise Successful Trees Climate Survivors   
+Ancient Pollination Where the Big Birds Are   
+Accessible Nectar
+
+Two: Forests that Exude Energy
+
+Special Foods The Forest Dominators   
+The Ultimate Aggressor The Dawn of Group Defence
+
+Three: The First Song
+
+Northern Orthodoxy Forward Thinking   
+Early Musicians The Australian Way
+
+Four: New Guinea: Australia's Northern Province
+
+Rainforest Finds a New Home What the Birds Reveal   
+Placing New Guinea Australian Birds Shown in New Ways
+
+Five: Land of Parrots
+
+Aptitude with Attitude Parrots as Problems   
+Parrots as Pets Trees that Store Seed Southern Origins
+
+Six: The Last of the Forest Giants
+
+Birds that Kick Gigantism Ecosystem Services   
+Conserving Difficult Birds
+
+Seven: Australia as a Centre of Origin
+
+Biogeography as Embarrassing Science   
+Waterfowl and Landfowl Dodos and Hummingbirds   
+South or North? [Australia's Sister Lands   
+](../Text/chapter007.xhtml#head2_32) Australia as a Centre
+
+Eight: The Forest Makers
+
+Asian Immigrants Almost Perfect Dispersal   
+More Fruit Couriers Seed Highways   
+Unwelcome Forest Making
+
+Nine: Of Grass and Fire
+
+Grass-assisted Invasion The Volatility of Savanna   
+Fire When Grass is Eaten Grasses as Shrubs   
+Uncertainties Rule Fiery Future
+
+Ten: Life in a Liquid Landscape
+
+Sleeping on Air Made to Formula The Great South Wind   
+The New Zealand Factor Ending Isolation   
+Adaptability and Vulnerability Seabirds' Services   
+Seabirds in Trees
+
+Eleven: A Continent Compared
+
+Living with Aggression Nectar Niches   
+Absence as Opportunity Recent Arrivals   
+Birds that Remain Surprising Birds Around the World
+
+Twelve: People and Birds
+
+Muttonbirds Early Exploitation Taking by Europeans   
+Gondwanan Pets Protecting Assets Study as Taking   
+Conservation and the Lyrebird Modern Relationships   
+The Ecology of Feeding Birds Into the Future
+
+Picture Section
+
+Notes
+
+Bibliography
+
+Acknowledgements
+
+Photo Credits
+
+# ABOUT THE",,,,,,,
+754a486f6fad,"Check out all Barnes And Noble Coupons, Coupon Codes & Deals to get the best deals!
+Save Up To 40% OFF Barnes And Noble Coupons & Deals. Shop now!
+Save Up To 75% OFF Clearance Books & More at Barnes and Noble. Shop now!
+Save 50% OFF Select Books at Barnes and Noble. Shop now!
+Get $4 OFF orders over $60 with this code.
+Daily Deal - Up to 83% OFF on NOOK Books at Barnes and Noble. Buy now!
+Get Nook Books Under $2.99 at Barnes and Noble. Buy now!
+Save Up To 70% OFF + Extra 20% OFF on $75+ orders with this code!
+Get 10% Off $35+, 15% Off $60+ Orders with this code.
+Get 15% OFF On $50+ Orders or 20% OFF on $75 orders with this code at Barnes and Noble. Shop now!
+Take 15% OFF $50+ Orders with code. Apply and save now!
+Get $5 Off Every $50 Spend, Including Textbooks.
+Save 50% OFF All Clearance Items at Barnes and Noble!
+Save 20% OFF Your Order Of $50 Or More + Free Shipping with this code!
+Save 20% OFF Your Order of $50 Or More at Barnes and Noble!
+Save 20% OFF on One Item at Barnes and Noble with this code!
+EnjoyFree Standard Shipping All Day at Barnes and Noble. No code needed. Today only!
+Save 20% OFF On Select Items with this code at checkout!
+Save Up to $5 OFF on One CD at Barnes and Noble! Shop Now!
+Save $5 OFF on One Toy or Game Item Over $20! Shop Now!
+Buy 2 Get 3rd Free on Paperbacks Sale at Barnes and Noble. Buy now!
+Enjoy FREE Shipping All Orders No Minimum at Justice. Shop now!
+Get NOOK HD+ Tablet starting from $149 at Barnes and Noble. Buy now!",,,,,,,
+071506bed965,"Journal Article Detail Page
+Students' epistemologies about experimental physics: Validating the Colorado Learning Attitudes about Science Survey for experimental physics
+written by Bethany R. Wilcox and H. J. Lewandowski
+Student learning in instructional physics labs represents a growing area of research that includes investigations of students' beliefs and expectations about the nature of experimental physics. To directly probe students' epistemologies about experimental physics and support broader lab transformation efforts at the University of Colorado Boulder and elsewhere, we developed the Colorado Learning Attitudes about Science Survey for experimental physics (E-CLASS). Previous work with this assessment has included establishing the accuracy and clarity of the instrument through student interviews and preliminary testing. Several years of data collection at multiple institutions has resulted in a growing national data set of student responses. Here, we report on results of the analysis of these data to investigate the statistical validity and reliability of the E-CLASS as a measure of students' epistemologies for a broad student population. We find that the E-CLASS demonstrates an acceptable level of both validity and reliability on measures of item and test discrimination, test-retest reliability, partial-sample reliability, internal consistency, concurrent validity, and convergent validity. We also examine students' responses using principal component analysis and find that, as expected, the E-CLASS does not exhibit strong factors (a.k.a. categories).
+Physical Review Physics Education Research: Volume 12, Issue 1, Pages 010123
+http://dx.doi.org/10.1103/PhysRevPhysEducRes.12.010123
+Education Foundations
+- Assessment
+= Instruments
+= Self Assessment
+- Lower Undergraduate
+= Article
+- text/html
+10.1103/PhysRevPhysEducRes.12.010123
+advanced laboratory, introductory laboratory, laboratory
+Record Creator:
+Metadata instance created September 28, 2016 by Lyle Barba",,,,,,,
+40738e910caf,".glyphicon-heart-empty:hover, .glyphicon-heart:hover {
+    font-size: 3.5em;
+}",,,,,,,
+937e5e4f7227,"
+
+
+
+Produced by Richard Tonsing, Juliet Sutherland and the
+Online Distributed Proofreading Team at http://www.pgdp.net
+
+
+
+
+
+
+[Illustration: LITTLE DROPS OF WATER, LITTLE GRAINS OF SAND.]
+
+
+
+
+                             Our Story Book
+
+                     JINGLES, STORIES _and_ RHYMES
+                                 _for_
+                              LITTLE FOLKS
+
+[Illustration]
+
+                        _Profusely Illustrated_
+
+                                NEW YORK
+                         CUPPLES & LEON COMPANY
+
+
+
+
+                          COPYRIGHT, 1916, BY
+                         CUPPLES & LEON COMPANY
+
+
+
+
+                                CONTENTS
+
+
+  Wideawake Willy.
+  The Little Old Woman.
+  Quite an Adventure.
+  Funny Toys
+  There Were Seven Froggies of Lee
+  Tinklebell Tales.
+  Holiday Time.
+  The Twins.
+  The Five Little Frogs.
+  The Doings of Dickie and Daisy
+  Follow My Leader.
+  Bunny and Chick, Or Sulky Sammy.
+  Doggie and Puss.
+  Tittle-tattle Tales, Or Fireside Stories.
+  The Kitkin Family
+  Wooden Toys.
+  Tick Tock
+  Neddy
+  Silly Billy and the Kittens.
+  Tony
+  The Cats and the Cheese, Or, Better Agree Than Go to Law.
+  The Doll's House to Let.
+  The Fox That Lost His Tail, Or, Do Not Follow Every Fashion You See.
+  Mrs. Gamp and Mrs. Puss-cat
+  The Conceited <DW57>.
+  Dolly's Name.
+  The Call to Arms.
+  To London Town.
+  A Home in the Wainscot.
+  We Three
+  Under the Big Hat, Or, Jackie and Me.
+  The Naughty Kitten.
+  The Goose Girl.
+  Goose-girl.
+  Waiting For Tea.
+  The Boy and the Bogie.
+  Baby's Bunnie.
+  My First Visit.
+  Ten Raw Recruits.
+  The Dog and the Wolf; Or, Be Content With Your Lot.
+  Castles in the Air.
+  A Day at the Farm.
+  Doggie's Woes.
+  Off to the Front.
+  Tommy's First Day at School.
+  Mister Jack-in-the-box.
+  Hector Protector.
+  The Muzzle That Fitted Too Much.
+  In the Farmyard.
+  Fir Tree Farm.
+  Pity the Sorrows of a Poor Little Dog.
+  Too Sure.
+  Firefly.
+  What a Mistake.
+  Charlie's Playthings.
+  How Pussy Caug",,,,,,,
+5728305d555d,"Sociobiology: The New Synthesis (1975; 25th anniversary edition 2000) is a book by the biologist E. O. Wilson. It helped start the sociobiology debate, one of the great scientific controversies in biology of the 20th century and part of the wider debate about evolutionary psychology and the modern synthesis of evolutionary biology. Wilson popularized the term ""sociobiology"" as an attempt to explain the evolutionary mechanics behind social behaviour such as altruism, aggression, and the nurturing of the young. It formed a position within the long-running nature versus nurture debate. The fundamental principle guiding sociobiology is that an organism's evolutionary success is measured by the extent to which its genes are represented in the next generation.
+
+The book was generally well-reviewed in biological journals. It received a much more mixed reaction among sociologists, mainly triggered by the brief coverage of the implications of sociobiology for human society in the first and last chapters of the book; the body of the text was largely welcomed. Such was the level of interest in the debate that a review reached the front page of the New York Times. The sociologist Gerhard Lenski, admitting that sociologists needed to look further into non-human societies, agreed that human society was founded on biology but denied both biological reductionism and determinism. Lenski observed that since the nature-nurture dichotomy was false, there was no reason for sociologists and biologists to disagree. Other sociologists objected in particular to the final chapter, on ""Man"": Devra G. Kleiman called Wilson's attempt to extend his thesis to humans weak and premature, and noted that he had largely overlooked the importance of co-operative behaviour and females in mammalian societies.
+
+Context
+
+E. O. Wilson was an American biologist, specialising in the study of ants, social insects on which he was the world's leading expert. He is known also for his pioneering work on island bio",,,,,,,
+aa4dc739b95e,"Official jersey provider for the NFL other reebok endorsers include
+You think I can't train like a beast.
+He limps to https://www.fanscustom.com/collections/football-hot-sale plate, continues Jeong.
+Mekhi Becton T Louisville New York Jets 12.
+Players who have applied for early entry have the right to withdraw their names from consideration for the Draft by notifying the NBA of their decision in writing ten days prior to the 2020 NBA Draft.
+Ronda Rousey 9.
+But we'll look at it.
+Megan Rapinoe 2.
+Andrew Thomas T Georgia New York Giants 5.
+He will appear on Topps and Bowman products throughout 2017, including Topps BUNT, the official trading card app for MLB.
+Justin Herbert QB Oregon San Diego Chargers 7.
+Antonio Brown The Top 10 Most Tweeted About Female Athletes in 2019 per Twitter Sports 1.
+He is building a team.We are not friendly.
+NYSJ: SA: Yes.
+While Easter, which occurred a week earlier this year than it did in 2019, may have been responsible for some sales in March, school closings was the key driver of toy industry football jersey maker in the first quarter.
+I would like to talk about our performance, it was so good.
+Isaiah Simmons LB Clemson Arizona Cardinals 9.
+LeBron James 5.
+Jerry Judy WR Alabama Denver Broncos 16.
+Joe Burrow QB LSU Cincinnati Bengals 2.
+NYSJ: Who do you next see among athletes as being able to establish their marketing presence among sports fans and also the general public?
+• According to data and consulting firm NPD Group, the U.S.
+A lot of the excitement that existed for generations in the heavyweight division, for example, isn't there any more because there aren't fighters such as Muhammad Ali who attracted non-fight fans.
+If you would like to search for all players born on a certain day, for example all players born on December 25th in any year, choose the month and day with the drop down boxes and then choose the 'Month and Day Search' option.
+You look back at it and to see how far we've come – it's like coming back from a major injur",,,,,,,
+900eb39cc12b,"\section{#1} \vspace{-5mm} \indent}
+\newcommand{\subsectionplus}[1]{\subsection{#1} \vspace{-5mm} \indent}
+\newcommand{\subsubsectionplus}[1]{\subsubsection{#1} \vspace{-5mm} \indent}
+
+
+
+\newcommand{\suiteexacte}[3]{#1 \rightarrow #2 \rightarrow #3}
+\newcommand{\rightarrow \hspace{-.5cm} \rightarrow}{\rightarrow \hspace{-.5cm} \rightarrow}
+\newcommand{\lim_\leftarrow}{\lim_\leftarrow}
+\newcommand{\liste}{\
+
+\begin{itemize}}
+\newcommand{\mbox{codim}}{\mbox{codim}}
+\newcommand{^{ ^\bullet} \hspace{-.7mm}}{^{ ^\bullet} \hspace{-.7mm}}
+\newcommand{\mathfrak X}{\mathfrak X}
+
+\newcommand{\res}[2]{\vspace{.15cm} 
+
+\noindent
+{\bf #1 :} {\it #2} \vspace{.15cm} 
+
+\noindent}
+
+\newcommand{\fonction}[5]{
+\begin{array}[t]{rrcll}
+#1 & : & #2 & \rightarrow & #3 \\
+   &   & #4 & \mapsto     & #5
+\end{array}  }
+
+\newcommand{\fonctionratsansnom}[4]{
+\begin{array}[t]{ccl}
+#1 & \dasharrow & #2 \\
+#3 & \mapsto    & #4
+\end{array}  }
+
+\newcommand{\fonc}[3]{
+#1 : #2 \mapsto #3  }
+
+\newcommand{\directlim}[1]{
+\lim_{\stackrel{\rightarrow}{#1}}    }
+
+\newcommand{\inverselim}[1]{
+\lim_{\stackrel{\rightarrow}{#1}}    }
+
+\newcommand{\suitecourte}[3]{
+0 \rightarrow #1 \rightarrow #2 \rightarrow #3 \rightarrow 0 }
+
+\newcommand{\matdd}[4]{
+\left (
+\begin{array}{cc}
+#1 & #2  \\
+#3 & #4
+\end{array}
+\right )   }
+
+\newcommand{\matddr}[4]{
+\left (
+\begin{array}{cc}
+\hspace{-.2cm} #1 & \hspace{-.2cm}#2  \\
+\hspace{-.2cm} #3 & \hspace{-.2cm}#4
+\end{array}
+\hspace{-.2cm} \right )   }
+
+\newcommand{\mattt}[9]{
+\left (
+\begin{array}{ccc}
+{} #1 & {} #2 & {} #3 \\
+{} #4 & {} #5 & {} #6 \\
+{} #7 & {} #8 & {} #9
+\end{array}
+\right )   }
+
+\newcommand{\matttr}[9]{
+\left (
+\begin{array}{ccc}
+{} \hspace{-.2cm} #1 & {} \hspace{-.2cm} #2 & {} \hspace{-.2cm} #3 \\
+{} \hspace{-.2cm} #4 & {} \hspace{-.2cm} #5 & {} \hspace{-.2cm} #6 \\
+{} \hspace{-.2cm} #7 & {} \hspace{-.2cm} #8 & {} \hspace{-.2cm} #9
+\end{array}
+\hspace{-.15cm}
+\right )   }
+
+
+
+
+
+
+\newtheorem{definition}{Definition}[section]
+\newenvironment{defi}{\begin{de",,,,,,,
+2787b4ceed11,"
+
+_Hard Stick_ is a work of fiction. Names, places, and incidents either are products of the author's imagination or are used fictitiously. Any resemblance to actual events, locales, or persons, living or dead, is entirely coincidental.
+
+A Loveswept Ebook Original
+
+Copyright © 2017 by L. P. Dover
+
+Excerpt from _Hooked_ by Brenda Rothert copyright © 2016 by Brenda Rothert
+
+All rights reserved.
+
+Published in the United States by Loveswept, an imprint of Random House, a division of Penguin Random House LLC, New York.
+
+LOVESWEPT is a registered trademark and the LOVESWEPT colophon is a trademark of Penguin Random House LLC.
+
+Ebook ISBN 9781101967836
+
+Cover design: Diane Luger
+
+Cover photograph: Petr_Joura/iStock
+
+randomhousebooks.com
+
+v4.1_r2
+
+ep
+
+# Contents
+
+Cover
+
+Title Page
+
+Copyright
+
+Chapter 1: Kristen
+
+Chapter 2: Kristen
+
+Chapter 3: Kristen
+
+Chapter 4: Kristen
+
+Chapter 5: Kristen
+
+Chapter 6: Kellan
+
+Chapter 7: Kristen
+
+Chapter 8: Kellan
+
+Chapter 9: Kristen
+
+Chapter 10: Kristen
+
+Chapter 11: Kellan
+
+Chapter 12: Kristen
+
+Chapter 13: Kellan
+
+Chapter 14: Kristen
+
+Chapter 15: Kellan
+
+Chapter 16: Kristen
+
+Chapter 17: Kristen
+
+Chapter 18: Kristen
+
+Chapter 19: Kellan
+
+Chapter 20: Kristen
+
+Chapter 21: Kellan
+
+Chapter 22: Kristen
+
+Chapter 23: Kristen
+
+Chapter 24: Kristen
+
+Chapter 25: Kellan
+
+Chapter 26: Kristen
+
+Chapter 27: Kristen
+
+Chapter 28: Kristen
+
+Chapter 29: Kellan
+
+Chapter 30: Kristen
+
+Chapter 31: Kellan
+
+Chapter 32: Kristen
+
+Chapter 33: Kellan
+
+Chapter 34: Kristen
+
+Chapter 35: Kristen
+
+Chapter 36: Kristen
+
+Chapter 37: Kristen
+
+Epilogue: Kristen
+
+Dedication
+
+Acknowledgments
+
+By L. P. Dover
+
+About the Author
+
+Excerpt from Hooked
+
+# Chapter 1
+
+# Kristen
+
+The incessant ringing of my phone jerked me awake. Rubbing my eyes, I glanced at the clock and groaned; it was eleven o'clock. It didn't surprise me when I looked down at my phone and saw Cole's name.
+
+""This better be good. What are you doing calling me so late?"" I mumbled into the phone. My bedroom light was still on ",,,,,,,
+ff7bd55980a0,"Herodes den Store (ca. 73 f.Kr. til 4 f.Kr.) var en jødisk konge, som regerede i Iudaea (det nuværende Israel) fra 37 f.Kr. til sin død.
+
+Herodes blev af sin far Antipater udnævnt til guvernør over Galilæa som 25-årig. Efter Antipaters død blev Herodes udpeget til konge af Det romerske Senat. Under Herodes' besøg i Rom ofrede han til Roms guder på Kapitol. Herodes fik først fuld kontrol over sit kongerige i 37 f.Kr. og fik snart udryddet de sidste Makkabæere. I sin regeringstid anlagde han den store dybvandshavn Caesarea Maritima i det nordlige Iudaea, borgen Masada ved Dødehavet, et vinterpalads i Jericho, det nordlige Sebastefort og Herodium, hans kongepalads, regeringscenter og gravmonument. Herodes stod også for en imponerende ombygning og udvidelse af Templet i Jerusalem.
+
+Herodes døde i år 4 f.Kr., og riget blev delt i tetraker mellem de hans sønner Herodes Arkhelaos, Herodes Antipas og Herodes Philip 2.
+
+Herodes er en af dem fra oldtiden, hvis liv er allerbedst belyst. Den jødiske historiker Josefus har skrevet tre bøger om Herodes. Han var kendt som en grusom tyran, der først lod sin kone Mariamme henrette og siden tre af sine sønner Alexander, Aristobulus og Antipater ifølge Josefus på mistanke om sammensværgelse.
+
+Ifølge Matthæusevangeliet kap. 2 stod Herodes bag et barnemordet i Betlehem i et forsøg på at udrydde Jesus, da han havde hørt om en udvalgt konges fødsel. Det kendte tidens historikere og de øvrige evangelier ikke noget til. Barnemordet tjener hos Matthæus til at vise, at Jesus er den nye Moses, og det svarer til 2. Mosebogs beretning om barnemordet i Ægypten og flugten (i 2. Mosebog fra Ægypten, hos Matthæus til Ægypten).
+
+Den 7. maj 2007 bekendtgjorde et hold arkæologer under ledelse af professor Ehud Netzer fra det Hebraiske Universitet, at de havde fundet Herodes' grav.
+
+Kaj Munks skuespil En idealist handler om Herodes og Mariamme.
+
+Henvisninger
+
+Kilder 
+ Rudi Thomsen, Herodes – Jødernes konge, Sfinx, 2002. .
+
+Personer i Det Nye Testamente
+",,,,,,,
+0db41257a1ae,"|-
+| 75901 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75902 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75903 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75904 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75905 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75906 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75907 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75908 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75909 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75910 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75911 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75912 - || || 4 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75913 - || || 5 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75914 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75915 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75916 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75917 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75918 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75919 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75920 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75921 - || || 2 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75922 - || || 3 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75923 - || || 4 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75924 - || || 6 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75925 - || || 6 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75926 - || || 6 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75927 - || || 6 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75928 - || || 1 de febrer, 2000 || Kitt Peak || Spacewatch
+|-
+| 75929 - || || 7 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75930 - || || 7 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75931 - || || 7 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75932 - || || 7 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75933 - || || 6 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75934 - || || 7 de febrer, 2000 || Socorro || LINEAR
+|-
+| 75935 - || || 7 d",,,,,,,
+75cf8492561a,"Q: Why do we need the Hahn-Banach Theorem to extend a bounded linear functional? I'm beginning with functional analysis and I have a related question. It concerns the Hahn-Banach theorem. In particular, I cannot appreciate its value, most probably because I don't understand it. I mean the Hahn-Banach theorem in it's most common form, like it is stated in the relevant Wikipedia article.
+In particular, with the notation of the Wikipedia article, my (probably pretty dump) question is : why do we need the Hahn-Banach theorem to extend the bounded linear functional $\phi$ and don't we just consider its trivial extension, i.e., $\psi(x) = \phi(x), \forall x \in U$ and null everywhere else?
+
+A: This question has indeed already been answered, in particular by Xiang Li who does consider the ""trivial LINEAR extension"", as is also done here but let me fill in some more details.
+So, even with that linear extension, the OP's question is still relevant, why does this not automatically work? This other question does give a precise condition for the extension: let us introduce some notations, $V$ our vector space, $U$ a subspace and $\varphi: U \to \mathbb{R}$ the linear map we want to extend in such a way that it is bounded by a homogeneous subadditive function $p: V \to \mathbb{R}\ $  (i.e. $\forall\, \lambda \geq 0,\ x\in V,\; p(\lambda x) = \lambda p(x)$ and $ p(x_1 + x_2)\leq p(x_1) + p(x_2)$. In general, $V$ needs not be a normed or topological vector space, and $p$ does not necessarily have positive value, but this condition replaces what the OP calls ""bounded"".). 
+It suffices to consider an extension to $\operatorname{Span}(U, z)= U \oplus \mathbb{R} z$. Saying that we want to ""extend by $0$"" should mean that we define $\tilde{\varphi} : U \oplus \mathbb{R} z \longrightarrow \mathbb{R},\enspace y + z \longmapsto \varphi(y)$. In the above mentionned question, they consider a general linear extension $\tilde{\varphi}_c: U \oplus \mathbb{R} z \to \mathbb{R},\enspace y + z \map",,,,,,,
+9c80d466ee99,"oNlINE!!! Keeping Up with the Kardashians hd full episode online in youtube without register 4k and fullhd
+› Forum › Forum di CiaoFriends › oNlINE!!! Keeping Up with the Kardashians hd full episode online in youtube without register 4k and fullhd
+Questo topic ha 0 risposte, 1 voce ed è stato aggiornato l'ultima volta 2 anni, 4 mesi fa da llamapylti1971.
+9 Settembre 2019 alle 23:51 #3599 Rispondi
+llamapylti1971
+ Watch online Keeping Up with the Kardashians: http://bit.ly/304RYsK
+Download free Keeping Up with the Kardashians: http://bit.ly/304RYsK
+Putlocker – watch Ep 012 – Aftershock Keeping Up with the Kardashians – Season 16 (2019) on putlocker.to A peek inside the exploits and privileged private lives of. Watch Keeping Up with the Kardashians Online for Free. Watchepisodes4.com is the best site for Keeping Up with the Kardashians Online Streaming Keeping Up with the Kardashians, watch Keeping Up with the Kardashians online, Keeping Up with the Kardashians, watch Keeping Up with the Kardashians episodes A peek inside the exploits and privileged private lives of the blended Kardashian-Jenner family, including sisters Kim, Kourtney, Khlo, Kendall and Kylie. Watch Online Keeping Up with the Kardashians S16 Season 16 Full Free with english subtitle. Stream Keeping Up with the Kardashians Season 16 Online Free on Keeping Up with the Kardashians is een Amerikaanse realityserie bij RTL5 waarin het leven gevolgd wordt van de familie Kardashian, en dan vooral de zussen Kim. Watch Keeping Up with the Kardashians Season 16 Online on Putlocker. Put locker is the way to watch Keeping Up with the Kardashians Season 16 movie in HD. Watch. A tempest of siblings, business and fame engulf Olympian Bruce Jenner and paparazzi fave Kim Kardashian as their huge Hollywood families collide. We ll find out what. Keeping Up with the Kardashians aka KUWTK (in short) is a reality TV show that airs on the E! cable network. As the name suggests, the theme of the show. Watch Keeping Up with the ",,,,,,,
+c55a5822303e,"<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!DOCTYPE cxxClass PUBLIC ""-//NOKIA//DTD DITA C++ API Class Reference Type v0.5.0//EN"" ""dtd/cxxClass.dtd"" >
+<cxxClass id=""class_e_sock_1_1_r_legacy_response_msg"">
+	<apiName>ESock::RLegacyResponseMsg</apiName>
+	<cxxClassDetail>
+		<cxxClassDefinition>
+			<cxxClassAccessSpecifier value=""public""/>
+			<cxxClassDerivations>
+				<cxxClassDerivation>
+					<cxxClassDerivationAccessSpecifier value=""public""/>
+					<cxxClassBaseClass href=""class_elements_1_1_r_response_msg.xml#class_elements_1_1_r_response_msg"">Elements::RResponseMsg</cxxClassBaseClass>
+				</cxxClassDerivation>
+			</cxxClassDerivations>
+			<cxxClassAPIItemLocation>
+				<cxxClassDeclarationFile name=""filePath"" value=""K:/epoc32/include/comms-infras/ss_api_ext.h""/>
+				<cxxClassDeclarationFileLine name=""lineNumber"" value=""110""/>
+				<cxxClassDefinitionFile name=""filePath"" value=""K:/epoc32/include/comms-infras/ss_api_ext.h""/>
+				<cxxClassDefinitionFileLineStart name=""lineNumber"" value=""109""/>
+				<cxxClassDefinitionFileLineEnd name=""lineNumber"" value=""124""/>
+			</cxxClassAPIItemLocation>
+		</cxxClassDefinition>
+		<apiDesc>
+			<p>Specialised responder for Legacy messages. Wraps all <xref href=""class_r_message2.xml#class_r_message2"">RMessage2</xref> functionallity, so that it cannot be completed without us knowing about it.</p>
+			<p>since tb92 </p>
+		</apiDesc>
+	</cxxClassDetail>
+	<cxxFunction id=""class_e_sock_1_1_r_legacy_response_msg_1af7545142f7c893a749f875b79ff26101"">
+		<apiName>RLegacyResponseMsg</apiName>
+		<cxxFunctionDetail>
+			<cxxFunctionDefinition>
+				<cxxFunctionAccessSpecifier value=""public""/>
+				<cxxFunctionConstructor/>
+				<cxxFunctionDeclaredType>IMPORT_C</cxxFunctionDeclaredType>
+				<cxxFunctionScopedName>ESock::RLegacyResponseMsg</cxxFunctionScopedName>
+				<cxxFunctionPrototype>IMPORT_C RLegacyResponseMsg()</cxxFunctionPrototype>
+				<cxxFunctionNameLookup>ESock::RLegacyResponseMsg::RLegacyResponseMsg()</cxxFunctionNameLookup>
+				<cxxFu",,,,,,,
+3f61b5884e11,"\section{Introduction}
+
+Gravitational waves (GWs), ripples in space-time produced by accelerating massive objects, are a fundamental prediction of Einstein's theory of general
+relativity. Measurements of orbital decay due to GW emission in double neutron star binary systems provide convincing evidence for their existence \cite{tw82,ksm+06}. However,
+as of yet, we have not detected the influence of GWs on space-time through a measured change in light travel time between two objects. This direct detection of GWs will
+immediately provide spectacular proof of Einstein's theories and will also usher in a new era of astronomy in which we can use GWs to study objects which are thus far invisible or
+inaccessible through electromagnetic observations.
+
+Pulsars are rapidly rotating, highly magnetized neutron stars produced in the supernova explosions of massive stars.
+Pulsar timing arrays (PTAs) are able to detect GWs through high-precision timing, sensitive to small changes in the light travel
+times between the pulsars and Earth. The pulsars used for our experiment are millisecond pulsars (MSPs), which have been spun-up to very short periods through accretion of mass and angular momentum from a companion star. These objects are incredibly stable rotators, with arrival times measurable to microsecond precision and spin periods predictable to one part in $10^{15}$.
+There are over 200 known Galactic MSPs, of which approximately 50 are being observed by PTAs using the largest radio telescopes in the world, including two in North America, one in Australia, and five in Europe.
+
+PTAs are sensitive to GWs with periods comparable to the total time span of our observations. Given PTA experiments of 5--10 year durations,
+our sensitivity will peak in the
+ $10^{-8}-10^{-9}$~Hz frequency range, complementary to the much higher frequencies probed by ground- or spaced-based
+GW interferometers. 
+The most likely GW sources for detection by PTAs include supermassive black hole binaries,  cosmic",,,,,,,
+2996d31fa3e3,"How do you find the GPS coordinates of your photos?
+Isn't technology great? More and more cameras have GPS built right into them. The moment you take a photo, your camera records exactly where you took it. But while most of the photography is out there taking advantage of this feature, some of us are left scratching our heads wondering where we can find these magical GPS coordinates. In this article, you'll learn what you can do to access GPS coordinates and use them to improve your photo sharing experience.
+Can you guess where this photo was taken?
+Does your camera have a GPS feature?
+Before you go searching for GPS tagged photos (also called geotagged images), you might want to know if your camera even takes them. Sadly, most modern point-and-shoot cameras do not feature a GPS system for geotagging. It was a more popular feature back in 2008 when smartphones were first hitting the market, but now that smartphones are nearly everywhere, less and less people want a point-and-shoot camera with GPS.
+However, if you do have a smartphone with a camera, you're in luck. Almost all smartphone cameras geotag the photos they take. As a matter of fact, I would be very surprised if I found a smartphone that doesn't do this. It would have to be a pretty old model. Note: If your have an iPhone or an Android phone, you need to give the camera app access to the GPS data, so it can store it with your photo.
+that geotag the photos you take, and there are quite a few third-party devices that do the same thing. These devices will set you back about $200. If you do a ton of traveling (and I mean more than just a few trips a year), they're worth it. Otherwise, it's a lot easier to enter the location data by hand.
+Where is the GPS information stored?
+You may or may not know this, but your camera stores a bunch of data about every picture you take. It records the aperture, shutter speed, ISO speed, camera mode, focal distance, and sometimes even more than that. All of this is stored in th",,,,,,,
+73b650d03fa7,"
+
+
+
+Produced by Brian Coe, Wayne Hammond and the Online
+Distributed Proofreading Team at http://www.pgdp.net (This
+file was produced from images generously made available
+by The Internet Archive/American Libraries.)
+
+
+
+
+
+
+
+
+
+WHAT I SAW IN KAFFIR-LAND
+
+
+
+
+  WHAT I SAW IN KAFFIR-LAND
+
+
+  BY
+  SIR STEPHEN LAKEMAN
+  MAZHAR PACHA
+
+
+  ""MILITIA EST POTIOR. QUID ENIM?""
+
+
+  WILLIAM BLACKWOOD AND SONS
+  EDINBURGH AND LONDON
+  MDCCCLXXX
+
+
+  _All Rights reserved_
+
+
+
+
+PREFACE.
+
+
+This book contains extracts from the daily record of impressions made
+on my mind, by men and events, as we performed together our allotted
+parts, in one short tragical episode at the Cape. Very little has been
+omitted; nothing has been added. It is a simple narrative, taken from
+the Book of my Life, of which, if it is not the opening chapter, it is
+at least one of the first.
+
+If by my observations I have hurt any one's feelings, this may have
+been caused by these persons having ruffled mine. If I have said but
+little good of any one with whom I have been brought into contact, it
+is because I failed to perceive any more than I have mentioned. The
+reader will be able to some extent to judge whether or not this has
+arisen from my want of perspicacity, or from their incapacity.
+
+I can only add, that this narrative is true. I have thought, in having
+it published, that it might interest those who seek by reading some
+information about the realities of life in this artificial world of
+ours, wherein time-serving hypocrites present themselves so often as
+shams when Heaven and country call for men.
+
+
+
+
+CONTENTS
+
+
+  CHAPTER I.
+                                                                   PAGE
+  Attached to the French military staff in Algeria--The
+  Minie rifle--Interviews with the Duke of Wellington
+  and others--War at the Cape--I offer my services--Red-tape
+  difficulties--Start for the Cape,                                   1
+
+
+  CHAPTER II.
+
+  Land at St Vincent--Shooting excursion on the island--Strange",,,,,,,
+693454be69be,"boho birthday invitations s 21st invitation template.
+boho birthday invitations first invitation template.
+boho birthday invitations australia invitation template.
+boho birthday invitations tribl birthdy prty krs ides krsprtyidescom 30th invitation template.
+boho birthday invitations printable invitation template.",,,,,,,
+1c583965962f,"Culture / Book Review
+Man Ray's Slow Fade From the Limelight
+Man Ray made art that looked like the future. How did he become a minor figure?
+by Jeremy Lybarger via The New Republic on October 7, 2021
+The 86-year-old Man Ray had outlived most of his closest contemporaries when he died in Paris in 1976. Tristan Tzara, the impresario of Dada, conked off on Christmas Day 1963. André Breton, the petty tyrant of surrealism, succumbed to a heart attack in 1966. Marcel Duchamp, Ray's confidant and sometime collaborator, died in 1968, followed by Picasso in 1973. Salvador Dalí was still alive but had already ripened into florid mediocrity, capped by a pharmaceutical twilight in Spain. As one of the last threads connecting the twentieth century's major art movements, Ray was owed a dutiful eulogy. But an obituary in The New York Times struck an ambivalent tone. It described him more than once as an ""impish"" man with a paunch, who had earned a ""certain admiration"" for his talents. ""While paying tribute to his versatility and inventiveness, [critics] felt that he was fundamentally indebted to such other painters as Marcel Duchamp, Franz Marc, Giorgio de Chirico, Braque, Leger and Picasso,"" the obituary read.
+In his brisk new biography, Man Ray: The Artist and His Shadows, part of the Jewish Lives series from Yale University Press, Arthur Lubow writes that Ray's ""signature was an avoidance of a signature style."" Instead, Ray had technical epiphanies, sometimes stumbled upon by accident, that he exploited with increasing restlessness and often recycled throughout his career. He considered himself a painter above all, but the paintings were footnotes to the airbrush works (aerographs), rayographs, photographs, and sculptural objects that made his reputation. Much of his work shares an absurdist wit. Export Commodity (1920), an olive jar full of steel ball bearings, or the iconic Cadeau (1921), a flatiron on which Ray affixed a row of nails, have a mischievous incongruity. ""I was c",,,,,,,
+100ab6c8677d,"""""""Defines convolutional model graph for Seq2Species.
+
+Builds TensorFlow computation graph for predicting the given taxonomic target
+labels from short reads of DNA using convolutional filters, followed by
+fully-connected layers and a softmax output layer.
+""""""
+
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
+import collections
+import math
+
+import tensorflow as tf
+
+import input as seq2species_input
+import seq2label_utils
+
+
+class ConvolutionalNet(object):
+  """"""Class to build and store the model's computational graph and operations.
+
+  Attributes:
+    read_length: int; the length in basepairs of the input reads of DNA.
+    placeholders: dict; mapping from name to tf.Placeholder.
+    global_step: tf.Variable tracking number of training iterations performed.
+    train_op: operation to perform one training step by gradient descent.
+    summary_op: operation to log model's performance metrics to TF event files.
+    accuracy: tf.Variable giving the model's read-level accuracy for the
+      current inputs.
+    weighted_accuracy: tf.Variable giving the model's read-level weighted
+      accuracy for the current inputs.
+    loss: tf.Variable giving the model's current cross entropy loss.
+    logits: tf.Variable containing the model's logits for the current inputs.
+    predictions: tf.Variable containing the model's current predicted
+      probability distributions for the current inputs.
+    possible_labels: a dict of possible label values (list of strings), keyed by
+      target name.  Labels in the lists are the order used for integer encoding.
+    use_tpu: whether model is to be run on TPU.
+  """"""
+
+  def __init__(self, hparams, dataset_info, targets, use_tpu=False):
+    """"""Initializes the ConvolutionalNet according to provided hyperparameters.
+
+    Does not build the graph---this is done by calling `build_graph` on the
+    constructed object or using `model_fn`.
+
+    Args:
+      hparams: tf.contrib.training.Hparams ",,,,,,,
+c256294ac452,"自动统计信息失败出现错误的问题
+
+gather_external_table_stats returns an error from dbms_stats:
+ORA-20000: Unable to analyze TABLE ""XXXX"".""XXXX"", insufficient privileges or does not exist
+
+查看自动统计信息收集的状态
+- 针对 INSERT,UPDATE,DELETE,MERGE 更新量超过10%的对象,会作为统计信息收集对象
+
+另外有时候expdp/impdp时候有一些外部表 没有清理干净导致自动收集统计信息失败
+类似这种表:ET$*** 临时表
+这种没有清理干净,一般是bug的问题: Bug#9466433 等
+
+如果打Patch困难的话,可以考虑锁住这些对象表统计信息,可以接触自动收集统计信息失败的问题
+
+SQL> select o.owner, object_name, created, last_ddl_time
+2 from dba_objects o,
+3 dba_external_tables et
+4 where o.owner=et.owner
+5 and o.object_name=et.table_name
+6 order by 1,2
+7 /
+
+OWNER OBJECT_NAME CREATED LAST_DDL_TIME
+------------------------------ ------------------------------ ------------------------- -------------------------
+TESTDEV ET$004B00010001 12-04-19 12-04-19
+TESTDEV ET$004E00040001 12-04-19 12-04-19
+
+SQL>
+
+可以查看path路径在哪?
+
+SQL> set linesize 200 trimspool on
+SQL> set pagesize 2000
+SQL> col owner form a30
+SQL> col created form a25
+SQL> col last_ddl_time form a25
+SQL> col object_name form a30
+SQL> col object_type form a25
+SQL> set longchunksize 3000
+SQL> set long 2000000000
+SQL> select OWNER,OBJECT_NAME,OBJECT_TYPE, status,to_char(CREATED,'dd-mon-yyyy hh24:mi:ss') created,to_char(LAST_DDL_TIME , 'dd-mon-yyyy hh24:mi:ss') last_ddl_time from dba_objects where object_name='ET$004B00010001';
+
+SQL> select owner, TABLE_NAME, DEFAULT_DIRECTORY_NAME, ACCESS_TYPE from dba_external_tables order by 1,2;
+
+SQL> select el.table_name, el.owner, dir.directory_path||'/'||dir.directory_name ""path"" from dba_external_locations el , dba_directories dir -
+where el.table_name='ET$004B00010001' and el.owner='TESTDEV' and el.directory_owner = dir.owner and el.directory_name = dir.directory_name order by 1, 2;
+
+SQL> select dbms_metadata.get_ddl('TABLE','ET$004B00010001','TESTDEV') from dual;
+
+
+如果确认当前没在执行datapump情况下,可以手动删除。
+
+-- locate Data Pump master tables:
+COL owner.object FORMAT a50
+
+SELECT o.status, o.object_id, o.object_type, 
+       o.owner||'.'||object_name ""OWNER.OBJECT""
+  FROM dba_objects o",,,,,,,
+73f6985ca9c1,"Die Neustadtswallanlagen liegen in Bremen im Stadtteil Neustadt, zwischen den Ortsteilen Hohentor, Alte Neustadt, Neustadt und Buntentor.
+
+Geschichte 
+
+1611 wurde der niederländische Rijswijck-Schüler Johan van Valckenburgh (* um 1575, † 1625) erstmals und nur zeitweise als Planer der Festungsanlagen in Bremen tätig. Erst 1623 wurden die Anlagen links der Weser auf der Basis der Pläne von Rijswijck und Valckenburgh in Angriff genommen. Auf der Neustadtseite befand sich bald eine moderne Stadtbefestigung aus Wällen mit acht Bastionen. Als solche Befestigungsanlagen militärisch keinen Sinn ergaben, beschloss Bremen ab 1796 die Entfestigung; Wälle und Mauern wurden ab 1805 abgetragen. Die Neustadtswallanlagen sollten nun eher als Bauland dienen. Im westlichen Teil entstand eine einfache landschaftliche Anlage, von der eine Allee parallel zum Stadtgrabenführte. Die übrigen Bereiche wurde als Gartenland verpachtet. Die die Anlage begleitenden Straßennamen Neustadtswall (innen) und gegenüber Neustadtscontrescarpe(außen) erinnern an die Wallanlagen.
+
+Seit 1815 wurden – im Gegensatz zur Bremer Wallanlagen auf der privilegierten rechten Weserseite – zunehmend Flächen durch Gebäude und Verkehrsflächen in Anspruch genommen: Die Kasernen am Hohentor und ab 1866 die Neustadtskasernen an der Neustadtscontrescarpe für das Bremer Stadtmilitär; es folgten u. a. weitere Wohnhäuser, zwei Schulen, ein Krankenhausbau, das Hallenbad Süd sowie die Erweiterung der Hochschule Bremen. Durch den aufkommenden Verkehr wurden Neustadtswallanlagen mehrfach durch breite Zufahrtsstraße in das Bremer Zentrum und die Bundesstraße 75 unterbrochen. Von 1891 bis 1903 wurde schließlich der Stadtgraben zugeschüttet, im Bereich zwischen Schulstraße und Osterstraße erst um 1911. Die Piepe, ehemals der Holzhafen, verblieb als Rest des ehemaligen Stadtgrabens und er bietet heute einen idealen Übergang zum Deichweg an der Kleinen Weser zum Werdersee im Osten. Als Grünfläche ist schließlich noch eine 16 Hektar ",,,,,,,
+cc7dd06bd7db,"For New School for Social Research Professor of History Federico Finchelstein, the present-day stakes of engaging with the history of populism could not be more critical.
+As Finchelstein puts it in his new book, From Fascism to Populism in History (University of California Press), ""Populism's past challenges to egalitarian forms of democracy continue in the present and are now threatening the future of our own democratic times."" He contends that a historical understanding of modern populism—whose roots he also traces back to the earliest days of twentieth century fascism—has become critical in any analysis of contemporary politics.
+Differently put, our capacity to respond to the challenges presented by populism depends crucially upon our willingness and ability to acknowledge and process the lessons of history.
+Having grown up under military dictatorship in Argentina, and having studied various forms of authoritarianism throughout his career as an academic, Finchelstein finds it surprising that his work has gained such sudden and urgent relevance in the United States and around the world. With the election of Donald J. Trump to the Presidency, Finchelstein suggests that the United States has become the global leader of populism. But it is hardly alone in grappling with populist movements, marking only the most recent in a long string of developments around the world. From Nicolás Maduro in Venezuela and Recep Tayyip Erdoğan in Turkey, to Brexit, Germany's Alternative für Deutschland and France's National Front—among many others—populism is on the march around the world.
+From Fascism to Populism in History addresses precisely these contextual differences and continuities, providing a nuanced vocabulary for describing the particular ambitions of present-day populists and carefully articulating what it inherits from fascism. ""In history,"" Finchelstein writes, ""fascism was a political ideology that encompassed totalitarianism, state terrorism, imperialism, racism, and, ",,,,,,,
+c125088e7a46,"
+
+Бішевське сільське поселення — сільське поселення, Апастовський район, Татарстан
+ Бішевське сільське поселення — сільське поселення, Урмарський район, Чувашія",,,,,,,
+bc628e7d91a4,"Black UXT2030ADB Call For Best Price!
+White UXT2030ADW Call For Best Price!
+Black UXT3030ADB Call For Best Price!
+White UXT3030ADW Call For Best Price!
+Black UXT4030ADB Call For Best Price!
+Stainless Steel UXT4030ADS Call For Best Price!
+White UXT4030ADW Call For Best Price!
+Black UXT4136ADB Call For Best Price!
+Stainless Steel UXT4136ADS Call For Best Price!
+Black UXT4230ADB Call For Best Price!
+Stainless Steel UXT4230ADS Call For Best Price!
+White UXT4230ADW Call For Best Price!
+Stainless Steel UXT4236ADS Call For Best Price!
+White UXT4236ADW Call For Best Price!
+Black WVU37UC0FB Call For Best Price!
+Stainless Steel WVU37UC0FS Call For Best Price!
+White WVU37UC0FW Call For Best Price!
+Black Chrome WVU37UC6FB Call For Best Price!
+Stainless Steel WVU37UC6FS Call For Best Price!
+White WVU37UC6FW Call For Best Price!",,,,,,,
+4b321dcb6fbe,"Parataxonomy is a system of labor division for use in biodiversity research, in which the rough sorting tasks of specimen collection, field identification, documentation and preservation are conducted by primarily local, less specialized individuals, thereby alleviating the workload for the ""alpha"" or ""master"" taxonomist. Parataxonomy may be used to improve taxonomic efficiency by enabling more expert taxonomists to restrict their activity to the tasks that require their specialist knowledge and skills, which has the potential to expedite the rate at which new taxa may be described and existing taxa may be sorted and discussed. Parataxonomists generally work in the field, sorting collected samples into recognizable taxonomic units (RTUs) based on easily recognized features. The process can be used alone for rapid assessment of biodiversity.
+
+Some researchers consider reliance on parataxonomist-generated data to be prone to error depending on the sample, the sorter and the group of organisms in question. Therefore, quantitative studies based on parataxonomic processes may be unreliable and is therefore controversial. Today, the concepts of citizen science and parataxonomy are somewhat overlapping, with unclear distinctions between those employed to provide supplemental services to taxonomists and those who do so voluntarily, whether for personal enrichment or the altruistic desire to make substantive scientific contributions. These terms are occasionally used interchangeably, but some taxonomists maintain that each possess unique differences.
+
+History of concept 
+A ""parataxonomist"" is a term coined by Dr. Daniel Janzen and Dr. Winnie Hallwachs in the late 1980's who used it to describe the role of assistants working at INBio in Costa Rica. It describes a person who collects specimens for ecological studies as well as the basic information for a specimen as it is being collected in the field. Information they collect includes date, location (lat/long), collector's nam",,,,,,,
+8a9dda3c6c96,"A power system consists of a number of synchronous machines operating synchronously under all operating conditions. Under normal operating conditions, the relative position of the rotor axis and the resultant magnetic field axis is fixed. The angle between the two is known as the power angle or torque angle. During any disturbance, the rotor decelerates or accelerates with respect to the synchronously rotating air gap magnetomotive force, creating relative motion. The equation describing the relative motion is known as the swing equation, which is a non-linear second order differential equation that describes the swing of the rotor of synchronous machine. The power exchange between the mechanical rotor and the electrical grid due to the rotor swing (acceleration and deceleration) is called Inertial response.
+
+Derivation
+
+A synchronous generator is driven by a prime mover. The equation governing the rotor motion is given by:
+
+ N-m
+
+Where:
+
+ is the total moment of inertia of the rotor mass in kg-m2
+ is the angular position of the rotor with respect to a stationary axis in (rad)
+ is time in seconds (s)
+ is the mechanical torque supplied by the prime mover in N-m
+ is the electrical torque output of the alternator in N-m
+ is the net accelerating torque, in N-m
+
+Neglecting losses, the difference between the mechanical and electrical torque gives the net accelerating torque Ta. In the steady state, the electrical torque is equal to the mechanical torque and hence the accelerating power is zero. During this period the rotor moves at synchronous speed ωs in rad/s. The electric torque Te corresponds to the net air-gap power in the machine and thus accounts for the total output power of the generator plus I2R losses in the armature winding.
+
+The angular position θ is measured with a stationary reference frame. Representing it with respect to the synchronously rotating frame gives:
+
+where, δm is the angular position in rad with respect to the synchronously rotating reference fr",,,,,,,
+7f387458cc1e,"\section{\@startsection{section}{1}{\z@}%
+                                    {-3.5ex \@plus -1ex \@minus -.2ex}%
+                                    {2.3ex \@plus.2ex}%
+                                    {\center\bf\Large}}
+    \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                    {-3.5ex \@plus -1ex \@minus -.2ex}%
+                                    {2.3ex \@plus.2ex}%
+                                    {\bf\large}}
+
+    \newcommand\figcaption{\def\@captype{figure}\caption}
+\makeatother
+
+\renewcommand{\thesection}{\Roman{section}.}
+\renewcommand{\thesubsection}{\alph{subsection}.}
+\renewcommand{\thesubsubsection}{\thesubsection\arabic{subsubsection}}
+\renewcommand{\baselinestretch}{1.5}
+\renewcommand{",,,,,,,
+d1b04e8ebec0,"Caleb Nash
+#9 Defenseman - Iowa State
+Hometown: Naperville, IL
+High School: Naperville High School
+Eligibility: Freshman
+2019 Iowa State 9 0 0 0 0 0 0 - 0
+02/02/2019 Arkansas L 7-10 0 0 0 0 0
+02/03/2019 @ Nebraska W 10-9 0 0 0 0 0
+02/09/2019 North Dakota State L 11-16 0 0 0 0 0
+02/10/2019 @ Minnesota L 4-18 0 0 0 0 0
+02/15/2019 @ Indiana L 3-18 0 0 0 0 0
+02/16/2019 Ole Miss L 8-17 0 0 0 0 0
+03/08/2019 @ Missouri L 7-11 0 0 0 0 0
+03/09/2019 Illinois L 6-9 0 0 0 0 0
+04/06/2019 @ Kansas L 3-19 0 0 0 0 0
+04/07/2019 Kansas State W 16-6 0 0 0 0 0",,,,,,,
+d8b04ff7dbd7,"Q: How to determine if 3 points on a 3-D graph are collinear? Let the points $A, B$ and $C$ be $(x_1, y_1, z_1), (x_2, y_2, z_2)$ and $(x_3, y_3, z_3)$ respectively. How do I prove that the 3 points are collinear? What is the formula? 
+
+A: From $A(x_1,y_1,z_1),B(x_2,y_2,z_2),C(x_3,y_3,z_3)$ we can get their position vectors.
+$\vec{AB}=(x_2-x_1,y_2-y_1,z_2-z_1)$ and $\vec{AC}=(x_3-x_1,y_3-y_1,z_3-z_1)$.
+Then $||\vec{AB}\times\vec{AC}||=0\implies A,B,C$ collinear.
+
+A: The three points $A,B,C$ are collinear if and only if there exists a real number $k$ such that
+$$x_3-x_1=k(x_2-x_1)\ \ \text{and}\ \ y_3-y_1=k(y_2-y_1)\ \ \text{and}\ \ z_3-z_1=k(z_2-z_1).$$
+
+A: The formula is 
+\begin{equation*}
+\text{rank} \left(
+\begin{array}{cccc}
+1 & x_1 & x_2 & x_3\\
+1 & y_1 & y_2 & y_3 \\
+1 & z_1 & z_2 &z_3
+\end{array}
+\right)\le 2
+\end{equation*}
+that is, the following three minors are zero
+\begin{equation*}
+ \left|
+\begin{array}{ccc}
+1 & x_1 & x_2 \\
+1 & y_1 & y_2 \\
+1 & z_1 & z_2 
+\end{array}
+\right|
+=
+\left|
+\begin{array}{ccc}
+1 & x_1 & x_3 \\
+1 & y_1 & y_3 \\
+1 & z_1 & z_3 
+\end{array}
+\right|=
+\left|
+\begin{array}{ccc}
+1 & x_2 & x_3 \\
+1 & y_2 & y_3 \\
+1 & z_2 & z_3 
+\end{array}
+\right|=0
+\end{equation*}
+The rank $\le 2$ condition  also works for $3$ points in $n$ dimensions.
+
+A: Find the three distances between the points.
+Use Heron's formula (and these three distances) to find the area of the triangle.
+If the area is positive, then the three points are not collinear. They form a triangle.
+If the area is 0, then the three points are collinear.
+
+A: If the distance between |AB|+|BC|=|AC| then A,B,C are collinear. 
+",,,,,,,
+5396f70999ee,"French painter had plenty of company
+In 1883, just 14 years after settling in Giverny, France, Claude Monet is reported to have complained, ""When I first came to Giverny, I was quite alone; the little village was unspoiled. Now, so many artists . . . flock here, I have often thought of moving away.""
+It wasn't the French who were flocking there, but foreign artists, particularly Americans, who couldn't resist the village's appeal.
+At Keny Galleries in German Village, ""Monet's Giverny: American Impressionists From the Art Colony 1886-1917"" complements the Monet-themed show at the Columbus Museum of Art.
+Curated by brothers and gallery owners James and Tim Keny, the 25 paintings offer a fascinating look at Giverny-inspired works produced by Americans.
+From the mid- to late 1880s, landscape and light were the main attractions. But unlike Monet, who rarely made the village the subject of his paintings, the Americans focused on barns, homes, fields and hills.
+Theodore Wendel of Midway, Ohio, provided clear representation of the area in Farm Scene, Giverny (1886). The next year, he painted Haying by the Brook, depicting a stream with surrounding bushes and trees delivered in the broken strokes of impressionism. But the scene is tightly rendered and representative, more naturalistic than impressionistic.
+In the lovely Giverny Gardens (1891), Theodore Robinson handles the forefront of the scene in loose, impressionistic style while using a more solid approach for the buildings in back.
+The works of Columbus-born Theodore Butler are closest to true French impressionism, especially the delightful Schoolhouse Under Snow (1903).
+By the turn of the 20th century, the Americans who went to Giverny tended to be more established artists, well aware of European avant-garde movements. Most were interested in the female figure, a subject Monet ignored the last 25 years of his career.
+In Richard E. Miller's lovely Sewing (circa 1910), a young woman dominates the scene with trees vaguely ",,,,,,,
+82e9ecf8f342,"\section{Gaussian states with noise and losses}
+\label{appendix:gaussian states}
+Consider a continuous-variable system of $d$ bosonic modes. Associated with each mode is a pair of creation and annihilation operators that satisfy the canonical commutation relations $[\hat{a}_j,\hat{a}_k^\dag] = \delta_{jk}$, $[\hat{a}_j,\hat{a}_k]=0$ and $[\hat{a}^\dag_j,\hat{a}^\dag_k]=0$. The corresponding quadrature operators for each mode are defined as
+\begin{equation}
+    \hat{q}_j = \frac{1}{\sqrt{2}}\left(\hat{a}_j^\dag + \hat{a}_j\right), \quad \hat{p}_j = \frac{i}{\sqrt{2}}\left(\hat{a}_j^\dag - \hat{a}_j\right),
+\end{equation}
+and fulfil the commutation relations $[\hat{q}_j,\hat{p}_k] = i\delta_{jk}$. By definition, a Gaussian state has a Wigner function of the form
+\begin{equation}
+\label{eqn:gaussian state}
+W(z) = \frac{\sqrt{\det G}}{\pi^d}\ue^{-(z-Z)\cdot G(z-Z)},
+\end{equation}
+where $z = (q,p) \in \mathbb{R}^d \times \mathbb{R}^d$ are canonical phase-space coordinates, $Z$ is a vector of expectation values $Z_k = \langle \hat{z}_k\rangle$ with $\hat z = (\hat{q}_1,\ldots,\hat{q}_d,\hat{p}_1,\ldots,\hat{p}_d)$, and $G$ is a real, symmetric and positive definite matrix. A Gaussian state is therefore completely characterised by the first moments $Z$ and the covariances of the quadrature operators
+\begin{equation}
+\label{eqn:covariances}
+(G^{-1})_{jk} = \langle \hat{z}_j \hat{z}_k + \hat{z}_k \hat{z}_j\rangle - 2\langle\hat{z}_j\rangle\langle\hat{z}_k\rangle.
+\end{equation}
+The matrix elements of a Gaussian state in the Fock basis can be expressed in terms of $Z$, $G$ and multi-dimensional Hermite polynomials \cite{Dodonov94}, where the latter can be generated recursively \cite{Kok01}.
+
+The Gaussian states $\hat\rho$ in this work have first moments $Z$ equal to zero. For the remainder of this appendix we assume $Z=0$.
+
+We model noise and loss by fictitious beam splitters with transmittivity $\eta$ between the source and each party. Thermal states of mean photon number $",,,,,,,
+9716ffdce9e5," 
+""Author/activist/musician Mat Callahan was a red diaper baby lucky to be attending a San Francisco high school during the 'Summer of Love'—he takes a studied approach (but with the eye of a revolutionary) describing the sociopolitical landscape that led to the explosion of popular music (rock, jazz, folk, R&B) coupled with the birth of several diverse radical movements during the golden 1965–1975 age of the Bay Area. Callahan comes at it from every angle imaginable (Black Power, anti–Vietnam War, the media, the New Left, feminism, sexual revolution, et al.) with the voice of authority backed up by interviews with those who lived it. Finally, a scholarly look at music, sociology, and politics without pretense or pretentiousness. If I hadn't met the author before, I'd be asking, 'Who the hell is this guy—the writing is devastatingly wonderful!'""
+
+—Pat Thomas, author of _Listen, Whitey! The Sights and Sounds of Black Power, 1965–1975_
+
+""All too often, people talk about the '60s without mentioning our music and the fun we had trying to smash the state and create a culture based upon love. Mat Callahan's book is a necessary corrective.""
+
+—George Katsiaficas, activist and author of _Asia's Unknown Uprisings_
+
+""Something very special took place in San Francisco in the Sixties, generating waves of social and aesthetic motion that still ricochet around this planet. _The Explosion of Deferred Dreams_ takes a clear-eyed, politically engaged view that separates truth from propaganda. Grasping why the time became legendary and how society dealt with the challenges it created is what _Explosion_ is about—and it accomplishes this critical task with intelligence and clarity.""
+
+—Dennis McNally, author of _A Long Strange Trip_ : _The Inside History of the Grateful Dead_ and _On Highway 61_
+
+""In his landmark work _The Explosion of Deferred Dreams_ , author Mat Callahan painstakingly braids disparate threads of the rich tapestry of San Francisco—music, politics, race, culture. In thi",,,,,,,
+2044b9ebeed5,"Алекса́ндр Валенти́нович Головко́ (род. 29 января 1964, Днепропетровск, УССР, СССР) — российский военачальник, генерал-полковник (2017). Командующий Космическими войсками — заместитель Главнокомандующего Воздушно-космическими силами с 1 августа 2015 года; Командующий Войсками воздушно-космической обороны (24 декабря 2012 — 1 августа 2015).
+
+Биография 
+В 1986 году окончил Харьковское высшее военное командно-инженерное училище ракетных войск имени Маршала Советского Союза Н. И. Крылова. С 1986 по 1998 год проходил службу в должностях инженера отделения, начальника станции, командира роты, начальника отделения, начальника отдела в воинских частях Главного испытательного центра испытаний и управления космическими средствами имени Г. С. Титова.
+
+В 1992 году окончил командный факультет Военной академии им. Ф. Э. Дзержинского. С 1998 года по 2001 год — начальник отдельного командного измерительного комплекса Главного испытательного центра испытаний и управления космическими средствами имени Г. С. Титова.
+
+В 2003 году окончил Военную академию Генерального штаба Вооружённых Сил Российской Федерации. С 2003 по 2004 год занимал должность заместителя начальника штаба Космических войск. С 2004 года по 2007 год являлся начальником штаба — первым заместителем начальника Главного испытательного центра испытаний и управления космическими средствами имени Г. С. Титова. В 2007 году назначен начальником этого центра.
+
+23 июня 2011 года назначен начальником 1-го Государственного испытательного космодрома Министерства обороны Российской Федерации и занимал эту должность до декабря 2012 года.
+
+24 декабря 2012 года указом Президента Российской Федерации генерал-майор А. В. Головко назначен командующим Войсками воздушно-космической обороны.
+
+После создания в Вооружённых Силах Российской Федерации нового вида войск — ВКС, Указом Президента Российской Федерации от 1 августа 2015 года № 394 генерал-лейтенант Головко назначен Командующим Космическими войсками — заместителем главнокомандующего В",,,,,,,
+28d308d9b226,"\section{Introduction}
+The largest eigenvalue of network adjacency matrices plays a bridge between dynamical and 
+structural properties of an underlying system. For example, the
+inverse of the largest eigenvalue of a network characterizes the
+threshold for phase transition of the virus spread \cite{Mieghem2009}. Recently
+Goltsev et. al. have demonstrated the importance of the largest eigenvalue in determining 
+disease spread in complex networks \cite{Mendes2012}. Furthermore, in coupled oscillators the threshold for 
+phase transition to synchronized behaviour is determined by the inverse of the largest eigenvalue 
+\cite{Restrepo}. The dynamical properties of neurons have been shown to be highly influenced by 
+a change in the spectra of underlying synaptic matrices constructed from randomly distributed numbers  
+\cite{Sompolinsky}. 
+A remarkable, fundamental direction to analyze the stability of ecological systems  
+was put forward by May \cite{MayNature1972}, where
+the largest real part of the eigenvalues ($R_{\mathrm max}$) establishes a
+relationship between the stability and complexity of the underlying
+system. Later, the impact of various types of interactions was demonstrated to
+deduce stability criteria in terms of $R_{\mathrm max}$ \cite{Allesina}. 
+Mathematically, matrices obeying some constraints satisfy the stability criteria
+\cite{Quirck1965}, but real-world systems have an underlying interaction matrix that is
+too complicated to obey these constraints; hence, the study of fluctuations in 
+$R_{\mathrm max}$ is crucial to understanding stability of a
+system as well as the stability properties of an individual network 
+in that ensemble. Recent efforts in this direction reveal the similarity of the
+maximal Lyapunov exponent of synaptic matrices defined for neural networks with their topological complexities
+\cite{Gilles}. A very recent work investigates the
+statistical properties of random matrices within the framework of extreme value 
+theory, thereby provid",,,,,,,
+986d3281b59f,"Molecular modelling encompasses all methods, theoretical and computational, used to model or mimic the behaviour of molecules. The methods are used in the fields of computational chemistry, drug design, computational biology and materials science to study molecular systems ranging from small chemical systems to large biological molecules and material assemblies. The simplest calculations can be performed by hand, but inevitably computers are required to perform molecular modelling of any reasonably sized system. The common feature of molecular modelling methods is the atomistic level description of the molecular systems. This may include treating atoms as the smallest individual unit (a molecular mechanics approach), or explicitly modelling protons and neutrons with its quarks, anti-quarks and gluons and electrons with its photons (a quantum chemistry approach).
+
+Molecular mechanics
+
+Molecular mechanics is one aspect of molecular modelling, as it involves the use of classical mechanics (Newtonian mechanics) to describe the physical basis behind the models. Molecular models typically describe atoms (nucleus and electrons collectively) as point charges with an associated mass. The interactions between neighbouring atoms are described by spring-like interactions (representing chemical bonds) and Van der Waals forces. The Lennard-Jones potential is commonly used to describe the latter. The electrostatic interactions are computed based on Coulomb's law. Atoms are assigned coordinates in Cartesian space or in internal coordinates, and can also be assigned velocities in dynamical simulations. The atomic velocities are related to the temperature of the system, a macroscopic quantity. The collective mathematical expression is termed a potential function and is related to the system internal energy (U), a thermodynamic quantity equal to the sum of potential and kinetic energies. Methods which minimize the potential energy are termed energy minimization methods (e.g., steepest",,,,,,,
+e266d34553c6,"\section{Introduction}
+    In 1982, Benjamin and Olver derived the Lie symmetry groups for an inviscid, irrotational fluid in two- and three-dimensions with a free-boundary one- and two-dimensional free-boundary \(\eta\) \cite{benjamin1982hamiltonian}. From these symmetries, the conserved densities were derived in terms of quantities evaluated on the boundary of the fluid domain. Olver subsequently argued that for the 2D problem, the eight conservation laws that arise from the 2D Lie symmetry group are unique and exhaustive as far as deriving conservation laws via infinitesimal symmetries for the free boundary problem. However, a rigorous proof of their exhaustiveness has yet to be seen. 
+
+    To the best of our knowledge, Benjamin and Olver's work represents the only systematic derivation of the appropriate conserved densities for the water wave problem using the underlying Lie symmetries. In \cite{oliveras2021different}, Oliveras and Calatola-Young presented a new systematic derivation of the conserved densities of the 2D water wave problem via a weak formulation, which we seek to extend to fluids in three spatial dimenions.  
+
+    We consider the nonlocal/nonlocal formulation presented in \cite{oliveras2020weak} for an inviscid, irrotational, incompressible fluid posed on the whole line with a two-dimensional free surface. We then illustrate a process for deriving Benjamin and Olver's conservation laws without explicitly using the symmetries. 
+
+    The water-wave problem (or hydrodynamic problem) in three spatial dimensions is known to possess twelve conservation laws as found by Benjamin \& Olver \cite{benjamin1982hamiltonian}. We provide here an elucidation of the techniques for deriving the twelve conserved densities of the 3D problem here, generalizing the methods of \cite{oliveras2020weak} to the case of waves in three dimensions with a two-dimensional free surface. 
+
+    In \Cref{sec:prelim}, we present the equations of motion for an inviscid, irrotational ",,,,,,,
+1ba3b178b860,"Revisiting socialist debates on the Treaties of Rome (1957) opens a window onto early conceptions of the potential of a European common market – and Labour's capitulation to the sovereigntist dogmas of late-imperial Britain.
+It has become fashionable in the last decade for scholars such as Wolfgang Streeck to associate the Treaties of Rome that created the European Economic Community (EEC) with Friedrich Hayek, the neoliberal thinker and proponent of European economic federation. Yet Hayek had no direct, nor arguably any indirect, role in the Treaties. Three of the six governments that negotiated these Treaties were led by socialist, social-democratic and labour parties, and a socialist party was in a cabinet coalition in a fourth. The Treaties of Rome also gained the backing of the German Social Democratic Party (SPD), then in opposition. The reasons for this initial socialist embrace of European integration have dropped out of contemporary debates on the future of Europe, particularly in the English-speaking world. This article reconstructs the historic reasons for the continental left's support for European integration. It also details some of the conflicts opened up by the British Labour Party's repeated and vocal objections to the idea of a European polity enjoying a measure of supranational authority over its member states.
+It is no secret that UK Labour Party leaders were critical of most European integration initiatives in the 1940s and 1950s, although there were also prominent Labour supporters of UK membership of the EEC. Labour's reasoning and rhetoric are difficult to identify as strictly socialist. The party's discourses blended socialist ideas with positions held by Conservative and Liberal politicians, particularly concerning foreign trade interests, historical narratives of the 'English constitution', attitudes inherited from the UK's victory in the Second World War, and, perhaps most importantly, an attachment to the Commonwealth as an alternative v",,,,,,,

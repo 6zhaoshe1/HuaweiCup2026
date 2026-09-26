@@ -1,0 +1,10 @@
+﻿question,formula_name,formula,parameter_or_result_file,implementation,result_exists,implementation_exists
+Q1,quality facets,"Q_i=(sum_d W_d S_id^p)^(1/p), with robustness choices recorded",results/q1_upgrade_weight_table.csv,code/q1_upgrade_validation.py,True,True
+Q1,mixture prediction,L_h=b_h+sum_j beta_hj log(p_j+epsilon),results/q1_upgrade_selected_parameters.csv,code/q1_upgrade_validation.py,True,True
+Q1,structural interaction,L_h=b_h+gamma_h^T z(p)+z(p)^T B_h z(p),results/q1_upgrade_quadratic_parameters.csv,code/q1_upgrade_validation.py,True,True
+Q2,generalized scaling law,L=E+(A N^-alpha+B D^-beta)[1+kappa(1-Q)],results/q2_interface_to_q3.json,code/q2_revision_validation.py,True,True
+Q3,compute constraint,C=6ND+D[g(Q)-g(Q0)]_+ + eta N D L_ctx,results/q3_cost_unit_audit.csv,code/q3_modeling.py,True,True
+Q3,dimension reduction,"D*(N,Q)=min(Dmax,C/[N(6+eta L_ctx)+quality_cost_per_token])",results/q3_official_solutions.csv,code/q3_modeling.py,True,True
+Q4,capability score,S_i=mean_k B_ik; Z_i=logit(S_i/100),results/q4_entity_cohort.csv.gz,code/q4_prepare.py,True,True
+Q4,frontier,F(t)=max_{i:T_i<=t} S_i,results/q4_frontier_history.csv,code/q4_modeling.py,True,True
+Q4,Shapley identity,Delta z=phi_N+phi_t+Delta endpoint residual,results/q4_final_decomposition_sensitivity.csv,code/q4_final_validation.py,True,True

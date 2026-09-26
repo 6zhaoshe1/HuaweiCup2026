@@ -1,0 +1,9 @@
+﻿figure,result_source,assertion,evidence_level
+q2_01_b1_trajectories.pdf,B1 raw,B1 的独立单位是完整规模轨迹，检查点不是独立样本,metadata
+q2_02_classic_holdout.pdf,q2_classic_predictions.csv.gz,经典律必须在按规模和时间阻断的划分上评价,metadata
+q2_03_validation_and_source_shift.pdf,q2_classic_validation.csv;q2_source_calibration_summary.csv,随机行划分乐观；跨源绝对 Loss 需校准而非直拼,metadata
+q2_04_quality_model_comparison.pdf,q2_quality_model_comparison.csv,质量函数在统一分组划分上比较，B6 与 B7 不重复计数,metadata
+q2_05_quality_oof_diagnostics.pdf,q2_quality_oof_predictions.csv.gz,质量模型误差需按 Q 水平检查而非只报总拟合优度,metadata
+q2_06_isoloss_quality.pdf,selected generalized law,质量变化改变等 Loss 曲线，但仅在半合成 Q 证据范围内,metadata
+q2_07_quality_substitution.pdf,q2_marginal_and_substitution.csv,Q+0.1 的规模替代不是常数，随 N、D、Q 改变,metadata
+q2_08_p_bridge_scale_check.pdf,q2_p_bridge_summary.csv;q2_p_bridge_predictions.csv,A 组仅提供相对配比排序；B 组幅度 eta_p 未识别,metadata

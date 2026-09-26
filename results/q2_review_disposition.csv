@@ -1,0 +1,21 @@
+﻿priority,feedback,decision,reason,evidence_path,evidence_level
+P0,主模型与 p 条件模型分离,采纳,main 不接受 p/非零 eta；p_scenario 要求显式 eta；主模型不能优化 p,code/q2_predict.py,metadata
+P0,Q1 与 B7 Q 标尺,采纳并收紧,拒绝 Q1 标尺输入；没有锚点就不标定；Q=1 仅是 B 模型参考约定,results/q2_interface_to_q3.json,metadata
+P0,B1 极低误差说明合成或平滑,不支持该推断,可见说明标为真实，manifest 标为 retained；生成处理链未知，不从残差判来源,results/q2_evidence_matrix.csv,metadata
+P0,B7/B8 同键冲突说明特定生成机制,部分采纳,冲突可复核，具体生成器未知；只证明不能作为一致版本拼接,results/q2_overlap_audit.csv,metadata
+P1,同估计器 Bootstrap,采纳,完整 N 轨迹、同对数 Huber/边界/12 起点，条件重拟合 Q，300 次,results/q2_joint_bootstrap.csv,metadata
+P1,参数相关性/边界/失败记录,采纳,记录条件数、收敛、边界命中、独特组数；不以窄区间证明真实精度,results/q2_joint_parameter_correlations.csv,metadata
+P1,只用目标源全量校准不算留出,采纳,B4 留族，B5 留来源及留族；对照未校准与训练均值；B5 增益不稳定,results/q2_source_heldout_metrics.csv,metadata
+P1,B7 同 CV 选模又报分,采纳,外 5 内 4 折 ND 分组，外层涵盖六候选选择，原 CV 降为比较表,results/q2_quality_nested_metrics.csv,metadata
+P1,B1 两个外推任务 RMSE 平均选模,采纳,留规模为主，后段为次；事后修订，不能称事前注册,reports/16_q2_revision_contract.md,metadata
+P1,B1 run_id 当训练运行,纠正潜在误用,逐行唯一，不是独立轨迹；B2 的 run_id 才对应七条轨迹,results/q2_independent_unit_audit.csv,metadata
+P1,等效 N 超大求根上界,采纳,解析判有限/极限/不可达，独立恒等式验证，标注外推,results/q2_marginal_and_substitution.csv,metadata
+P1,算力在范围内就算插值,采纳纠正,"分别核验 N,D；并给观测矩形约束解，仍非联合支持证明",results/q2_compute_optimal.csv,metadata
+P1,OLS 接近 Huber 作为验收,采纳纠正,手写 Huber 目标重拟合/梯度、指标和约束独立复算；OLS 只作对照,results/q2_independent_verification.json,metadata
+P1,联合 Bootstrap 是完整不确定性,限定采纳,假定 B1/B7 重抽样独立；未知共享生成机制、源差异和重新选模均未覆盖,results/q2_uncertainty_summary.json,metadata
+P2,Codex 没有领域组合效应，必须换 Lasso,不采纳必要性论断,Q1 已有二次 ILR 原始域闭合组合情景；未比较 Lasso，不能说它更好或更差,results/q1_quadratic_ilr_interactions.csv,metadata
+P2,B6→B7 新 Q 档属于新独立实验,纠正,共享 ND 的半合成 Q 插值检查，不是外源泛化,results/q2_split_manifest.csv,metadata
+P2,图6过宽，图7 ND 乘积混淆,采纳,等 Loss 限于 B1/B7 交集矩形；替代按 D 分面、N 横轴并画联合区间与外推标记,figures/q2_07_quality_substitution.pdf,metadata
+P2,统一划分、逐层残差、证据分层,采纳,统一 manifest，B1 按规模、B7 按 N/D/Q 输出残差统计,results/q2_residual_strata.csv,metadata
+P2,不同 eta 的任意网格代表估计区间,不采纳,0/.25/.5 仅情景偏好；无统计覆盖保证，不把 p 最优当实证建议,code/q2_predict.py,metadata
+P1,新增发现：多起点选择目标错位,主动修复,Huber 求解改按 Huber cost 选择起点，不再按普通 SSE,code/q2_modeling.py,metadata

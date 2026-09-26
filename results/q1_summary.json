@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-09-23T23:06:49+0800",
+  "seed": 42,
+  "source_zip_sha256": "368b78d5ff616983e567743036fc470481e4b97ba59ed995de8ea37d6d42b429",
+  "quality_records": {
+    "A3": 203752,
+    "A1": 51230,
+    "A2": 17523
+  },
+  "quality_unique_ids": 261086,
+  "nonfinite_semantic_records": 19,
+  "conflict_thresholds": {
+    "0.95": 0.35474604110569236,
+    "0.975": 0.40257373107630634,
+    "0.99": 0.4579716234809223
+  },
+  "model": {
+    "mean_baseline_cv_rmse": 0.823899345141431,
+    "ilr_best_cv_rmse": 0.39401386850059206,
+    "ilr_best_cv_spearman_median": 0.8721240351163296,
+    "ilr_improvement_over_mean": 0.5217694117320175,
+    "baseline_failure_gate_triggered": false,
+    "selected_model": "ilr_ridge",
+    "selected_degree": 1,
+    "selected_delta": 0.0001,
+    "selected_alpha": 1.0,
+    "selected_cv_rmse": 0.39401386850059206,
+    "selected_cv_spearman_median": 0.8721240351163296,
+    "qmix_cv_rmse": 0.3880277115365114,
+    "qmix_cv_spearman_median": 0.8866690842402809,
+    "qmix_is_deterministic_from_composition": true
+  },
+  "manual_audit_status": "sample_generated_human_labels_pending",
+  "q_interpretation": "definition_based_relative_score_not_independent_ground_truth",
+  "q2_interface": "four_facets_and_source_standardized_effects; scalar Q calibration deferred"
+}

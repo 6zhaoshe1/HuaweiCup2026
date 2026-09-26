@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-23T18:17:08+08:00",
+  "source_zip": "E:\\读研\\26届数学建模比赛\\第二十三届中国研究生数学建模竞赛 - 中文题目\\中文题目\\F题.zip",
+  "source_zip_sha256": "368b78d5ff616983e567743036fc470481e4b97ba59ed995de8ea37d6d42b429",
+  "file_entries": 2014,
+  "mapped_file_entries": 2010,
+  "unmapped_paths": [
+    "real_attachments/attachment_size_summary.csv",
+    "real_attachments/source_manifest.json",
+    "╩²╛▌╦╡├≈.pdf",
+    "╦π┴ª╘╝╩°╧┬╠ß╔²┤≤╙∩╤╘─ú╨═─▄┴ª╡─╫╩╘┤┼Σ╓├╜¿─ú.docx"
+  ],
+  "logical_ids_present": 40,
+  "logical_ids_total": 40,
+  "csv_profiles": 41,
+  "xz_profiles": 4,
+  "parquet_profiles": 1,
+  "c8_json_files": 1958,
+  "c8_valid_json": 1954,
+  "c8_invalid_json": 4,
+  "c8_model_dirs": 1863,
+  "c8_dirs_with_valid_json": 1860,
+  "c8_duplicate_content_hash_groups": 0,
+  "parse_errors_or_dependency_blocks": [
+    "real_attachments/C_efficiency_evolution/data/train-00000-of-00001.parquet: parquet dependency unavailable: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.\nA suitable version of pyarrow or fastparquet is required for parquet support.\nTrying to import the above resulted in these errors:\n - Missing optional dependency 'pyarrow'. pyarrow is required for parquet support. Use pip or conda to install pyarrow.\n - Missing optional dependency 'fastparquet'. fastparquet is required for parquet support. Use pip or conda to install fastparquet."
+  ],
+  "outputs": [
+    "results/00_file_inventory.csv",
+    "results/01_logical_attachment_status.csv",
+    "results/02_tabular_profile.csv",
+    "results/03_c8_json_profile.csv",
+    "results/04_overlap_checks.csv",
+    "code/outputs/00_data_audit.log"
+  ]
+}

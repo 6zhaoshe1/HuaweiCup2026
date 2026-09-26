@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-09-24T23:09:27",
+  "nested_metrics": {
+    "protocol": "5 outer ND / 4 inner ND",
+    "model": "entire_six_candidate_selection",
+    "n": 450,
+    "mae": 0.0486606253253705,
+    "rmse": 0.0628256250981276,
+    "r2": 0.9659840269555268,
+    "spearman": 0.9846977645283894,
+    "bias": 0.0020323439586167,
+    "log_rmse": 0.0232448817298161,
+    "evidence_level": "semi_synthetic",
+    "limitation": "retrospective; fixed B1 fit, unknown shared generator dependence"
+  },
+  "bootstrap": {
+    "bootstrap_success": 300,
+    "bootstrap_total": 300,
+    "active_bounds": 0,
+    "N_compute_exponent": 0.4515283894053452,
+    "D_compute_exponent": 0.5484716105946549,
+    "unsupported_unconstrained_optima": 9,
+    "extrapolated_equivalent_scenarios": 20,
+    "scope": "base+Q refit; fixed model; independent resampling assumption; excludes generator/source/residual/p uncertainty",
+    "note": "Fixed Q,p factors do not alter N:D optimum; not full Q3 optimization"
+  },
+  "verification_checks_passed": 13,
+  "dispositions": 20,
+  "model_changed": false,
+  "core_unresolved": [
+    "Q1 to B7 mapping",
+    "eta_p identification",
+    "cross-source Loss semantics",
+    "unknown semi-synthetic generator dependence"
+  ]
+}

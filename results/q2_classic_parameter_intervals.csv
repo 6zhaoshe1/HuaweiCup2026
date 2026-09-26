@@ -1,0 +1,7 @@
+﻿parameter,point_estimate,bootstrap_median,ci2p5,ci97p5,successful_replicates,evidence_level,uncertainty_scope
+E,1.6898377701724516,1.6898410383147446,1.6897049534346835,1.689984429285989,300,real_observational,base+Q refit; fixed model; independent resampling assumption; excludes generator/source/residual/p uncertainty
+A,0.3539687203234307,0.35395915353066004,0.3538336732991072,0.35410668014402025,300,real_observational,base+Q refit; fixed model; independent resampling assumption; excludes generator/source/residual/p uncertainty
+alpha,0.3399854249374161,0.3399908234647382,0.3398622120689919,0.34011825033382337,300,real_observational,base+Q refit; fixed model; independent resampling assumption; excludes generator/source/residual/p uncertainty
+B,1.240274629904435,1.2402805096162899,1.2401696975700256,1.2403662174155725,300,real_observational,base+Q refit; fixed model; independent resampling assumption; excludes generator/source/residual/p uncertainty
+beta,0.2798924654948758,0.27989143253401033,0.2798428492181826,0.2799361281922991,300,real_observational,base+Q refit; fixed model; independent resampling assumption; excludes generator/source/residual/p uncertainty
+kappa,0.47754320017108975,0.4773349467979067,0.44976839348936526,0.5090646652645877,300,semi_synthetic,base+Q refit; fixed model; independent resampling assumption; excludes generator/source/residual/p uncertainty

@@ -1,0 +1,5 @@
+dataset,model,metric,estimate,ci_low,ci_high,bootstrap_unit,n_boot,evidence_level
+A10_A11_1b,ilr_ridge,rmse_micro,3.0218003343457136,2.997468404230079,3.0475639015972606,recipe_record,1000,real_holdout
+A10_A11_1b,ilr_ridge,spearman_macro,0.860231755424063,0.8233845429211604,0.8786519824443979,recipe_record,1000,real_holdout
+A10_A11_1b,ilr_ridge_logN_offset,rmse_micro,0.755247809619168,0.7338112871868694,0.7770667401553342,recipe_record,1000,real_holdout
+A10_A11_1b,ilr_ridge_logN_offset,spearman_macro,0.860231755424063,0.8233504760614498,0.8789744281313155,recipe_record,1000,real_holdout

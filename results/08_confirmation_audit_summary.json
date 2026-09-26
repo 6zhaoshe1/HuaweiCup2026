@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-09-23T20:08:05+08:00",
+  "source": "E:\\读研\\26届数学建模比赛\\第二十三届中国研究生数学建模竞赛 - 中文题目\\中文题目\\F题.zip",
+  "safety_boundary": "只读F题.zip数据附件；未读取或解析原始数据说明PDF",
+  "quality_fields_expected": 22,
+  "quality_fields_profiled": 22,
+  "quality_datasets": {
+    "A1": "real_attachments/A_data_value/slimpajama_quality_signal_sample.jsonl.xz",
+    "A2": "real_attachments/A_data_value/slimpajama_quality_extended/arxiv_part-6777d8857c6e-000486.jsonl.xz",
+    "A3": "real_attachments/A_data_value/slimpajama_quality_extended/github_part-6777d8857c6e-000275.jsonl.xz"
+  },
+  "loss_tables_profiled": 14,
+  "outputs": [
+    "results\\06_quality_metric_profile.csv",
+    "results\\07_loss_compatibility_checks.csv",
+    "code\\outputs\\01_confirmation_audit.log"
+  ]
+}

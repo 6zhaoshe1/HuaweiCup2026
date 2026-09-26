@@ -1,0 +1,21 @@
+position,field,family,transform,role,evidence_level
+1,fineweb_edu,内容价值,A1 ECDF，正向,q,metadata
+2,fluency_en,语言质量,正类-负类 logit margin 后 A1 ECDF,q,metadata
+3,modernbert_cleanliness,清洁度,softmax 期望等级后 A1 ECDF；未校准,q,metadata
+4,modernbert_readability,语言质量,softmax 期望等级后 A1 ECDF；未校准,q,metadata
+5,modernbert_reasoning,推理专业,softmax 期望等级后 A1 ECDF；未校准,q,metadata
+6,modernbert_professionalism,推理专业,softmax 期望等级后 A1 ECDF；未校准,q,metadata
+7,qurater,四评价头,四位置分别 A1 ECDF，不作 argmax,q,metadata
+8,ad_en,清洁度,无广告-含广告 logit margin 后 A1 ECDF,q,metadata
+9,dsir_books/wiki/math,目标域相似度,先除以词数，再在域内对 ln(word_count) 残差化；残差为主口径,auxiliary,metadata
+10,rps_doc_word_count,结构,仅长度带和异常检测,structure,metadata
+11,rps_doc_num_sentences,结构,仅异常检测,structure,metadata
+12,rps_doc_unigram_entropy,语言形态,域内长度带 ECDF，温和正向,q,metadata
+13,rps_doc_frac_unique_words,语言形态,域内长度带 ECDF，温和正向,q,metadata
+14,rps_doc_frac_no_alph_words,域条件形态,域内长度带典型性,q,metadata
+15,rps_doc_frac_chars_top_2gram,重复,域内长度带反向 ECDF,q,metadata
+16,rps_doc_frac_chars_top_3gram,重复,域内长度带反向 ECDF,q,metadata
+17,rps_lines_uppercase_letter_fraction,域条件形态,域内长度带典型性,q,metadata
+18,rps_lines_ending_with_terminal_punctution_mark,语言形态,域内长度带 ECDF，温和正向,q,metadata
+19,rps_lines_numerical_chars_fraction,域条件形态,域内长度带典型性,q,metadata
+20,rps_doc_mean_word_length,结构,仅异常检测,structure,metadata

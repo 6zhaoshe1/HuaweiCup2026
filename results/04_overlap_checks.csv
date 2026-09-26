@@ -1,0 +1,33 @@
+﻿check,left_count,right_count,overlap_count,status,interpretation
+A1-A2 record-id overlap,51230,17523,1419,risk,A2/A3不含原文，按id全量核对；同id不得跨独立验证折
+A1-A3 record-id overlap,51230,203752,10000,risk,A2/A3不含原文，按id全量核对；同id不得跨独立验证折
+A2-A3 record-id overlap,17523,203752,0,pass,A2/A3不含原文，按id全量核对；同id不得跨独立验证折
+A4-A5 index pairing,512,512,512,pass,配比表与Loss表应按index一一对应
+A6-A7 index pairing,256,256,256,pass,配比表与Loss表应按index一一对应
+A8-A9 index pairing,256,256,256,pass,配比表与Loss表应按index一一对应
+A10-A11 index pairing,64,64,64,pass,配比表与Loss表应按index一一对应
+A12-A13 index pairing,63,63,63,pass,配比表与Loss表应按index一一对应
+A14-A15 index pairing,63,63,63,pass,配比表与Loss表应按index一一对应
+A4-A6 index-label overlap,512,256,256,label_reuse_not_evidence,index是各表局部编号，重号本身不证明样本重叠；以17维配比向量复核
+A4-A8 index-label overlap,512,256,256,label_reuse_not_evidence,index是各表局部编号，重号本身不证明样本重叠；以17维配比向量复核
+A4-A10 index-label overlap,512,64,63,label_reuse_not_evidence,index是各表局部编号，重号本身不证明样本重叠；以17维配比向量复核
+A4-A12 index-label overlap,512,63,63,label_reuse_not_evidence,index是各表局部编号，重号本身不证明样本重叠；以17维配比向量复核
+A4-A14 index-label overlap,512,63,63,label_reuse_not_evidence,index是各表局部编号，重号本身不证明样本重叠；以17维配比向量复核
+A4 simplex row-sum,512,,303,risk,"17域配比和应为1；min=0.996, max=1.003"
+A6 simplex row-sum,256,,133,risk,"17域配比和应为1；min=0.997, max=1.003"
+A8 simplex row-sum,256,,133,risk,"17域配比和应为1；min=0.997, max=1.003"
+A10 simplex row-sum,64,,30,risk,"17域配比和应为1；min=0.998, max=1.002"
+A12 simplex row-sum,63,,37,risk,"17域配比和应为1；min=0.998, max=1.002"
+A14 simplex row-sum,63,,37,risk,"17域配比和应为1；min=0.998, max=1.002"
+A4-A6 exact mixture-vector overlap,512,256,0,pass,A6/A8与A12/A14按题面是相同配比在不同模型尺度的成对数据；其他跨训练/检验重复需隔离
+A4-A8 exact mixture-vector overlap,512,256,0,pass,A6/A8与A12/A14按题面是相同配比在不同模型尺度的成对数据；其他跨训练/检验重复需隔离
+A4-A10 exact mixture-vector overlap,512,64,0,pass,A6/A8与A12/A14按题面是相同配比在不同模型尺度的成对数据；其他跨训练/检验重复需隔离
+A4-A12 exact mixture-vector overlap,512,63,63,risk,A6/A8与A12/A14按题面是相同配比在不同模型尺度的成对数据；其他跨训练/检验重复需隔离
+A4-A14 exact mixture-vector overlap,512,63,63,risk,A6/A8与A12/A14按题面是相同配比在不同模型尺度的成对数据；其他跨训练/检验重复需隔离
+A6-A8 exact mixture-vector overlap,256,256,256,expected_scale_pair,A6/A8与A12/A14按题面是相同配比在不同模型尺度的成对数据；其他跨训练/检验重复需隔离
+A12-A14 exact mixture-vector overlap,63,63,63,expected_scale_pair,A6/A8与A12/A14按题面是相同配比在不同模型尺度的成对数据；其他跨训练/检验重复需隔离
+C1-C2 normalized model overlap,4492,4492,4492,expected_join_but_split_risk,跨表连接所需；建模切分时同模型/同族不得跨折，C1与C2/C9不得重复计样本
+C1-C3 normalized model overlap,4492,4515,4489,expected_join_but_split_risk,跨表连接所需；建模切分时同模型/同族不得跨折，C1与C2/C9不得重复计样本
+C1-C4 normalized model overlap,4492,3487,1,expected_join_but_split_risk,跨表连接所需；建模切分时同模型/同族不得跨折，C1与C2/C9不得重复计样本
+C5-C6 normalized model overlap,43,75,43,expected_join_but_split_risk,跨表连接所需；建模切分时同模型/同族不得跨折，C1与C2/C9不得重复计样本
+C1-C7 normalized model overlap,4492,44,37,expected_join_but_split_risk,跨表连接所需；建模切分时同模型/同族不得跨折，C1与C2/C9不得重复计样本

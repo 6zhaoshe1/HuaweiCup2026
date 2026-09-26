@@ -1,0 +1,108 @@
+{
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "executable": "C:\\Users\\16669\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "scipy": "1.15.3",
+  "sklearn": "1.7.2",
+  "seed": 42,
+  "B_input_members": [
+    {
+      "zip_member": "real_attachments/B_scaling_laws/cerebras_training_log.csv",
+      "bytes": 89643,
+      "sha256": "178f878cad2cb31e4ec104c670553de23818197876d824a113fdb911125951a6"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/open_model_family_metadata.csv",
+      "bytes": 1975,
+      "sha256": "641682f0ea6c46f25a0188ac723af44e0bc2e27c760e744743a15e97e29ee064"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/published_scaling_data.csv",
+      "bytes": 1967,
+      "sha256": "dd858c5e48610e28589340d5db023d6abfb31df597506789ccdfc6a546731bbd"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/pythia_checkpoint_index.csv",
+      "bytes": 117698,
+      "sha256": "0f7f63535cbc1bbef5165776562e71401af9f762cfe02aaea30c824f45fbc9ed"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/pythia_training_log_existing.csv",
+      "bytes": 111459,
+      "sha256": "529a59644b0f57bf3a76037838b614bfedc35e58bb26b93052e34ffc63e454c2"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/scaling_baseline.csv",
+      "bytes": 1421,
+      "sha256": "2272983ded93de35e05f9acbf95ebceedf43f283345e4be72b54fee94080391e"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/supplementary_large_baseline.csv",
+      "bytes": 4744,
+      "sha256": "a240e210c5b37444356c28eea96c6cc36be79c29baae1621c2e08aff727ccfeb"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/supplementary_large_models.csv",
+      "bytes": 13400,
+      "sha256": "ee794c1c586ed33c485a9eb9a2a3d993790402b63297e9b2765a1387930e940e"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/supplementary_NQ_experiment.csv",
+      "bytes": 13670,
+      "sha256": "c7450ce0d67d8692535fef4709e60e2da60b2c184738bf96df160a4be0a33a7f"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/supplementary_NQ_experiment_expanded.csv",
+      "bytes": 17154,
+      "sha256": "880fd265ca3e1d9bc93b4559af7ed7c18f89040634266c50bae03d88486e0f3a"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/supplementary_NQ_experiment_large.csv",
+      "bytes": 81268,
+      "sha256": "bda0d449f75c73bbd04141e5cffbf4bea7002073e34b7fa95a638570fa095ffe"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/training_trajectories/pythia_0.070542B_trajectory.csv",
+      "bytes": 14040,
+      "sha256": "19663f2f14d62af377377962ec8f794148450bfb278fdbeb2452f4641fe6a440"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/training_trajectories/pythia_0.162405B_trajectory.csv",
+      "bytes": 14040,
+      "sha256": "8e2b78cde966b0a3e8b6272935c3f3dcccc5a54e94bb7db79ded2fd8fdf5a124"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/training_trajectories/pythia_0.409009B_trajectory.csv",
+      "bytes": 14040,
+      "sha256": "8c803195d475d8ff320afd90887ae48cec6463f4d01a2264c6680611ed9db170"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/training_trajectories/pythia_1.040867B_trajectory.csv",
+      "bytes": 14040,
+      "sha256": "bb73b2852db183bee3d76c76f55e2bdcc292d7ed0881cb27966525b56afcafc0"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/training_trajectories/pythia_1.416184B_trajectory.csv",
+      "bytes": 14040,
+      "sha256": "cd0d718747fb6048cb474066dbf35f64ef852f59cba2886484cbdf14bc68a02f"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/training_trajectories/pythia_11.965825B_trajectory.csv",
+      "bytes": 14540,
+      "sha256": "e223b3d48bc4fef3cbc03fd583ff7aef87e474903d829f6c417310cb99fa7b5e"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/training_trajectories/pythia_2.782831B_trajectory.csv",
+      "bytes": 14040,
+      "sha256": "552f03249b69234009eb028b3296d6bd1b1cb3a52c0d3a84a669baa0e3179482"
+    },
+    {
+      "zip_member": "real_attachments/B_scaling_laws/training_trajectories/pythia_6.86104B_trajectory.csv",
+      "bytes": 13540,
+      "sha256": "8814c8414fddc914444c74e6cf8da02e3e156a0d7fb8acea6c5da05e438bf054"
+    }
+  ],
+  "evidence_level": "metadata"
+}

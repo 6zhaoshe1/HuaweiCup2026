@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "checks": {
+    "tutorial_23_files": true,
+    "tutorial_hashes_match": true,
+    "semantic_positions_complete": true,
+    "dsir_not_quality": true,
+    "length_not_quality": true,
+    "external_metrics_max_abs_diff": 1.7053025658242404e-13,
+    "external_metrics_match": true,
+    "cv_selection_reproduced": true,
+    "selected_model_confirmed_on_a6": true,
+    "active_model_set_is_frozen": true,
+    "benchmark_has_16_rows": true,
+    "per_domain_alpha_removed": true,
+    "conflict_rate_bounded": true,
+    "conditional_conflict_subset_of_global": true,
+    "conflict_calibration_has_all_groups": true,
+    "dual_effect_cell_count": true,
+    "dual_overall_rank_match": true,
+    "dual_overall_sign_match": true,
+    "dual_material_sign_match": true,
+    "quadratic_interaction_cells_complete": true,
+    "quadratic_interaction_ci_ordered": true,
+    "eleven_png_and_pdf_pairs": true
+  }
+}

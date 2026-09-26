@@ -1,0 +1,2 @@
+﻿model,status,reason,evidence_level
+ilr_per_domain_alpha,deprecated_not_in_active_dual_model,historical OOF/A6 improvement below 0.1%; retained only as audit note,metadata

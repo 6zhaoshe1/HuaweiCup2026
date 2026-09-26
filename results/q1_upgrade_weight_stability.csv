@@ -1,0 +1,9 @@
+﻿scope,method,spearman_vs_huber_definition,mean_abs_difference_vs_huber,evidence_level
+A1,equal,0.9877519375582936,0.01894634031613305,real_observational
+A1,entropy,0.9874051964040321,0.018955839332952053,real_observational
+A1,critic,0.9849515170782952,0.02122395662043268,real_observational
+A1,geometric,0.9865445353231761,0.019823016341089107,real_observational
+pooled_unique,equal,0.9798901790274177,0.021877531457567906,real_observational
+pooled_unique,entropy,0.9791762572454963,0.02204692584911506,real_observational
+pooled_unique,critic,0.9742368637243258,0.02431474511339498,real_observational
+pooled_unique,geometric,0.9771141624244267,0.022991671312647646,real_observational

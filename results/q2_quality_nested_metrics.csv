@@ -1,0 +1,2 @@
+﻿protocol,model,n,mae,rmse,r2,spearman,bias,log_rmse,evidence_level,limitation
+5 outer ND / 4 inner ND,entire_six_candidate_selection,450,0.04866062532537057,0.06282562509812763,0.9659840269555267,0.9846977645283894,0.0020323439586167266,0.023244881729816123,semi_synthetic,"retrospective; fixed B1 fit, unknown shared generator dependence"

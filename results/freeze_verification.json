@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "missing": [],
+  "interfaces": 4,
+  "figures": 16,
+  "claims": 8,
+  "formulas": 9,
+  "q4_complete_windows": {
+    "30": 9,
+    "60": 8
+  },
+  "q4_formal_metrics": [
+    {
+      "model": "legacy_record_iid",
+      "evaluation_subset": "formal_complete_30d",
+      "cases": 9,
+      "mae": 3.115481142617471,
+      "mae_update_cases": 4.223852755957952,
+      "coverage90": 0.7777777777777778,
+      "mean_interval_width90": 7.72047510587837,
+      "mean_interval_score90": 8.86715181405531
+    },
+    {
+      "model": "legacy_record_iid",
+      "evaluation_subset": "formal_complete_60d",
+      "cases": 8,
+      "mae": 3.834758487805982,
+      "mae_update_cases": 5.1130113170746405,
+      "coverage90": 0.75,
+      "mean_interval_width90": 8.958821097343403,
+      "mean_interval_score90": 12.42260538425371
+    }
+  ],
+  "q4_historical_forecast": [
+    {
+      "scenario": "historical_trend",
+      "compute_growth_factor": 1.0,
+      "horizon_months": 12,
+      "forecast_date": "2026-03-13",
+      "model": "frozen_family_balanced_record_process",
+      "paths": 5000,
+      "current_frontier": 51.23132307602696,
+      "p05": 55.66495257285811,
+      "p50": 62.41592617926098,
+      "p95": 67.19224908224643,
+      "probability_frontier_update": 0.9962,
+      "logN_shift_per_year": 0.4479540919893366,
+      "evidence_level": "conditional_scenario_extrapolation"
+    },
+    {
+      "scenario": "historical_trend",
+      "compute_growth_factor": 1.0,
+      "horizon_months": 24,
+      "forecast_date": "2027-03-13",
+      "model": "frozen_family_balanced_record_process",
+      "paths": 5000,
+      "current_frontier": 51.23132307602696,
+      "p05": 62.75085763999833,
+      "p50": 68.08922118591576,
+      "p95": 72.63339670392462,
+      "probability_frontier_update": 1.0,
+      "logN_shift_per_year": 0.4479540919893366,
+      "evidence_level": "conditional_scenario_extrapolation"
+    }
+  ],
+  "unresolved": [
+    "Q1 two-rater blinded descriptive face-validity review is not completed",
+    "Q2 absolute A/B Loss mapping and mixture-response magnitude remain unidentified",
+    "Q4 5%-95% interval coverage is below nominal 90%; use conditional-scenario wording",
+    "paper page/reference/AI declaration/template/render gates remain for the writing stage"
+  ]
+}

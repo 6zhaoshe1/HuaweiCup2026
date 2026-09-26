@@ -1,0 +1,67 @@
+{
+  "passed": 12,
+  "total": 12,
+  "all_passed": true,
+  "checks": [
+    {
+      "check": "contract_has_six_rows",
+      "passed": true,
+      "detail": "rows=6"
+    },
+    {
+      "check": "all_pdf_png_exist",
+      "passed": true,
+      "detail": "all declared PDF/PNG files must exceed 1 kB"
+    },
+    {
+      "check": "pdf_png_signatures",
+      "passed": true,
+      "detail": "magic bytes checked independently"
+    },
+    {
+      "check": "q1_facets_valid",
+      "passed": true,
+      "detail": "domains=7, range=[0.3248, 0.9797]"
+    },
+    {
+      "check": "q1_relative_rmse_identity",
+      "passed": true,
+      "detail": "each data column has relative best RMSE exactly 1"
+    },
+    {
+      "check": "q2_intervals_contain_point",
+      "passed": true,
+      "detail": "alpha, beta and kappa point estimates lie inside stored intervals"
+    },
+    {
+      "check": "q2_compute_identity",
+      "passed": true,
+      "detail": "max relative residual=3.664e-15"
+    },
+    {
+      "check": "q3_paths_feasible",
+      "passed": true,
+      "detail": "rows=726, max utilization=1.000000000"
+    },
+    {
+      "check": "q4_frontier_monotone",
+      "passed": true,
+      "detail": "rows=494, final=51.231323"
+    },
+    {
+      "check": "q4_forecast_quantiles_ordered",
+      "passed": true,
+      "detail": "rows=24"
+    },
+    {
+      "check": "q4_decomposition_closes",
+      "passed": true,
+      "detail": "max absolute closure error=0.000e+00"
+    },
+    {
+      "check": "q4_bh_statement_matches_table",
+      "passed": true,
+      "detail": "tasks=39, significant_positive_bh=0"
+    }
+  ]
+}

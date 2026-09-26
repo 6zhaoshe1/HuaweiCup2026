@@ -1,0 +1,7 @@
+mixture_id,loss_id,rows,key,one_to_one,max_abs_simplex_error,negative_value_count,missing_mixture,missing_loss,evidence_level
+A4,A5,512,index,True,0.0039999999999998925,0,0,0,real_holdout
+A6,A7,256,index,True,0.0030000000000001137,0,0,0,real_holdout
+A8,A9,256,index,True,0.0030000000000001137,0,0,0,real_holdout
+A10,A11,64,index,True,0.0020000000000000018,0,0,0,real_holdout
+A12,A13,63,index,True,0.002000000000000224,0,0,0,extrapolated
+A14,A15,63,index,True,0.002000000000000224,0,0,0,extrapolated

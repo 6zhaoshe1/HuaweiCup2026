@@ -1,0 +1,3 @@
+﻿figure,result_source,assertion,evidence_level
+q2_11_source_heldout.pdf,q2_source_heldout_metrics.csv;q2_source_calibration_summary.csv,Same-source in-sample affine fit does not imply family/source holdout performance,metadata
+q2_12_nested_residuals.pdf,q2_quality_nested_predictions.csv,Entire Q selection procedure evaluated in outer folds; semi-synthetic and retrospective,metadata

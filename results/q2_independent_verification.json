@@ -1,0 +1,89 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "check": "independent_log_Huber_objective",
+      "pass": true,
+      "original_cost": 1.6977341386590884e-06,
+      "independent_cost": 1.697734138659287e-06,
+      "max_prediction_difference": 1.5275780640422454e-11
+    },
+    {
+      "check": "independent_quality_Huber_optimum",
+      "pass": true,
+      "original_k": 0.47754320017108975,
+      "independent_k": 0.4775432000734602,
+      "gradient": 3.018889102460523e-10,
+      "objective_gap": -3.469446951953614e-17
+    },
+    {
+      "check": "OLS_is_comparator_not_correctness_test",
+      "pass": true,
+      "ols_k": 0.4599713060909819,
+      "log_huber_k": 0.47754320017108975,
+      "note": "different objectives; no arbitrary 0.03 acceptance rule"
+    },
+    {
+      "check": "B6_subset_B7",
+      "pass": true,
+      "overlap": 360
+    },
+    {
+      "check": "nested_450_predictions_metric_and_truth",
+      "pass": true,
+      "rmse": 0.06282562509812763,
+      "r2": 0.9659840269555267
+    },
+    {
+      "check": "split_manifest_separation",
+      "pass": true,
+      "failures": [],
+      "assignment_rows": 29276
+    },
+    {
+      "check": "interface_rejects_invalid_inputs",
+      "pass": true,
+      "unexpected_acceptances": []
+    },
+    {
+      "check": "analytic_derivatives_including_Q_boundary",
+      "pass": true,
+      "max_difference": 3.405214998863926e-11
+    },
+    {
+      "check": "frozen_A4_bridge_and_explicit_scenario",
+      "pass": true
+    },
+    {
+      "check": "analytic_limit_and_unattainable_cases",
+      "pass": true,
+      "statuses": [
+        "infinite_limit",
+        "unattainable"
+      ]
+    },
+    {
+      "check": "equivalent_N_loss_identity",
+      "pass": true,
+      "max_error": 4.440892098500626e-16
+    },
+    {
+      "check": "box_optimum_feasibility_and_dense_grid",
+      "pass": true,
+      "maximum_loss_above_grid": 0.0
+    },
+    {
+      "check": "bootstrap_formal_objective_and_success",
+      "pass": true,
+      "success": 300,
+      "total": 300
+    }
+  ],
+  "scope": "independent numerical implementation / author self-audit; not external scientific review",
+  "unresolved": [
+    "Q1 to B7 mapping",
+    "eta_p identification",
+    "cross-source Loss semantics",
+    "unknown semi-synthetic generator dependence"
+  ]
+}

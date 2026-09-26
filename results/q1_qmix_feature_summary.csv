@@ -1,0 +1,7 @@
+dataset,mapped_coverage_min,mapped_coverage_median,mapped_coverage_max,mapped_q_mean,evidence_level
+A4_A5_train,0.0,0.5995,1.0,0.5549732352173145,real_observational
+A6_A7_1m,0.001,0.583,1.0,0.5480686684151455,real_holdout
+A8_A9_60m,0.001,0.583,1.0,0.5480686684151455,real_holdout
+A10_A11_1b,0.138,0.647,0.888,0.5697657841069503,real_holdout
+A12_A13_10b,0.003,0.5720000000000001,1.0,0.5592793232605764,extrapolated
+A14_A15_70b,0.003,0.5720000000000001,1.0,0.5592793232605764,extrapolated

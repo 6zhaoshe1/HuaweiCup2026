@@ -1,0 +1,7 @@
+figure,source,transform,claim,evidence_level
+q1_quality_by_domain.pdf,results/q1_quality_scores.csv.gz,按ID去重后按域箱线图,各域定义性质量分分布不同,real_observational
+q1_sample_extension_comparison.pdf,results/q1_quality_scores.csv.gz,A1与A2/A3同域密度对照,抽样与扩展集的差异不能只靠均值判断,real_observational
+q1_family_conflict_hexbin.pdf,results/q1_quality_scores.csv.gz,全量样本二维计数,语义与形态评价存在结构性分歧,real_observational
+q1_same_scale_prediction.pdf,results/q1_predictions.csv.gz,A6/A7全域预测散点,冻结配比模型的同尺度预测误差,real_holdout
+q1_cross_scale_metrics.pdf,results/q1_model_metrics.csv,跨尺度宏平均,区分绝对Loss漂移与排序保持,real_holdout
+q1_domain_substitution_effects.pdf,results/q1_domain_effects.csv,其余域按比例缩减的模型内情景,领域替代关联具有目标域差异,model_scenario

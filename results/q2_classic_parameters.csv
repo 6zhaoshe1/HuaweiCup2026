@@ -1,0 +1,2 @@
+﻿E,A,alpha,B,beta,model,success,cost,optimality,jacobian_condition,nfev,active_bounds,restart_selection,evidence_level
+1.6898377701724516,0.35396872032343074,0.3399854249374161,1.240274629904435,0.2798924654948758,log_huber,True,1.6977341386590884e-06,3.133225445142752e-08,1176.8879611478083,36,0,minimum_Huber_cost,real_observational

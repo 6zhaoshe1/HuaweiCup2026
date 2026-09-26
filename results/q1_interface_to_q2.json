@@ -1,0 +1,464 @@
+{
+  "schema": "f_q1_to_q2/v1",
+  "generated_at": "2026-09-23T23:34:22+08:00",
+  "seed": 42,
+  "source_zip_sha256": "368b78d5ff616983e567743036fc470481e4b97ba59ed995de8ea37d6d42b429",
+  "quality_contract": {
+    "status": "definition_based_relative_score_not_independent_ground_truth",
+    "primary_sample_score": "q_definition_robust",
+    "reference_distribution": "A1 empirical distributions; applied unchanged to A2/A3",
+    "facets": [
+      "content_value",
+      "language_quality",
+      "cleanliness",
+      "reasoning_professional"
+    ],
+    "scalar_q_for_scaling_law": "not_identified_in_q1; calibration deferred to Q2",
+    "dsir_role": "target-domain similarity only; excluded from generic quality score",
+    "modernbert_note": "six-class expected grade and binary logit margins are uncalibrated scores",
+    "domain_quality": [
+      {
+        "domain": "arxiv",
+        "n": 17523,
+        "q_robust_mean": 0.778997702,
+        "q_document_mean_ci_low": 0.7782427035,
+        "q_document_mean_ci_high": 0.7800087865,
+        "q_length_weighted_mean": 0.7789762955,
+        "high_conflict_rate": 0.0675112709,
+        "measurement_anomaly_rate": 0.0094732637,
+        "facet_content_value_robust": 0.8552277706,
+        "facet_language_quality_robust": 0.6882870568,
+        "facet_cleanliness_robust": 0.5928071982,
+        "facet_reasoning_professional_robust": 0.9796687822,
+        "evidence_level": "real_observational"
+      },
+      {
+        "domain": "book",
+        "n": 171,
+        "q_robust_mean": 0.5251430161,
+        "q_document_mean_ci_low": 0.5088983973,
+        "q_document_mean_ci_high": 0.5450906745,
+        "q_length_weighted_mean": 0.552625457,
+        "high_conflict_rate": 0.0,
+        "measurement_anomaly_rate": 0.0116959064,
+        "facet_content_value_robust": 0.5031869403,
+        "facet_language_quality_robust": 0.5884390339,
+        "facet_cleanliness_robust": 0.507565692,
+        "facet_reasoning_professional_robust": 0.5013803981,
+        "evidence_level": "real_observational"
+      },
+      {
+        "domain": "c4",
+        "n": 10000,
+        "q_robust_mean": 0.4863915002,
+        "q_document_mean_ci_low": 0.4830449565,
+        "q_document_mean_ci_high": 0.4894500394,
+        "q_length_weighted_mean": 0.5454495854,
+        "high_conflict_rate": 0.0301,
+        "measurement_anomaly_rate": 0.0016,
+        "facet_content_value_robust": 0.4812875853,
+        "facet_language_quality_robust": 0.6549848544,
+        "facet_cleanliness_robust": 0.4845301622,
+        "facet_reasoning_professional_robust": 0.3247633989,
+        "evidence_level": "real_observational"
+      },
+      {
+        "domain": "commoncrawl",
+        "n": 9640,
+        "q_robust_mean": 0.528311738,
+        "q_document_mean_ci_low": 0.5255919983,
+        "q_document_mean_ci_high": 0.5312307177,
+        "q_length_weighted_mean": 0.5478078835,
+        "high_conflict_rate": 0.0350622407,
+        "measurement_anomaly_rate": 0.0023858921,
+        "facet_content_value_robust": 0.5800261861,
+        "facet_language_quality_robust": 0.6026829822,
+        "facet_cleanliness_robust": 0.490035166,
+        "facet_reasoning_professional_robust": 0.4405026176,
+        "evidence_level": "real_observational"
+      },
+      {
+        "domain": "github",
+        "n": 203752,
+        "q_robust_mean": 0.4415938757,
+        "q_document_mean_ci_low": 0.4410603813,
+        "q_document_mean_ci_high": 0.4420735155,
+        "q_length_weighted_mean": 0.4735013541,
+        "high_conflict_rate": 0.011268601,
+        "measurement_anomaly_rate": 0.0044073187,
+        "facet_content_value_robust": 0.3609808848,
+        "facet_language_quality_robust": 0.3612887223,
+        "facet_cleanliness_robust": 0.409883206,
+        "facet_reasoning_professional_robust": 0.6342226899,
+        "evidence_level": "real_observational"
+      },
+      {
+        "domain": "stackexchange",
+        "n": 10000,
+        "q_robust_mean": 0.5640504313,
+        "q_document_mean_ci_low": 0.5621632317,
+        "q_document_mean_ci_high": 0.5659276655,
+        "q_length_weighted_mean": 0.5856182583,
+        "high_conflict_rate": 0.0249,
+        "measurement_anomaly_rate": 0.0141,
+        "facet_content_value_robust": 0.576613869,
+        "facet_language_quality_robust": 0.4440130994,
+        "facet_cleanliness_robust": 0.5389382479,
+        "facet_reasoning_professional_robust": 0.696636509,
+        "evidence_level": "real_observational"
+      },
+      {
+        "domain": "wikipedia",
+        "n": 10000,
+        "q_robust_mean": 0.4509909428,
+        "q_document_mean_ci_low": 0.4477151441,
+        "q_document_mean_ci_high": 0.4536945983,
+        "q_length_weighted_mean": 0.5505041948,
+        "high_conflict_rate": 0.0168,
+        "measurement_anomaly_rate": 0.0023,
+        "facet_content_value_robust": 0.4522699341,
+        "facet_language_quality_robust": 0.4981446589,
+        "facet_cleanliness_robust": 0.4906521855,
+        "facet_reasoning_professional_robust": 0.3628969926,
+        "evidence_level": "real_observational"
+      }
+    ]
+  },
+  "composition_contract": {
+    "training_data": "A4+A5; 512 recipes; 17-part simplex",
+    "selected_model": "ilr_ridge",
+    "transform": "ILR after multiplicative zero replacement and row closure",
+    "zero_replacement_delta": 0.0001,
+    "ridge_alpha": 1.0,
+    "validation": [
+      {
+        "dataset": "A4_A5_oof",
+        "model": "ilr_ridge",
+        "n": 512,
+        "mae": 0.2854568995,
+        "rmse": 0.3680099336,
+        "r2": 0.7389540519,
+        "spearman": 0.8757400862,
+        "bias_pred_minus_true": 0.0025742091,
+        "evidence_level": "real_observational"
+      },
+      {
+        "dataset": "A6_A7_1m",
+        "model": "ilr_ridge",
+        "n": 256,
+        "mae": 0.2632081993,
+        "rmse": 0.3271448677,
+        "r2": 0.7636990118,
+        "spearman": 0.889726515,
+        "bias_pred_minus_true": 0.0568601073,
+        "evidence_level": "real_holdout"
+      },
+      {
+        "dataset": "A6_A7_1m",
+        "model": "ilr_ridge_plus_qmix",
+        "n": 256,
+        "mae": 0.2549293293,
+        "rmse": 0.3177359618,
+        "r2": 0.7786337232,
+        "spearman": 0.897870101,
+        "bias_pred_minus_true": 0.0536965365,
+        "evidence_level": "real_holdout"
+      },
+      {
+        "dataset": "A8_A9_60m",
+        "model": "ilr_ridge",
+        "n": 256,
+        "mae": 1.5190837209,
+        "rmse": 1.5600657012,
+        "r2": -7.9697482698,
+        "spearman": 0.8859435247,
+        "bias_pred_minus_true": 1.516230896,
+        "evidence_level": "real_holdout"
+      },
+      {
+        "dataset": "A8_A9_60m",
+        "model": "ilr_ridge_plus_qmix",
+        "n": 256,
+        "mae": 1.5158760999,
+        "rmse": 1.5542442995,
+        "r2": -7.9061645689,
+        "spearman": 0.8944035336,
+        "bias_pred_minus_true": 1.5130673252,
+        "evidence_level": "real_holdout"
+      },
+      {
+        "dataset": "A10_A11_1b",
+        "model": "ilr_ridge",
+        "n": 64,
+        "mae": 2.9521520985,
+        "rmse": 2.9748641037,
+        "r2": -605.5880260887,
+        "spearman": 0.8602317554,
+        "bias_pred_minus_true": 2.9521520985,
+        "evidence_level": "real_holdout"
+      },
+      {
+        "dataset": "A10_A11_1b",
+        "model": "ilr_ridge_plus_qmix",
+        "n": 64,
+        "mae": 2.9604662673,
+        "rmse": 2.9823753935,
+        "r2": -611.8476891212,
+        "spearman": 0.8786630037,
+        "bias_pred_minus_true": 2.9604662673,
+        "evidence_level": "real_holdout"
+      },
+      {
+        "dataset": "A12_A13_10b",
+        "model": "ilr_ridge",
+        "n": 63,
+        "mae": 3.5579044269,
+        "rmse": 3.5940595952,
+        "r2": -235.2217080895,
+        "spearman": 0.6977878265,
+        "bias_pred_minus_true": 3.5570443019,
+        "evidence_level": "extrapolated"
+      },
+      {
+        "dataset": "A12_A13_10b",
+        "model": "ilr_ridge_plus_qmix",
+        "n": 63,
+        "mae": 3.5554127445,
+        "rmse": 3.5906102902,
+        "r2": -234.9398300331,
+        "spearman": 0.7019899329,
+        "bias_pred_minus_true": 3.5548095585,
+        "evidence_level": "extrapolated"
+      },
+      {
+        "dataset": "A14_A15_70b",
+        "model": "ilr_ridge",
+        "n": 63,
+        "mae": 3.9405014965,
+        "rmse": 3.9795872025,
+        "r2": -382.9131158858,
+        "spearman": 0.6345808766,
+        "bias_pred_minus_true": 3.9399573666,
+        "evidence_level": "extrapolated"
+      },
+      {
+        "dataset": "A14_A15_70b",
+        "model": "ilr_ridge_plus_qmix",
+        "n": 63,
+        "mae": 3.9380098141,
+        "rmse": 3.9761706683,
+        "r2": -382.4948488514,
+        "spearman": 0.6375699432,
+        "bias_pred_minus_true": 3.9377226232,
+        "evidence_level": "extrapolated"
+      },
+      {
+        "dataset": "A10_A11_1b",
+        "model": "ilr_ridge_logN_offset",
+        "n": 64,
+        "mae": 0.6399164551,
+        "rmse": 0.6842553898,
+        "r2": -18.891175035,
+        "spearman": 0.8602317554,
+        "bias_pred_minus_true": 0.494876395,
+        "evidence_level": "real_holdout"
+      },
+      {
+        "dataset": "A12_A13_10b",
+        "model": "ilr_ridge_logN_offset",
+        "n": 63,
+        "mae": 0.855287976,
+        "rmse": 0.9480915863,
+        "r2": -20.2121716839,
+        "spearman": 0.6977878265,
+        "bias_pred_minus_true": 0.2806766972,
+        "evidence_level": "extrapolated"
+      },
+      {
+        "dataset": "A14_A15_70b",
+        "model": "ilr_ridge_logN_offset",
+        "n": 63,
+        "mae": 0.9169413204,
+        "rmse": 1.0370101141,
+        "r2": -32.4471011487,
+        "spearman": 0.6345808766,
+        "bias_pred_minus_true": -0.0286231983,
+        "evidence_level": "extrapolated"
+      }
+    ],
+    "supported_claim": "same-scale prediction and recipe ranking at 1M",
+    "unsupported_claims": [
+      "causal effect of changing a domain share",
+      "direct absolute-Loss transfer from 1M to larger scales",
+      "independent quality effect from qmix features"
+    ],
+    "effect_table": "results/q1_domain_effects.csv",
+    "parameter_table": "results/q1_model_parameters.csv"
+  },
+  "mapping_contract": {
+    "policy": "only direct/near mappings may enter qmix; unmapped mass retained as coverage",
+    "table": [
+      {
+        "mixture_domain": "arxiv",
+        "quality_domain": "arxiv",
+        "mapping_type": "direct",
+        "domain_q": 0.778997702,
+        "reliable_for_qmix": true,
+        "evidence_level": "metadata"
+      },
+      {
+        "mixture_domain": "freelaw",
+        "quality_domain": "(none)",
+        "mapping_type": "inferred",
+        "domain_q": null,
+        "reliable_for_qmix": false,
+        "evidence_level": "metadata"
+      },
+      {
+        "mixture_domain": "nih_exporter",
+        "quality_domain": "(none)",
+        "mapping_type": "inferred",
+        "domain_q": null,
+        "reliable_for_qmix": false,
+        "evidence_level": "metadata"
+      },
+      {
+        "mixture_domain": "pubmed_central",
+        "quality_domain": "(none)",
+        "mapping_type": "inferred",
+        "domain_q": null,
+        "reliable_for_qmix": false,
+        "evidence_level": "metadata"
+      },
+      {
+        "mixture_domain": "wikipedia_en",
+        "quality_domain": "wikipedia",
+        "mapping_type": "near_direct",
+        "domain_q": 0.4509909428,
+        "reliable_for_qmix": true,
+        "evidence_level": "metadata"
+      },
+      {
+        "mixture_domain": "dm_mathematics",
+        "quality_domain": "(none)",
+        "mapping_type": "inferred",
+        "domain_q": null,
+        "reliable_for_qmix": false,
+        "evidence_level": "metadata"
+      },
+      {
+        "mixture_domain": "github",
+        "quality_domain": "github",
+        "mapping_type": "direct",
+        "domain_q": 0.4415938757,
+        "reliable_for_qmix": true,
+        "evidence_level": "metadata"
+      },
+      {
+        "mixture_domain": "philpapers",
+        "quality_domain": "(none)",
+        "mapping_type": "inferred",
+        "domain_q": null,
+        "reliable_for_qmix": false,
+        "evidence_level": "metadata"
+      },
+      {
+        "mixture_domain": "stackexchange",
+        "quality_domain": "stackexchange",
+        "mapping_type": "direct",
+        "domain_q": 0.5640504313,
+        "reliable_for_qmix": true,
+        "evidence_level": "metadata"
+      },
+      {
+        "mixture_domain": "enron_emails",
+        "quality_domain": "(none)",
+        "mapping_type": "inferred",
+        "domain_q": null,
+        "reliable_for_qmix": false,
+        "evidence_level": "metadata"
+      },
+      {
+        "mixture_domain": "gutenberg_pg_19",
+        "quality_domain": "book",
+        "mapping_type": "near_direct",
+        "domain_q": 0.5251430161,
+        "reliable_for_qmix": true,
+        "evidence_level": "metadata"
+      },
+      {
+        "mixture_domain": "pile_cc",
+        "quality_domain": "commoncrawl",
+        "mapping_type": "near_direct",
+        "domain_q": 0.528311738,
+        "reliable_for_qmix": true,
+        "evidence_level": "metadata"
+      },
+      {
+        "mixture_domain": "ubuntu_irc",
+        "quality_domain": "(none)",
+        "mapping_type": "inferred",
+        "domain_q": null,
+        "reliable_for_qmix": false,
+        "evidence_level": "metadata"
+      },
+      {
+        "mixture_domain": "europarl",
+        "quality_domain": "(none)",
+        "mapping_type": "inferred",
+        "domain_q": null,
+        "reliable_for_qmix": false,
+        "evidence_level": "metadata"
+      },
+      {
+        "mixture_domain": "hackernews",
+        "quality_domain": "(none)",
+        "mapping_type": "inferred",
+        "domain_q": null,
+        "reliable_for_qmix": false,
+        "evidence_level": "metadata"
+      },
+      {
+        "mixture_domain": "pubmed_abstracts",
+        "quality_domain": "(none)",
+        "mapping_type": "inferred",
+        "domain_q": null,
+        "reliable_for_qmix": false,
+        "evidence_level": "metadata"
+      },
+      {
+        "mixture_domain": "uspto_backgrounds",
+        "quality_domain": "(none)",
+        "mapping_type": "inferred",
+        "domain_q": null,
+        "reliable_for_qmix": false,
+        "evidence_level": "metadata"
+      }
+    ],
+    "warning": "qmix is a deterministic function of composition and is not an independently varied quality treatment"
+  },
+  "loss_transfer_contract": {
+    "A_and_B": "independent; do not concatenate absolute Loss",
+    "permitted_transfer": [
+      "within-source recipe ranking",
+      "source-standardized composition effects",
+      "uncertainty and supported-domain metadata"
+    ],
+    "scale_diagnostic": "logN offset reduces level bias but leaves negative 1B R2; it is not a complete scaling law"
+  },
+  "provenance": {
+    "split_manifest": "results/split_manifest.csv.gz",
+    "quality_scores": "results/q1_quality_scores.csv.gz",
+    "indicator_manifest": "results/q1_indicator_transform_manifest.csv",
+    "model_metrics": "results/q1_model_metrics.csv",
+    "independent_verification": "results/q1_independent_verification.json",
+    "main_script": "code/q1_modeling.py",
+    "run_log": "code/outputs/q1_modeling.log"
+  },
+  "team_review_required": [
+    "sign off the subjective facet semantics and the definition-based scalar score",
+    "complete human labels in q1_manual_text_audit_sample.csv",
+    "decide how Q2 calibrates a scalar Q using B6-B8 without circular validation",
+    "retain source separation when transferring effects into the B-group model"
+  ]
+}

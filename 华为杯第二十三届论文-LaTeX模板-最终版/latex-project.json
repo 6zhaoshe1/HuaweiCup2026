@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "contest": "generic",
+  "main_tex": "main.tex",
+  "template": {
+    "path": "D:\\2华为杯\\_huawei_latex_source",
+    "source": "工作区附件3：“华为杯”第二十三届中国研究生数学建模竞赛论文模板.doc；附件2：“华为杯”第二十三届中国研究生数学建模竞赛论文格式规范.docx",
+    "version": "第二十三届（2026）",
+    "sha256": "5af093d27d1dd8baf74087f4d5f4a85c047fb75c7bf491a0bd4b97ffaac8ca50"
+  },
+  "template_files": {
+    "main.tex": "952d7c52cf6ca07a5ff804be793f7682ac97bec393d72c01bf5a433739da2afd",
+    "huawei-cup.cls": "fe2178f710d3810a30ee939184843ca4d02c5771db152ec5e63b4d26fe7d96ce",
+    "README.md": "2f75c7bb608b3997e1ac89581ed4f4d8a47b94368f777ecb1e86d71956818688",
+    "gmcm.bst": "cfd2ed609cfc7c7d5c2c2f4d84ee5f1a2300510cc22f5c3f6cf67d81e82ae03e",
+    "reference.bib": "f7e6976198cef1590ea48737dfd0e76612711a9d5408c22330ddf50d7982ca19",
+    "figures/cpgmcm.png": "68a755cae523448c27547280fc5dda2072f8a6fbc33c25e39f5a8b77d0bffa75",
+    "figures/cpipc.png": "213720f708b24199b06e59ba200aedba8e881b26295aec0e0476febe5b6bf8ad",
+    "figures/example-result.png": "c8b438e6565f0c38725e3c22fe3afc8599f6dbcf386252b7165bbf3d3eec9a7a",
+    "figures/huawei.jpg": "c5361862213c4119b650712551d447274c78897236d7b02d8c6cf6806dbccd2e",
+    "figures/xjtu-emblem.png": "0ea6368a850e46d92eb2b5e26d721f8244b05505229849b5be48c5219a38cbe7"
+  },
+  "resource_bindings": [],
+  "created_at": "2026-09-25T13:58:36.199934+00:00"
+}

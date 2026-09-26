@@ -1,0 +1,65 @@
+{
+  "status": "PASS",
+  "passed": 9,
+  "total": 9,
+  "checks": [
+    {
+      "check": "c9_metadata_shape",
+      "passed": true,
+      "detail": [
+        4576,
+        36
+      ]
+    },
+    {
+      "check": "c9_loaded_shape",
+      "passed": true,
+      "detail": [
+        4576,
+        36
+      ]
+    },
+    {
+      "check": "c9_fullname_matches_c1",
+      "passed": true,
+      "detail": 4576
+    },
+    {
+      "check": "c9_submission_date_matches_c1",
+      "passed": true,
+      "detail": 4576
+    },
+    {
+      "check": "c9_numeric_core_matches_c1_atol_1e-12",
+      "passed": true,
+      "detail": 7.105427357601002e-15
+    },
+    {
+      "check": "four_damaged_directories_identified",
+      "passed": true,
+      "detail": [
+        "DreadPoor_Winter_Dawn-8B-TIES",
+        "FINGU-AI_Chocolatine-Fusion-14B",
+        "Intel_neural-chat-7b-v3-3",
+        "L-RAGE_3_PRYMMAL-ECE-7B-SLERP-V1"
+      ]
+    },
+    {
+      "check": "all_damaged_directories_skipped",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "selected_directory_count",
+      "passed": true,
+      "detail": 1859
+    },
+    {
+      "check": "repair_decisions_all_skip",
+      "passed": true,
+      "detail": {
+        "skip_entire_directory_per_frozen_team_rule": 4
+      }
+    }
+  ]
+}

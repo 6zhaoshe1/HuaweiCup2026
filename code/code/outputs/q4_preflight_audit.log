@@ -1,0 +1,31 @@
+{
+  "status": "q4_preflight_complete_waiting_team_direction_confirmation",
+  "C1_rows": 4576,
+  "C8": {
+    "files": 1958,
+    "valid_files": 1954,
+    "invalid_files": 4,
+    "model_directories": 1863,
+    "directories_with_any_valid_json": 1860,
+    "directories_without_any_valid_json": 3,
+    "directories_skipped_due_any_invalid_json": 4,
+    "directories_selected_after_skip_policy": 1859,
+    "directories_with_revisions": 95,
+    "evaluation_signatures_all_valid": 10,
+    "evaluation_signatures_latest": 10,
+    "latest_records_exact_normalized_match_C1": 1857,
+    "latest_records_total": 1859,
+    "canonical_leaf_tasks_latest": 39,
+    "unique_aggregate_tasks_latest": 5,
+    "irregular_or_legacy_task_keys_latest": 1,
+    "selection_rule": "skip every directory containing an invalid official JSON; otherwise select latest parseable JSON by filename timestamp; never select by score"
+  },
+  "C8_repair": {
+    "invalid_files": 4,
+    "directories_skipped_by_frozen_rule": 4,
+    "zip_same_as_extracted": 4,
+    "valid_alternative_directories": 1,
+    "unrecoverable_directories": 3
+  },
+  "C9": "complete"
+}

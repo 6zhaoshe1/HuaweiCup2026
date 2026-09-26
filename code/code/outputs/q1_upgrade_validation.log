@@ -1,0 +1,23 @@
+[2026-09-24 08:02:53] saved q1_upgrade_semantic_manifest.csv: 25 rows
+[2026-09-24 08:02:53] streaming A1/A2/A3 with the verified decoder; content is not retained
+[2026-09-24 08:03:50] saved q1_upgrade_weight_table.csv: 19 rows
+[2026-09-24 08:03:50] saved q1_upgrade_weight_stability.csv: 8 rows
+[2026-09-24 08:03:50] saved q1_upgrade_weight_domain_scores.csv: 9 rows
+[2026-09-24 08:04:06] estimating conditional/global permutation conflict thresholds
+[2026-09-24 08:04:16] saved q1_upgrade_conflict_rates.csv: 9 rows
+[2026-09-24 08:04:16] saved q1_upgrade_conflict_top_pairs.csv: 28 rows
+[2026-09-24 08:04:16] saved q1_upgrade_conflict_calibration_comparison.csv: 9 rows
+[2026-09-24 08:04:54] saved q1_upgrade_model_benchmark.csv: 16 rows
+[2026-09-24 08:04:54] saved q1_upgrade_domain_alpha.csv: 1 rows
+[2026-09-24 08:04:54] saved q1_upgrade_logshift_delta_sensitivity.csv: 4 rows
+[2026-09-24 08:04:54] saved q1_upgrade_selected_parameters.csv: 234 rows
+[2026-09-24 08:04:54] saved q1_upgrade_selected_domain_effects.csv: 221 rows
+[2026-09-24 08:04:54] saved q1_upgrade_quadratic_parameters.csv: 1,989 rows
+[2026-09-24 08:04:54] saved q1_dual_model_domain_effects.csv: 442 rows
+[2026-09-24 08:04:54] saved q1_dual_model_consistency.csv: 14 rows
+[2026-09-24 08:04:54] saved q1_dual_model_disagreements.csv: 221 rows
+[2026-09-24 08:04:54] saved q1_quadratic_ilr_interactions.csv: 1,768 rows
+[2026-09-24 08:04:54] saved q1_upgrade_skill_scores.csv: 168 rows
+[2026-09-24 08:04:54] saved q1_upgrade_selected_domain_metrics.csv: 39 rows
+[2026-09-24 08:05:12] saved q1_upgrade_figure_contract.csv: 11 rows
+[2026-09-24 08:05:12] completed in 139.2s; checks={'semantic_dimensions_25': True, 'all_scores_finite': True, 'all_q_in_unit_interval': True, 'conditional_threshold_finite': True, 'benchmark_rows_complete': True, 'figures_created': True, 'a6_not_used_for_tuning': True}

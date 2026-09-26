@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checks_total": 345,
+  "checks_passed": 345,
+  "max_cost_recompute_abs_FLOPs": 402653184.0,
+  "max_loss_recompute_abs": 4.440892098500626e-16,
+  "max_budget_excess_FLOPs": 268435456.0,
+  "min_grid_minus_main_loss": 0.0,
+  "max_bootstrap_quantile_abs_diff": 2.842170943040401e-14,
+  "max_mixture_closure_abs": 1.5543122344752192e-15,
+  "notes": [
+    "author-independent formulas; no import from q3_modeling",
+    "grid is a lower-resolution global check, not proof of reality",
+    "scientific limitations in q3_summary remain"
+  ]
+}

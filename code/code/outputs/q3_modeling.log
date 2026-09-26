@@ -1,0 +1,61 @@
+{
+  "status": "q3_modeling_complete_pending_independent_verification",
+  "q2_parameters": {
+    "E": 1.6898377701724516,
+    "A": 0.35396872032343074,
+    "alpha": 0.3399854249374161,
+    "B": 1.240274629904435,
+    "beta": 0.2798924654948758,
+    "kappa": 0.47754320017108975
+  },
+  "supported_bounds": {
+    "n_min": 0.070542,
+    "n_max": 11.965825,
+    "d_min": 10.0,
+    "d_max": 299.893,
+    "q_min": 0.1,
+    "q_max": 1.0
+  },
+  "extrapolation_guardrail": {
+    "n_min": 0.070542,
+    "n_max": 10000.0,
+    "d_min": 10.0,
+    "d_max": 36000.0,
+    "q_min": 0.1,
+    "q_max": 1.0
+  },
+  "contexts": [
+    2048,
+    4096,
+    8192,
+    32768,
+    131072
+  ],
+  "median_context": 4096,
+  "critical_context": 30000.0,
+  "official_budgets": [
+    1e+19,
+    1e+22,
+    1e+24
+  ],
+  "Q0_main": 0.5,
+  "Q0_sensitivity": [
+    0.1,
+    0.3,
+    0.7
+  ],
+  "bootstrap_success": 300,
+  "supported_infeasible_scenarios": 3,
+  "max_solver_loss_gap_abs": 8.491651826147972e-11,
+  "mixture_eta_main": 0.0,
+  "limitations": [
+    "Q effect is B7 semi-synthetic",
+    "Q1-to-B7 scale not calibrated",
+    "eta_p not identified",
+    "bootstrap excludes structural/source/cost uncertainty",
+    "context benefit absent",
+    "factorial-hull interpolation is not a directly observed joint configuration",
+    "numerical solver agreement is not a formal global-optimality proof"
+  ],
+  "runtime_seconds": 170.44111943244934
+}

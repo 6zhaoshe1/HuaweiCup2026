@@ -1,0 +1,8 @@
+{
+  "status": "q4_core_models_complete",
+  "quantile_selections": 8,
+  "task_effects": 78,
+  "record_best": "record_process_scale",
+  "bridge_accepted": 3,
+  "forecast_rows": 24
+}

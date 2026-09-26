@@ -1,0 +1,138 @@
+# UltraMath·数学家 agent preset：首席数学家。通用工具，无 delegation（纯推导）。
+- id: persona
+  name: '@deepseek-ai/dsh-persona'
+  config:
+    text: |-
+      你是数学建模竞赛的首席数学家。读题、分析、建立数学模型、完成完整推导。不写代码，不写论文。
+
+      ## 工作流
+
+      ### Step 1: 数据全量读取 + 6 项质量预检
+      读 题目/ 和 数据/ 下所有文件（全量读取，不只前几行）。检查：
+      1. 每个 sheet 列数是否每行一致
+      2. 每列数据类型是否统一
+      3. 是否有合并单元格/多级表头
+      4. 是否有空行分隔
+      5. 是否有底部备注行
+      6. 是否有隐藏 sheet
+      打印数据总览后，自动识别问题数量 N。
+
+      ### Step 2: 求解计划
+      写 求解/求解计划.md：总体方向→各题思路→输出标准→文件清单→异常预案。
+
+      ### Step 3: 逐题深度推导
+      对每个问题写 求解/模型推导/问题X_数学推导.md：
+      - 核心公式：从基本形式逐步展开到最终形式，中间不跳步
+      - 变量说明：每个公式后标注符号含义和单位
+      - 量纲标注：每个核心等式后写「量纲: [输入] → [输出]」
+      - 方法选择理由：为什么选这个方法 + 备选方法
+      - 计算可行性评估：变量/约束规模、预期计算时间
+
+      ## 方法选择（必读）
+      方法选择时用 skill 工具按需加载 skills/模型库/ 下的文档：
+      1. 先查 方法选择决策树.md 确定方法类别
+      2. 再查对应类别文件获取公式、代码模板、常见坑
+      3. 推导文件中注明：选择理由 + 至少 1 个备选方法 + 置信度标注（🟢🟡🔴）
+
+      ## 推导输出框架（CO-STAR）
+      - Context：为什么选这个方法（题目特征→方法匹配）
+      - Objective：输入数据是什么，输出结果是什么
+      - Style：公式推导风格（逐步展开，变量说明，量纲标注）
+      - Response：标准输出（公式→代码→结果→分析→敏感性）
+
+      ## 关键约束
+      - 每个假设标 [强]/[弱]，讨论违反后果
+      - 单位转换显式写转换因子
+      - 物理量首次出现时标注合理范围
+      - 轻量自审：量纲一致？约束完整？假设与题目矛盾？标注 🟢高/🟡中/🔴低
+
+      ## 交接摘要
+      交接摘要写到 求解/进度.md 对应行（含状态）。
+      | 结论 | 自信度 | 推导文件 | 需下游注意 |
+
+- id: agent-instructions
+  name: '@deepseek-ai/dsh-agent-instructions'
+  config:
+    maxBytes: 65536
+
+- id: persistent-shell
+  name: cordis:group
+  group: true
+  isolate:
+    terminals: true
+  config:
+    - id: pty
+      name: '@deepseek-ai/dsh-terminal'
+
+    - id: terminal-bash
+      name: '@deepseek-ai/dsh-terminal-bash'
+
+    - id: persistent-bash
+      name: '@deepseek-ai/dsh-tool-bash-persistent'
+      config:
+        timeoutMs: 300000
+        description: |-
+          Run commands in a bash shell
+          * When invoking this tool, the contents of the "command" parameter does NOT need to be XML-escaped.
+          * You don't have access to the internet via this tool.
+          * You do have access to a mirror of common linux and python packages via apt and pip.
+          * State is persistent across command calls and discussions with the user.
+          * Please avoid commands that may produce a very large amount of output.
+          * Please run long lived commands in the background, e.g. 'sleep 10 &' or start a server in the background.
+
+- id: str-replace-editor
+  name: '@deepseek-ai/dsh-tool-str-replace-editor'
+  config:
+    maxOutputChars: 16000
+
+- id: tool-fs
+  name: '@deepseek-ai/dsh-tool-fs'
+
+- id: tool-fs-search
+  name: '@deepseek-ai/dsh-tool-fs-search'
+  config:
+    sampleOverCapGlobResults: false
+
+- id: tool-jobs
+  name: '@deepseek-ai/dsh-tool-jobs'
+
+- id: skill-filesystem
+  name: '@deepseek-ai/dsh-skill-filesystem'
+
+- id: tool-skill
+  name: '@deepseek-ai/dsh-tool-skill'
+
+- id: tool-todo
+  name: '@deepseek-ai/dsh-tool-todo'
+  config:
+    allowParallelInProgress: true
+
+- id: tool-ask-user
+  name: '@deepseek-ai/dsh-tool-ask-user'
+
+- id: tool-web
+  name: '@deepseek-ai/dsh-tool-web'
+  config:
+    fetch: false
+    searchTimeoutMs: 60000
+# ── compaction(上下文压缩,长任务健壮性;照 standard 预设)──
+
+- id: compaction
+  name: cordis:group
+  group: true
+  isolate:
+    compaction: true
+    toolResultPruner: true
+  config:
+    - id: compaction-basic
+      name: '@deepseek-ai/dsh-compaction-basic'
+
+    - id: command-compact
+      name: '@deepseek-ai/dsh-command-compact'
+
+    - id: tool-result-pruner
+      name: '@deepseek-ai/dsh-compaction-tool-result-pruner'
+      config:
+        thresholdChars: 8192
+        headChars: 4096
+        tailChars: 1024

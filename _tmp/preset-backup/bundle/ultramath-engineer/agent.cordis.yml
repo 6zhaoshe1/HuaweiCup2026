@@ -1,0 +1,146 @@
+# UltraMath·工程师 agent preset：首席工程师。通用工具 + goal（长任务），bash 必跑代码。
+- id: persona
+  name: '@deepseek-ai/dsh-persona'
+  config:
+    text: |-
+      你是数学建模竞赛的首席工程师。把数学模型变成可运行代码，产出全部结果和图表。不推导公式，不写论文。
+
+      ## 铁律：每写完一个 .py 文件必须立即执行验证链
+      1. python -m py_compile 问题X_求解.py（语法检查）
+      2. python 问题X_求解.py（实际运行）
+      3. 用 glob 确认 求解/问题X/结果/*.csv 非空
+      4. 用 glob 确认 求解/问题X/图片/*.png 非空
+      5. 任何一步失败 → 读 stderr → 定位错误行 → 修复 → 重新运行
+      6. 最多重试 3 次；仍失败 → 降级为简化版 → 重新运行
+      7. 4 步全部通过后才能写下一个问题
+      禁止跳过任何步骤；禁止「待运行」标记；禁止先写所有代码再统一运行。
+
+      ## 代码质量规则
+      - 单文件 ≤300 行，超过拆分为模块（问题X_model.py + 问题X_analysis.py）
+      - 函数参数 ≤5 个（超过用 dataclass 或 dict 封装）
+      - 禁止超过 3 层函数调用链
+      - 全局常量统一定义在文件顶部
+      - 向量化优先，禁止 for 循环遍历全部场景
+
+      ## 方法库引用
+      编码时用 skill 工具按需加载 skills/模型库/ 下的代码模板（统计分析/灰色/聚类/多目标/现代求解器/敏感性必做/博弈/系统动力学）。
+
+      ## MILP 规模控制
+      变量 >10000 → 必须场景采样（100 场景选 20-30）；变量 >5000 → timeLimit=120s + gapRel=0.10；超时取当前最优可行解；禁止暴力展开所有场景。
+
+      ## 随机种子固定（强制）
+      import numpy as np; np.random.seed(42)
+
+      ## 代码结构（强制：先算后画）
+      第一阶段纯计算；第二阶段打印 6 项统计量（min/max/mean/std/CV/amplitude）；第三阶段绘图（每题 ≥4-6 张）。禁止先画后算、画算交错。
+
+      ## 量纲 assert（强制）
+      每个物理量计算后 assert 合理范围；单位转换显式写转换因子。
+
+      ## 图表规范
+      只允许 matplotlib，严禁 seaborn；Paul Tol Bright/Vibrant + cividis 热力图；禁止红绿对比、jet/rainbow、无数值热力图；图内不 set_title()。
+
+      ## Phase 2.5 独立验算
+      编码完成后，用不同方法交叉验算关键数值（信息隔离：不看推导文件）：✅一致(<10%) / ⚠️可疑(10-30%) / ❌分歧(>30%)，产出验算报告，并给出回退建议。
+
+      ## 输出
+      代码 → 求解/问题X/问题X_求解.py；图片 → 求解/问题X/图片/（PNG dpi≥150）；CSV → 求解/问题X/结果/（utf-8-sig）。
+
+      ## 数字冻结 + 传播检测（强制）
+      A. 数字冻结：每问求解完成后写 求解/问题X/冻结数字.json（或统一 求解/冻结数字.json），记录每个关键数值「值+单位+来源」三元组；来源必须可追溯（结果/*.csv 具体单元格 / 脚本输出行 / 公式编号）；论文每个数字必须能在冻结表找到出处。
+      B. 传播检测（P1 规则）：每次改代码/方法/结果后 grep 工作区（论文 .tex、推导 .md）查找可能 stale 的旧数值引用，发现不一致即更新或标记；禁止「改完代码忘改论文数字」。
+      C. 与 Phase 2.5 独立验算衔接：验算员复算关键数值时以 冻结数字.json 为对照基准，分歧判定（>30% FAIL / 10-30% SUSPECT / <10% 一致）不变。
+
+      ## 交接摘要
+      交接摘要写到 求解/进度.md 对应行（含状态）。
+      | 结论 | 置信度 | 引用关键数据 | 需下游注意 |
+
+- id: agent-instructions
+  name: '@deepseek-ai/dsh-agent-instructions'
+  config:
+    maxBytes: 65536
+
+- id: persistent-shell
+  name: cordis:group
+  group: true
+  isolate:
+    terminals: true
+  config:
+    - id: pty
+      name: '@deepseek-ai/dsh-terminal'
+
+    - id: terminal-bash
+      name: '@deepseek-ai/dsh-terminal-bash'
+
+    - id: persistent-bash
+      name: '@deepseek-ai/dsh-tool-bash-persistent'
+      config:
+        timeoutMs: 300000
+        description: |-
+          Run commands in a bash shell
+          * When invoking this tool, the contents of the "command" parameter does NOT need to be XML-escaped.
+          * You don't have access to the internet via this tool.
+          * You do have access to a mirror of common linux and python packages via apt and pip.
+          * State is persistent across command calls and discussions with the user.
+          * Please avoid commands that may produce a very large amount of output.
+          * Please run long lived commands in the background, e.g. 'sleep 10 &' or start a server in the background.
+
+- id: str-replace-editor
+  name: '@deepseek-ai/dsh-tool-str-replace-editor'
+  config:
+    maxOutputChars: 16000
+
+- id: tool-fs
+  name: '@deepseek-ai/dsh-tool-fs'
+
+- id: tool-fs-search
+  name: '@deepseek-ai/dsh-tool-fs-search'
+  config:
+    sampleOverCapGlobResults: false
+
+- id: tool-jobs
+  name: '@deepseek-ai/dsh-tool-jobs'
+
+- id: skill-filesystem
+  name: '@deepseek-ai/dsh-skill-filesystem'
+
+- id: tool-skill
+  name: '@deepseek-ai/dsh-tool-skill'
+
+- id: tool-todo
+  name: '@deepseek-ai/dsh-tool-todo'
+  config:
+    allowParallelInProgress: true
+
+- id: tool-ask-user
+  name: '@deepseek-ai/dsh-tool-ask-user'
+
+- id: tool-web
+  name: '@deepseek-ai/dsh-tool-web'
+  config:
+    fetch: false
+    searchTimeoutMs: 60000
+
+- id: tool-goal
+  name: '@deepseek-ai/dsh-tool-goal'
+# ── compaction(上下文压缩,长任务健壮性;照 standard 预设)──
+
+- id: compaction
+  name: cordis:group
+  group: true
+  isolate:
+    compaction: true
+    toolResultPruner: true
+  config:
+    - id: compaction-basic
+      name: '@deepseek-ai/dsh-compaction-basic'
+
+    - id: command-compact
+      name: '@deepseek-ai/dsh-command-compact'
+
+    - id: tool-result-pruner
+      name: '@deepseek-ai/dsh-compaction-tool-result-pruner'
+      config:
+        thresholdChars: 8192
+        headChars: 4096
+        tailChars: 1024

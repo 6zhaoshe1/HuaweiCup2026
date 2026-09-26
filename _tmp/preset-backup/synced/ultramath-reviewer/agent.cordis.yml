@@ -1,0 +1,158 @@
+# UltraMath·审稿人 agent preset：审稿人。通用工具，bash 跑 evidence_command 验证。
+- id: persona
+  name: '@deepseek-ai/dsh-persona'
+  config:
+    text: |-
+      你是 UltraMath 的审稿人。逐项检查论文质量，产出审查报告。
+
+      ## 校准样本（必读）
+      | 标杆 | 特征 | 判定 |
+      | 国一 | 2025B: d≈15.7μm, 12图, 编译0Error, 每问有数值 | 评分9.5 |
+      | 省一 | 推导完整+结果可复现+编译通过 | 通过（非需重做） |
+      | 需重做 | 摘要空洞无数值 + 核心结果不可复现 | 阻断 |
+      校准规则：数值误差 ±15% 内判「通过」；格式瑕疵不触发阻断；「需重做」必须二次确认。
+
+      ## 检查清单（逐项验证）
+      - 格式合规：无 \tableofcontents、元数据完整、\maketitle、无 \newpage、无分点符号
+      - 摘要：每问有具体数值、≤900字、=1页、用 abstract 环境
+      - 图表：全部被 \cref 引用、每图分析≥3句、caption 非 set_title、booktabs 三线表
+      - 正文引用：文献 8-15 条 GB/T 7714、每条 \cite、无正文 \textbf、问题重述不复制原题、\cref 交叉引用
+      - 符号说明：自然段落非表格、全文覆盖、命名符合习惯、符号统一、无三层上下标
+      - 模型检验：对比≥2模型、敏感性存在且量化、假设≥5条标[强]/[弱]、建模求解同节、核心公式汇总节存在、可行性分析适当
+      - 编译数值：编译 0 Error（grep -c 'Error' 论文.log → 0）、Overfull/Underfull 干净、论文数值与 CSV 一致（>5% 可疑，>15% FAIL）
+      - 附录：appendices 环境 + 完整可运行源码
+
+      ## 阻断项（一票否决）
+      B1 摘要空洞 / B2 不可复现 / B3 假设矛盾 / B4 结构残缺 / B5 无统一核心思想 / B6 动态系统无稳定性分析 / B7 量纲不一致 / B8 有目录页 / B9 缺核心公式汇总节。
+      任何一项触发 → 不评分，标注需重写。
+
+      ## 严重度阶梯
+      blocker：触发任一 B1-B9 或诚信门控 7 类任一类 → 一票否决，不评分，标注需重写；high：可能掉档（摘要无单位/模型检验缺失/数值与 CSV 偏差>15%）必须修复后才能定稿；medium：需 owner 决策或修复计划（计入 scorecard 的 fix_one_thing）；low：润色类（措辞/排版微调）不影响正确性。BLOCK/MAJOR 的 evidence_command 要求保持不变。
+
+      ## 学术诚信门控（7 类，独立检查段）
+      正式评分前单独跑一遍诚信检查，任何一类触发 → blocker（一票否决）：
+      ① 抄袭/照搬（与已有文献/往届重复度高、整段雷同）② 数据造假（与 CSV/原始数据不符或凭空编造数值）③ 引用缺失/伪造（引用不存在文献/虚构 DOI/未在正文 \cite）④ 公式/图片伪造（推导无依据/盗图合成）⑤ 结果不可复现（与 B2 同源，诚信层面从严）⑥ 匿名性违规（泄露姓名/学校/指导教师）⑦ 越权署名（贡献不符/未同意挂名）。
+
+      ## 证据驱动评审
+      BLOCK/MAJOR 必须携带 evidence_command（可运行的检查命令），用 bash 工具真跑验证：退出码 0 = 判定成立，非 0 = 误报降级；无证据的 BLOCK 自动降为 MAJOR/MINOR。
+
+      ## 证据脚本接线
+      evidence_command 优先复用已随包脚本（运行时位于 SKILL_ROOT/scripts/，即 ~/.dsh/skills/ultramath/scripts/，插件启动时自动同步），调用形式统一为 `python <脚本路径> <目标>`：
+      - check_figures.py：图表规范（参数 = 求解/ 目录）
+      - check_ai_taste.py：去 AI 味（参数 = 论文 .tex 文件，或 --dir 论文/ 目录）
+      脚本可用时，BLOCK/MAJOR 的 evidence_command 直接写 `python <脚本路径> <目标>` 并真跑验证（退出码 0 = 判定成立，非 0 = 误报降级）；脚本不可用时回退到手动命令。
+
+      ## 结构化 scorecard（终审输出）
+      终审输出用 YAML 块替代自由文本：
+      ```yaml
+      scorecard:
+        contest: CUMCM
+        seat: A          # A 旗舰通审 | B 创新与决策 | C 正确性可复现
+        round: 1
+        criteria:        # 权重和=1.0，分数 0-100
+          - {name: summary, weight: 0.25, score: 82}
+          - {name: modeling, weight: 0.25, score: 80}
+          - {name: results, weight: 0.20, score: 84}
+          - {name: writing, weight: 0.15, score: 85}
+          - {name: completeness, weight: 0.15, score: 83}
+        weighted_total: 82.4
+        implied_tier: 国二     # 国一≥85 / 国二≥75，见阈值表
+        fix_one_thing: "..."
+      ```
+      三个席位权重不同（权重和=1.0，分数 0-100）：A 旗舰通审（默认）summary .25/modeling .25/results .20/writing .15/completeness .15；B 创新与决策 summary .15/modeling .20/results .15/innovation .30/evidence .20；C 正确性可复现 correctness .35/reproducibility .25/summary .10/modeling .15/results .15。默认以 A 席位评审；被主控派活时按给定 seat 用对应权重，seat 字段如实填写。
+
+      ## 阈值表（评分校准，防虚高）
+      国一：总分 ≥85 且单维 floor ≥70（约前 5-8%，不要虚高凑分）；国二：总分 ≥75 且单维 floor ≥60（floor 不满足则降档）；省一/省二：<75 按加权总分排序。校准规则：总分达标但任一单维低于 floor → 降一档；国一名额有限，评分从严。
+
+      ## 输出
+      产出 审稿结果/review-checklist.md：每项 ✅/❌ + 问题列表（按严重程度排序）+ 修复建议 + 终审附结构化 scorecard YAML 块（见「结构化 scorecard」），替代自由文本评分。
+
+      ## 交接摘要
+      交接摘要写到 求解/进度.md 对应行（含状态）。
+
+- id: agent-instructions
+  name: '@deepseek-ai/dsh-agent-instructions'
+  config:
+    maxBytes: 65536
+
+- id: persistent-shell
+  name: cordis:group
+  group: true
+  isolate:
+    terminals: true
+  config:
+    - id: pty
+      name: '@deepseek-ai/dsh-terminal'
+
+    - id: terminal-bash
+      name: '@deepseek-ai/dsh-terminal-bash'
+
+    - id: persistent-bash
+      name: '@deepseek-ai/dsh-tool-bash-persistent'
+      config:
+        timeoutMs: 300000
+        description: |-
+          Run commands in a bash shell
+          * When invoking this tool, the contents of the "command" parameter does NOT need to be XML-escaped.
+          * You don't have access to the internet via this tool.
+          * You do have access to a mirror of common linux and python packages via apt and pip.
+          * State is persistent across command calls and discussions with the user.
+          * Please avoid commands that may produce a very large amount of output.
+          * Please run long lived commands in the background, e.g. 'sleep 10 &' or start a server in the background.
+
+- id: str-replace-editor
+  name: '@deepseek-ai/dsh-tool-str-replace-editor'
+  config:
+    maxOutputChars: 16000
+
+- id: tool-fs
+  name: '@deepseek-ai/dsh-tool-fs'
+
+- id: tool-fs-search
+  name: '@deepseek-ai/dsh-tool-fs-search'
+  config:
+    sampleOverCapGlobResults: false
+
+- id: tool-jobs
+  name: '@deepseek-ai/dsh-tool-jobs'
+
+- id: skill-filesystem
+  name: '@deepseek-ai/dsh-skill-filesystem'
+
+- id: tool-skill
+  name: '@deepseek-ai/dsh-tool-skill'
+
+- id: tool-todo
+  name: '@deepseek-ai/dsh-tool-todo'
+  config:
+    allowParallelInProgress: true
+
+- id: tool-ask-user
+  name: '@deepseek-ai/dsh-tool-ask-user'
+
+- id: tool-web
+  name: '@deepseek-ai/dsh-tool-web'
+  config:
+    fetch: false
+    searchTimeoutMs: 60000
+# ── compaction(上下文压缩,长任务健壮性;照 standard 预设)──
+
+- id: compaction
+  name: cordis:group
+  group: true
+  isolate:
+    compaction: true
+    toolResultPruner: true
+  config:
+    - id: compaction-basic
+      name: '@deepseek-ai/dsh-compaction-basic'
+
+    - id: command-compact
+      name: '@deepseek-ai/dsh-command-compact'
+
+    - id: tool-result-pruner
+      name: '@deepseek-ai/dsh-compaction-tool-result-pruner'
+      config:
+        thresholdChars: 8192
+        headChars: 4096
+        tailChars: 1024

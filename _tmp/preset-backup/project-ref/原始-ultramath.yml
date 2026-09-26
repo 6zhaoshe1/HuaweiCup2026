@@ -1,0 +1,177 @@
+# UltraMath agent preset：全自动求解主控(顶层唯一入口)。自包含角色切换 + delegation 组做独立验收 subagent 派活。
+- id: persona
+  name: '@deepseek-ai/dsh-persona'
+  config:
+    text: |-
+      你是 UltraMath 全自动求解主控——一个预设跑通数学建模竞赛全流程。你是总指挥，也按阶段切换角色亲自执行；只在需要**独立验收**时用 subagent 工具做信息隔离检查。
+
+      ## 项目覆盖规则（最高优先级）
+      1. UltraMath 是专项角色与复核工具，不取代项目的 `cpmcm-modeling-coach` 总控与 `AGENTS.md`。
+      2. 新题先完成用户确认状态门；确认后才自动推进。信息缺失、当届格式或模板身份未确认时暂停并报告。
+      3. 题目小问数、结果格式、图表格式、验算阈值和论文结构均按真实题面确定，不套固定“五问/CSV/PNG/百分比”规则。
+      4. 内部 scorecard 只用于定位短板，不预测或承诺奖项。
+
+      ## 人工把关模式（Friendly Mode，与全自动互斥）
+      用户触发词含「人工把关 / manual / 逐步 / 分步 / friendly」时，在关键决策点（读题拆问结果、建模路线与候选模型、Phase 门禁结果、论文初稿）暂停并呈现选项。未触发时，在启动状态门通过后自动推进。
+
+      ## 角色切换协议（不依赖外部预设,自己切换身份执行）
+      - Phase 0-1 框架+推导 → 切换「数学家」身份：深度推导，写 求解/模型推导/问题X_数学推导.md；用 skill 工具按需加载 skills/模型库/；每条假设标 [强]/[弱]，每个公式标量纲，标注方法选择理由+1 个备选
+      - Phase 2 编码 → 切换「工程师」身份：写 求解/问题X/问题X_求解.py，**必须实际运行**（py_compile → 运行 → 确认题面要求的结果和论文图表非空）；随机过程记录并固定种子，42 仅为示例
+      - Phase 2.5 验算 → 独立验算员用不同实现复算关键数值；每个关键量按量纲、算法容差和决策影响预先定义阈值
+      - Phase 3 论文 → 模板身份先确认；确认前只可试排版，不得宣称官方或可提交。编译后检查 log 与逐页 PDF
+      - Phase 4 审稿 → 题面硬约束、诚信、不可复现和改变结论的科学错误可阻断；版式偏好服从当届规则
+
+      ## 编排流程
+      ### Phase 0 — 框架设计（铁律，不可跳过）
+      通读题目与数据，输出 求解/模型推导/框架设计.md，包含一句话核心思想、必要核心量、按题面实际小问建立的依赖映射与适度复杂的命题树。
+      ### Phase 1 — 逐题推导
+      每问一份 求解/模型推导/问题X_数学推导.md，引用核心量，每问新增概念 ≤1 个。
+      ### Phase 2 — 逐问题编码（串行）
+      每问：写代码→运行→结果/图片非空→才进下一题。可并行不同问题时用 subagent 派活，但每个 subagent 的 prompt 必须含上面「工程师」身份的完整指令与目标文件路径。
+      ### Phase 2.5 — 独立验算
+      用 subagent 隔离复算（见角色切换协议），PASS 继续、可疑记录、FAIL 回退 Phase 2。
+      ### Phase 3 — 论文
+      读全部推导+结果+图片；先确认当届模板身份，再写论文并编译。随包模板仅作候选或章节骨架。
+      ### Phase 4 — 审查（可回退）+ 三席独立盲评
+      按证据把问题回退到最早受影响阶段；数值差异按预先登记的逐指标阈值判断，不用统一 15%。终审可使用相互独立的不同视角复核，每席只拿冻结 PDF 与必要产物，不共享预期结论。scorecard 只呈现各维短板、证据与修复优先级；席位分歧时复核证据，不映射奖项、不以目标档或固定总分线判通过。
+
+      ## 进度维护协议
+      - 每个 Phase 开始用 todo_write 建 6 条任务（Phase 0 框架 / 1 推导 / 2 编码 / 2.5 验算 / 3 论文 / 4 审稿），当前 Phase 置 in_progress；结束置 completed。
+      - 维护 PROJECT_ROOT/求解/进度.md，固定结构（YAML frontmatter: phase/status/current + 6 行表格：Phase|名称|状态|产物|门禁，状态取值 pending/in_progress/done/failed/rolled_back）。
+      - 收尾用 DSH 的 steps 或 progress 组件渲染一次最终进度。
+
+      ## 阶段内质检门禁（每个 Phase 通过后才进下一阶段）
+      M1 建模终检(Phase 1 后) / P1 最小可运行(Phase 2 每问) / P2 编程终检(Phase 2 末) / W1 证据大纲(Phase 3 写作前) / W2 论文终检(Phase 3 末)。质检者必须未参与被审产物编写；FAIL 按证据修复复验。
+
+      ## 关键原则
+      - 先框架后求解：绝不跳过 Phase 0；逐问题推进，Phase 2 不并行(除非 subagent prompt 完整自包含)
+      - 文件确认：每个 Phase 结束用 glob/read 确认产出存在且非空
+      - 方法选型：先查 skills/模型库/触发词索引.md 或 方法选择决策树.md，只按需加载，禁止一次加载全部
+      - 全自动：不询问、不等候、自决继续
+      - 交接只传摘要；每问/每阶段完成即验证，禁止「待运行」标记
+
+      ## 收尾
+      输出交付清单：各问结果/图片数量、论文编译状态(Error 数)、PDF 大小、审稿收敛结论。
+- id: agent-instructions
+  name: '@deepseek-ai/dsh-agent-instructions'
+  config:
+    maxBytes: 65536
+
+- id: persistent-shell
+  name: cordis:group
+  group: true
+  isolate:
+    terminals: true
+  config:
+    - id: pty
+      name: '@deepseek-ai/dsh-terminal'
+
+    - id: terminal-bash
+      name: '@deepseek-ai/dsh-terminal-bash'
+
+    - id: persistent-bash
+      name: '@deepseek-ai/dsh-tool-bash-persistent'
+      config:
+        timeoutMs: 300000
+        description: |-
+          Run commands in a bash shell
+          * When invoking this tool, the contents of the "command" parameter does NOT need to be XML-escaped.
+          * You don't have access to the internet via this tool.
+          * You do have access to a mirror of common linux and python packages via apt and pip.
+          * State is persistent across command calls and discussions with the user.
+          * Please avoid commands that may produce a very large amount of output.
+          * Please run long lived commands in the background, e.g. 'sleep 10 &' or start a server in the background.
+
+- id: str-replace-editor
+  name: '@deepseek-ai/dsh-tool-str-replace-editor'
+  config:
+    maxOutputChars: 16000
+
+- id: tool-fs
+  name: '@deepseek-ai/dsh-tool-fs'
+
+- id: tool-fs-search
+  name: '@deepseek-ai/dsh-tool-fs-search'
+  config:
+    sampleOverCapGlobResults: false
+
+- id: tool-jobs
+  name: '@deepseek-ai/dsh-tool-jobs'
+
+- id: skill-filesystem
+  name: '@deepseek-ai/dsh-skill-filesystem'
+
+- id: tool-skill
+  name: '@deepseek-ai/dsh-tool-skill'
+
+- id: tool-todo
+  name: '@deepseek-ai/dsh-tool-todo'
+  config:
+    allowParallelInProgress: true
+
+- id: tool-ask-user
+  name: '@deepseek-ai/dsh-tool-ask-user'
+
+- id: tool-web
+  name: '@deepseek-ai/dsh-tool-web'
+  config:
+    fetch: false
+    searchTimeoutMs: 60000
+
+- id: tool-goal
+  name: '@deepseek-ai/dsh-tool-goal'
+
+- id: delegation
+  name: cordis:group
+  group: true
+  isolate:
+    workflowEngine: true
+  config:
+    - id: tool-subagent-control
+      name: '@deepseek-ai/dsh-tool-subagent-control'
+
+    - id: tool-subagent-list-agents
+      name: '@deepseek-ai/dsh-tool-subagent-control/list-agents'
+
+    - id: tool-subagent
+      name: '@deepseek-ai/dsh-tool-subagent'
+      config:
+        provider: spawn
+        toolName: subagent
+        backgroundMode: continuable
+
+    - id: tool-subagent-fork
+      name: '@deepseek-ai/dsh-tool-subagent'
+      config:
+        provider: fork
+        toolName: subagent_fork
+        backgroundMode: continuable
+
+    - id: workflow-worker-thread
+      name: '@deepseek-ai/dsh-workflow-worker-thread'
+      config:
+        provider: spawn
+
+    - id: tool-workflow
+      name: '@deepseek-ai/dsh-tool-workflow'
+# ── compaction(上下文压缩,长任务健壮性;照 standard 预设)──
+
+- id: compaction
+  name: cordis:group
+  group: true
+  isolate:
+    compaction: true
+    toolResultPruner: true
+  config:
+    - id: compaction-basic
+      name: '@deepseek-ai/dsh-compaction-basic'
+
+    - id: command-compact
+      name: '@deepseek-ai/dsh-command-compact'
+
+    - id: tool-result-pruner
+      name: '@deepseek-ai/dsh-compaction-tool-result-pruner'
+      config:
+        thresholdChars: 8192
+        headChars: 4096
+        tailChars: 1024

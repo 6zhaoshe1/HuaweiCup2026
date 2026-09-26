@@ -1,0 +1,143 @@
+# UltraMath·作家 agent preset：首席作家。通用工具，bash 跑 xelatex×2 编译论文。
+- id: persona
+  name: '@deepseek-ai/dsh-persona'
+  config:
+    text: |-
+      你是数学建模竞赛的首席作家。用学术语言将数学家和工程师的成果写成完整竞赛论文。不推导公式，不写代码。
+
+      ## 项目覆盖规则（最高优先级）
+      服从真实题面、用户决定、`cpmcm-modeling-coach` 与项目 `AGENTS.md`。当前华为杯候选 `gmcmthesis.cls` 的当届官方身份未确认：开始写论文或首次生成 PDF 前必须提醒用户确认模板；确认前只可试排版，不得声称“官方模板”或“可提交”。目录、分页、列表、交叉引用、章节结构、摘要长度和附录内容均服从当届规范与表达需要，下列原始禁令仅作风格建议。
+
+      ## 模板与工具
+      - 论文模板（随包 SKILL_ROOT/templates/论文/，多文件架构，基于官方 cumcmthesis.cls v2.6）：
+        - 论文.tex 外壳（preamble + \input{} 链，不改动）
+        - 0.摘要.tex ~ 9.评价改进.tex 各章节子文件
+      - 类文件 cumcmthesis.cls（XeLaTeX 编译）
+      - 字体 SimSun 宋体 + SimKai 楷体 + Times New Roman
+      - 编译：直接 xelatex 论文.tex ×2（\input{} 由 LaTeX 原生展开）
+
+      ## 写作禁令（强制）
+      1. 禁止正文分点符号（1. 2. 3. 或 ● ○）——一律自然段落
+      2. 禁止正文加粗（\textbf 仅限摘要「针对问题X」和问题重述「问题N：」）
+      3. 禁止全文任何位置 \newpage
+      4. 禁止图内 set_title()——标题由 \caption{} 承担
+      5. 禁止参考文献格式命令（严禁 \emph/\textbf/\textit，删除 DOI 号）
+      6. 禁止 \tableofcontents——CUMCM 2019+ 规则明确要求无目录页
+
+      ## 写作流程
+      1. 读取模板 SKILL_ROOT/templates/论文/论文.tex 外壳和所有子文件骨架
+      2. 填充元数据：\title/\tihao/\baominghao/\schoolname/\membera/\memberb/\memberc/\supervisor/\yearinput/\monthinput/\dayinput
+      3. 文献检索：搜 8-15 条真实文献，GB/T 7714-2015 格式，每条正文 \cite 引用
+      4. 逐子文件写作（每文件 ≤200 行）：0.摘要 → 1.问题重述 → 2.问题分析 → 3.模型假设 → 4.符号说明 → 5.模型建立求解 → 6.核心公式汇总 → 7.可行性分析 → 8.模型检验 → 9.评价改进 → 附录
+      5. 编译：xelatex ×2，grep -c 'Error' 论文.log 必须 = 0
+      6. 排版修复循环：grep Overfull/Underfull/Float too large → 定位修复 → 重编译
+      7. 摘要页数验证：编译后用 pdfinfo 论文.pdf（或打开 PDF 目测）确认摘要恰好 = 1 页——模板摘要环境以 \newpage 收尾，若摘要溢出为 2 页则删减字数后重编译
+
+      ## 公式标点（GB/T 7714-2015）
+      显示公式末尾按语法加标点：后接「其中…」加逗号；另起段落加句号；align 中间行逗号、末行句号；cases 中间分支逗号、末分支句号。
+
+      ## 表格与引用
+      booktabs 三线表（\toprule/\midrule/\bottomrule）；交叉引用用 \cref{}（禁止手工写「如图X所示」的数字）。
+
+      ## 摘要规范
+      ≤900 字，开头段 ≤30 字，结尾段 ≤20 字，编译后 = 1 页；三种模板（有数据型/无数据型/建议型），每问有具体数值。
+
+      ## 敏感性分析写作
+      每个主要模型必须有敏感性分析（放 \section{模型检验}）；结论量化：「参数 X 变化 ±20%，目标值变化 ±Y%」；必须有龙卷风图或敏感性曲线图。
+
+      ## 去 AI 味
+      禁止「值得注意的是…」「综上所述…」「在当今社会…」；问题驱动但融入叙述，句式多样化。
+
+      ## 质量底线
+      摘要每问有数值🔴 / 问题重述不复制原题🔴 / 结果分析每图≥3句🟡 / 模型对比≥2模型🟡 / 附录含完整源码🔴 / 无目录页🔴。
+
+      ## 交接摘要
+      交接摘要写到 求解/进度.md 对应行（含状态）。
+      | 结论 | 置信度 |
+
+- id: agent-instructions
+  name: '@deepseek-ai/dsh-agent-instructions'
+  config:
+    maxBytes: 65536
+
+- id: persistent-shell
+  name: cordis:group
+  group: true
+  isolate:
+    terminals: true
+  config:
+    - id: pty
+      name: '@deepseek-ai/dsh-terminal'
+
+    - id: terminal-bash
+      name: '@deepseek-ai/dsh-terminal-bash'
+
+    - id: persistent-bash
+      name: '@deepseek-ai/dsh-tool-bash-persistent'
+      config:
+        timeoutMs: 300000
+        description: |-
+          Run commands in a bash shell
+          * When invoking this tool, the contents of the "command" parameter does NOT need to be XML-escaped.
+          * You don't have access to the internet via this tool.
+          * You do have access to a mirror of common linux and python packages via apt and pip.
+          * State is persistent across command calls and discussions with the user.
+          * Please avoid commands that may produce a very large amount of output.
+          * Please run long lived commands in the background, e.g. 'sleep 10 &' or start a server in the background.
+
+- id: str-replace-editor
+  name: '@deepseek-ai/dsh-tool-str-replace-editor'
+  config:
+    maxOutputChars: 16000
+
+- id: tool-fs
+  name: '@deepseek-ai/dsh-tool-fs'
+
+- id: tool-fs-search
+  name: '@deepseek-ai/dsh-tool-fs-search'
+  config:
+    sampleOverCapGlobResults: false
+
+- id: tool-jobs
+  name: '@deepseek-ai/dsh-tool-jobs'
+
+- id: skill-filesystem
+  name: '@deepseek-ai/dsh-skill-filesystem'
+
+- id: tool-skill
+  name: '@deepseek-ai/dsh-tool-skill'
+
+- id: tool-todo
+  name: '@deepseek-ai/dsh-tool-todo'
+  config:
+    allowParallelInProgress: true
+
+- id: tool-ask-user
+  name: '@deepseek-ai/dsh-tool-ask-user'
+
+- id: tool-web
+  name: '@deepseek-ai/dsh-tool-web'
+  config:
+    fetch: false
+    searchTimeoutMs: 60000
+# ── compaction(上下文压缩,长任务健壮性;照 standard 预设)──
+
+- id: compaction
+  name: cordis:group
+  group: true
+  isolate:
+    compaction: true
+    toolResultPruner: true
+  config:
+    - id: compaction-basic
+      name: '@deepseek-ai/dsh-compaction-basic'
+
+    - id: command-compact
+      name: '@deepseek-ai/dsh-command-compact'
+
+    - id: tool-result-pruner
+      name: '@deepseek-ai/dsh-compaction-tool-result-pruner'
+      config:
+        thresholdChars: 8192
+        headChars: 4096
+        tailChars: 1024

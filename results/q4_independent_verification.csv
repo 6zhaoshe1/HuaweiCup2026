@@ -1,0 +1,15 @@
+﻿check,status,evidence
+q90_metrics_recomputed,PASS,max_abs_diff=1.874e-16
+rolling_windows_no_date_leakage,PASS,violations=0
+test_family_equal_weighting,PASS,max_family_sum_diff=1.221e-15
+shapley_residual_identity,PASS,max_abs_diff=0.000e+00
+bridge_loo_rmse_recomputed,PASS,max_abs_diff=1.776e-15
+record_backtest_recomputed,PASS,mae_diff=8.882e-16; update_count_diff=0
+record_backtest_contains_updates,PASS,row_model_update_flags=44; unique_cases=11
+forecast_bounds_and_cumulative_monotonicity,PASS,rows=24
+rejected_time_candidate_is_flagged,PASS,rows=8
+c8_weighted_aggregation_reconstruction,PASS,max_abs_error=5.551e-17
+c8_bh_qvalues_and_signs,PASS,rows=78
+six_score_average_matches_reported_average,PASS,n=4492; max_abs_diff=0.000e+00
+arrival_compute_scenario_monotonicity,PASS,rows=24; tolerance=0.10_score_points
+time_axis_sensitivity_complete,PASS,rows=6

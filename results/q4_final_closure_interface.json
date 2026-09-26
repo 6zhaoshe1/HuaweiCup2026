@@ -1,0 +1,518 @@
+{
+  "as_of": "2025-03-13",
+  "retained_model": "family-balanced random record process with scale-only q90 model",
+  "model_change": "none; corrected historical selection audit retains the original model family",
+  "formal_forecast": [
+    {
+      "scenario": "historical_trend",
+      "compute_growth_factor": 1.0,
+      "horizon_months": 12,
+      "forecast_date": "2026-03-13",
+      "model": "frozen_family_balanced_record_process",
+      "paths": 5000,
+      "current_frontier": 51.23132307602696,
+      "p05": 55.66495257285811,
+      "p50": 62.41592617926098,
+      "p95": 67.19224908224643,
+      "probability_frontier_update": 0.9962,
+      "logN_shift_per_year": 0.4479540919893366,
+      "evidence_level": "conditional_scenario_extrapolation"
+    },
+    {
+      "scenario": "historical_trend",
+      "compute_growth_factor": 1.0,
+      "horizon_months": 24,
+      "forecast_date": "2027-03-13",
+      "model": "frozen_family_balanced_record_process",
+      "paths": 5000,
+      "current_frontier": 51.23132307602696,
+      "p05": 62.75085763999833,
+      "p50": 68.08922118591576,
+      "p95": 72.63339670392462,
+      "probability_frontier_update": 1.0,
+      "logN_shift_per_year": 0.4479540919893366,
+      "evidence_level": "conditional_scenario_extrapolation"
+    },
+    {
+      "scenario": "moderate_slowdown",
+      "compute_growth_factor": 0.5,
+      "horizon_months": 12,
+      "forecast_date": "2026-03-13",
+      "model": "frozen_family_balanced_record_process",
+      "paths": 5000,
+      "current_frontier": 51.23132307602696,
+      "p05": 53.77965289167632,
+      "p50": 60.82671204770231,
+      "p95": 65.9336953311825,
+      "probability_frontier_update": 0.99,
+      "logN_shift_per_year": 0.2239770459946683,
+      "evidence_level": "conditional_scenario_extrapolation"
+    },
+    {
+      "scenario": "moderate_slowdown",
+      "compute_growth_factor": 0.5,
+      "horizon_months": 24,
+      "forecast_date": "2027-03-13",
+      "model": "frozen_family_balanced_record_process",
+      "paths": 5000,
+      "current_frontier": 51.23132307602696,
+      "p05": 59.754599282722175,
+      "p50": 63.958043496455765,
+      "p95": 68.90479014771972,
+      "probability_frontier_update": 1.0,
+      "logN_shift_per_year": 0.2239770459946683,
+      "evidence_level": "conditional_scenario_extrapolation"
+    },
+    {
+      "scenario": "strong_slowdown",
+      "compute_growth_factor": 0.25,
+      "horizon_months": 12,
+      "forecast_date": "2026-03-13",
+      "model": "frozen_family_balanced_record_process",
+      "paths": 5000,
+      "current_frontier": 51.23132307602696,
+      "p05": 52.91798992641284,
+      "p50": 60.07587710994591,
+      "p95": 65.71903958941448,
+      "probability_frontier_update": 0.9794,
+      "logN_shift_per_year": 0.1119885229973341,
+      "evidence_level": "conditional_scenario_extrapolation"
+    },
+    {
+      "scenario": "strong_slowdown",
+      "compute_growth_factor": 0.25,
+      "horizon_months": 24,
+      "forecast_date": "2027-03-13",
+      "model": "frozen_family_balanced_record_process",
+      "paths": 5000,
+      "current_frontier": 51.23132307602696,
+      "p05": 58.63765071399354,
+      "p50": 62.27557189528813,
+      "p95": 67.14716410776374,
+      "probability_frontier_update": 1.0,
+      "logN_shift_per_year": 0.1119885229973341,
+      "evidence_level": "conditional_scenario_extrapolation"
+    },
+    {
+      "scenario": "zero_scale_growth",
+      "compute_growth_factor": 0.0,
+      "horizon_months": 12,
+      "forecast_date": "2026-03-13",
+      "model": "frozen_family_balanced_record_process",
+      "paths": 5000,
+      "current_frontier": 51.23132307602696,
+      "p05": 52.29027063452533,
+      "p50": 59.5205462128897,
+      "p95": 65.0796163521413,
+      "probability_frontier_update": 0.9754,
+      "logN_shift_per_year": 0.0,
+      "evidence_level": "conditional_scenario_extrapolation"
+    },
+    {
+      "scenario": "zero_scale_growth",
+      "compute_growth_factor": 0.0,
+      "horizon_months": 24,
+      "forecast_date": "2027-03-13",
+      "model": "frozen_family_balanced_record_process",
+      "paths": 5000,
+      "current_frontier": 51.23132307602696,
+      "p05": 57.14059324771507,
+      "p50": 60.97886792630524,
+      "p95": 65.72787830551819,
+      "probability_frontier_update": 0.9984,
+      "logN_shift_per_year": 0.0,
+      "evidence_level": "conditional_scenario_extrapolation"
+    }
+  ],
+  "superseded_forecast_for_comparison": [
+    {
+      "scenario": "historical_trend",
+      "horizon_months": 12,
+      "p05": 56.01411705768504,
+      "p50": 62.485808702382016,
+      "p95": 67.22694349640663,
+      "current_frontier": 51.23132307602696
+    },
+    {
+      "scenario": "historical_trend",
+      "horizon_months": 24,
+      "p05": 62.903528912538384,
+      "p50": 68.14673074745687,
+      "p95": 72.34202337005408,
+      "current_frontier": 51.23132307602696
+    },
+    {
+      "scenario": "moderate_slowdown",
+      "horizon_months": 12,
+      "p05": 53.87015909246863,
+      "p50": 60.78695287488878,
+      "p95": 66.45169273226928,
+      "current_frontier": 51.23132307602696
+    },
+    {
+      "scenario": "moderate_slowdown",
+      "horizon_months": 24,
+      "p05": 60.030348899707896,
+      "p50": 64.01414397093883,
+      "p95": 68.56269886144868,
+      "current_frontier": 51.23132307602696
+    },
+    {
+      "scenario": "strong_slowdown",
+      "horizon_months": 12,
+      "p05": 53.048573873806674,
+      "p50": 60.10341647170288,
+      "p95": 65.69118498230691,
+      "current_frontier": 51.23132307602696
+    },
+    {
+      "scenario": "strong_slowdown",
+      "horizon_months": 24,
+      "p05": 58.45285968905137,
+      "p50": 62.25005798206101,
+      "p95": 67.1624062673983,
+      "current_frontier": 51.23132307602696
+    },
+    {
+      "scenario": "zero_scale_growth",
+      "horizon_months": 12,
+      "p05": 52.31006191767228,
+      "p50": 59.5205462128897,
+      "p95": 65.0796163521413,
+      "current_frontier": 51.23132307602696
+    },
+    {
+      "scenario": "zero_scale_growth",
+      "horizon_months": 24,
+      "p05": 57.16731455101384,
+      "p50": 60.97886792630524,
+      "p95": 65.72787830551819,
+      "current_frontier": 51.23132307602696
+    }
+  ],
+  "corrected_backtest": [
+    {
+      "model": "family_nb_tail95",
+      "evaluation_subset": "all_including_incomplete",
+      "cases": 18,
+      "mae": 3.6663326556754328,
+      "mae_update_cases": 5.490688744890964,
+      "coverage90": 0.5555555555555556,
+      "mean_interval_width90": 6.77531128673948,
+      "mean_interval_score90": 16.4128568667698
+    },
+    {
+      "model": "family_nb_tail95",
+      "evaluation_subset": "formal_complete_pooled",
+      "cases": 17,
+      "mae": 3.88199928247987,
+      "mae_update_cases": 5.490688744890964,
+      "coverage90": 0.5294117647058824,
+      "mean_interval_width90": 7.039103270844164,
+      "mean_interval_score90": 17.24356329675862
+    },
+    {
+      "model": "family_nb_tail95",
+      "evaluation_subset": "formal_complete_30d",
+      "cases": 9,
+      "mae": 3.270746778132388,
+      "mae_update_cases": 4.768061878966863,
+      "coverage90": 0.6666666666666666,
+      "mean_interval_width90": 6.471090966016821,
+      "mean_interval_score90": 12.334855594991048
+    },
+    {
+      "model": "family_nb_tail95",
+      "evaluation_subset": "formal_complete_60d",
+      "cases": 8,
+      "mae": 4.569658349870788,
+      "mae_update_cases": 6.092877799827715,
+      "coverage90": 0.375,
+      "mean_interval_width90": 7.678117113774923,
+      "mean_interval_score90": 22.76585946124714
+    },
+    {
+      "model": "family_nb_tail95",
+      "evaluation_subset": "common_cutoffs_30d",
+      "cases": 8,
+      "mae": 3.679590125398936,
+      "mae_update_cases": 4.768061878966863,
+      "coverage90": 0.625,
+      "mean_interval_width90": 7.05083138308968,
+      "mean_interval_score90": 13.647566590685685
+    },
+    {
+      "model": "family_nb_tail95",
+      "evaluation_subset": "common_cutoffs_60d",
+      "cases": 8,
+      "mae": 4.569658349870788,
+      "mae_update_cases": 6.092877799827715,
+      "coverage90": 0.375,
+      "mean_interval_width90": 7.678117113774923,
+      "mean_interval_score90": 22.76585946124714
+    },
+    {
+      "model": "family_nb_tail95",
+      "evaluation_subset": "disjoint_60d",
+      "cases": 3,
+      "mae": 3.175977956939235,
+      "mae_update_cases": 4.763966935408849,
+      "coverage90": 0.6666666666666666,
+      "mean_interval_width90": 7.764014863723207,
+      "mean_interval_score90": 13.361349384540503
+    },
+    {
+      "model": "family_poisson_block",
+      "evaluation_subset": "all_including_incomplete",
+      "cases": 18,
+      "mae": 3.411561003634852,
+      "mae_update_cases": 4.972432225948631,
+      "coverage90": 0.7777777777777778,
+      "mean_interval_width90": 7.870736347470777,
+      "mean_interval_score90": 11.044910599365712
+    },
+    {
+      "model": "family_poisson_block",
+      "evaluation_subset": "formal_complete_pooled",
+      "cases": 17,
+      "mae": 3.612241062672195,
+      "mae_update_cases": 4.972432225948631,
+      "coverage90": 0.7647058823529411,
+      "mean_interval_width90": 8.093857291588657,
+      "mean_interval_score90": 11.454747675948
+    },
+    {
+      "model": "family_poisson_block",
+      "evaluation_subset": "formal_complete_30d",
+      "cases": 9,
+      "mae": 3.1857411892485925,
+      "mae_update_cases": 4.392065424648993,
+      "coverage90": 0.7777777777777778,
+      "mean_interval_width90": 7.370179100129004,
+      "mean_interval_score90": 9.98053542242659
+    },
+    {
+      "model": "family_poisson_block",
+      "evaluation_subset": "formal_complete_60d",
+      "cases": 8,
+      "mae": 4.092053420273748,
+      "mae_update_cases": 5.456071227031662,
+      "coverage90": 0.75,
+      "mean_interval_width90": 8.907995256980762,
+      "mean_interval_score90": 13.113236461159584
+    },
+    {
+      "model": "family_poisson_block",
+      "evaluation_subset": "common_cutoffs_30d",
+      "cases": 8,
+      "mae": 3.5839588379046656,
+      "mae_update_cases": 4.392065424648993,
+      "coverage90": 0.75,
+      "mean_interval_width90": 7.886279781381721,
+      "mean_interval_score90": 10.822930643966505
+    },
+    {
+      "model": "family_poisson_block",
+      "evaluation_subset": "common_cutoffs_60d",
+      "cases": 8,
+      "mae": 4.092053420273748,
+      "mae_update_cases": 5.456071227031662,
+      "coverage90": 0.75,
+      "mean_interval_width90": 8.907995256980762,
+      "mean_interval_score90": 13.113236461159584
+    },
+    {
+      "model": "family_poisson_block",
+      "evaluation_subset": "disjoint_60d",
+      "cases": 3,
+      "mae": 2.8993087525036096,
+      "mae_update_cases": 4.348963128755411,
+      "coverage90": 1.0,
+      "mean_interval_width90": 9.174070133665092,
+      "mean_interval_score90": 9.174070133665092
+    },
+    {
+      "model": "legacy_record_iid",
+      "evaluation_subset": "all_including_incomplete",
+      "cases": 18,
+      "mae": 3.2620776770002835,
+      "mae_update_cases": 4.708848334748873,
+      "coverage90": 0.7777777777777778,
+      "mean_interval_width90": 8.031897508917268,
+      "mean_interval_score90": 10.144695546076983
+    },
+    {
+      "model": "legacy_record_iid",
+      "evaluation_subset": "formal_complete_pooled",
+      "cases": 17,
+      "mae": 3.4539645991767705,
+      "mae_update_cases": 4.708848334748873,
+      "coverage90": 0.7647058823529411,
+      "mean_interval_width90": 8.303226160685444,
+      "mean_interval_score90": 10.540306435325146
+    },
+    {
+      "model": "legacy_record_iid",
+      "evaluation_subset": "formal_complete_30d",
+      "cases": 9,
+      "mae": 3.115481142617471,
+      "mae_update_cases": 4.223852755957952,
+      "coverage90": 0.7777777777777778,
+      "mean_interval_width90": 7.72047510587837,
+      "mean_interval_score90": 8.86715181405531
+    },
+    {
+      "model": "legacy_record_iid",
+      "evaluation_subset": "formal_complete_60d",
+      "cases": 8,
+      "mae": 3.834758487805982,
+      "mae_update_cases": 5.1130113170746405,
+      "coverage90": 0.75,
+      "mean_interval_width90": 8.958821097343403,
+      "mean_interval_score90": 12.42260538425371
+    },
+    {
+      "model": "legacy_record_iid",
+      "evaluation_subset": "common_cutoffs_30d",
+      "cases": 8,
+      "mae": 3.5049162854446543,
+      "mae_update_cases": 4.223852755957952,
+      "coverage90": 0.75,
+      "mean_interval_width90": 8.260895922301401,
+      "mean_interval_score90": 9.550907219000456
+    },
+    {
+      "model": "legacy_record_iid",
+      "evaluation_subset": "common_cutoffs_60d",
+      "cases": 8,
+      "mae": 3.834758487805982,
+      "mae_update_cases": 5.1130113170746405,
+      "coverage90": 0.75,
+      "mean_interval_width90": 8.958821097343403,
+      "mean_interval_score90": 12.42260538425371
+    },
+    {
+      "model": "legacy_record_iid",
+      "evaluation_subset": "disjoint_60d",
+      "cases": 3,
+      "mae": 2.6669495537173185,
+      "mae_update_cases": 4.000424330575974,
+      "coverage90": 1.0,
+      "mean_interval_width90": 9.148384722140356,
+      "mean_interval_score90": 9.148384722140356
+    },
+    {
+      "model": "persistence",
+      "evaluation_subset": "all_including_incomplete",
+      "cases": 18,
+      "mae": 5.117451279439256,
+      "mae_update_cases": 8.374011184536965,
+      "coverage90": 0.3888888888888889,
+      "mean_interval_width90": 0.0,
+      "mean_interval_score90": 102.34902558878512
+    },
+    {
+      "model": "persistence",
+      "evaluation_subset": "formal_complete_pooled",
+      "cases": 17,
+      "mae": 5.418477825288624,
+      "mae_update_cases": 8.374011184536965,
+      "coverage90": 0.3529411764705882,
+      "mean_interval_width90": 0.0,
+      "mean_interval_score90": 108.36955650577248
+    },
+    {
+      "model": "persistence",
+      "evaluation_subset": "formal_complete_30d",
+      "cases": 9,
+      "mae": 3.801191042523559,
+      "mae_update_cases": 6.842143876542406,
+      "coverage90": 0.4444444444444444,
+      "mean_interval_width90": 0.0,
+      "mean_interval_score90": 76.02382085047118
+    },
+    {
+      "model": "persistence",
+      "evaluation_subset": "formal_complete_60d",
+      "cases": 8,
+      "mae": 7.237925455899322,
+      "mae_update_cases": 9.65056727453243,
+      "coverage90": 0.25,
+      "mean_interval_width90": 0.0,
+      "mean_interval_score90": 144.75850911798645
+    },
+    {
+      "model": "persistence",
+      "evaluation_subset": "common_cutoffs_30d",
+      "cases": 8,
+      "mae": 4.276339922839004,
+      "mae_update_cases": 6.842143876542406,
+      "coverage90": 0.375,
+      "mean_interval_width90": 0.0,
+      "mean_interval_score90": 85.52679845678009
+    },
+    {
+      "model": "persistence",
+      "evaluation_subset": "common_cutoffs_60d",
+      "cases": 8,
+      "mae": 7.237925455899322,
+      "mae_update_cases": 9.65056727453243,
+      "coverage90": 0.25,
+      "mean_interval_width90": 0.0,
+      "mean_interval_score90": 144.75850911798645
+    },
+    {
+      "model": "persistence",
+      "evaluation_subset": "disjoint_60d",
+      "cases": 3,
+      "mae": 5.701786563785338,
+      "mae_update_cases": 8.552679845678007,
+      "coverage90": 0.3333333333333333,
+      "mean_interval_width90": 0.0,
+      "mean_interval_score90": 114.03573127570677
+    }
+  ],
+  "cutoff_cluster_bootstrap": [
+    {
+      "model": "family_nb_tail95",
+      "gain_p05": 0.1165302477753602,
+      "gain_p50": 1.508695063472976,
+      "gain_p95": 3.0212766525282087,
+      "probability_gain_positive": 0.9712
+    },
+    {
+      "model": "family_poisson_block",
+      "gain_p05": 0.1462606178105528,
+      "gain_p50": 1.768215150700882,
+      "gain_p95": 3.557786323411786,
+      "probability_gain_positive": 0.9996
+    },
+    {
+      "model": "legacy_record_iid",
+      "gain_p05": 0.2484586684678633,
+      "gain_p50": 1.9106263804623609,
+      "gain_p95": 3.800619440041351,
+      "probability_gain_positive": 0.9996
+    }
+  ],
+  "contribution_decomposition": [
+    {
+      "stratum": "pretrained",
+      "scale_component_logit": -0.0147126261949919,
+      "time_proxy_component_logit": 0.105089353362124,
+      "unexplained_residual_logit": 0.428884490734151,
+      "time_model_passed_rolling_gate": false
+    },
+    {
+      "stratum": "chat_finetuned",
+      "scale_component_logit": -0.2514824662454431,
+      "time_proxy_component_logit": 0.139358909898265,
+      "unexplained_residual_logit": 0.8190723378583036,
+      "time_model_passed_rolling_gate": false
+    }
+  ],
+  "forecast_interval_label": "conditional scenario interval; not a calibrated 12/24-month probability guarantee",
+  "contribution_label": "descriptive scale component, conditional-time proxy, and endpoint residual; not causal technology shares",
+  "c8_decision": "retain; independent BH recomputation passed and no positive task survives 5% BH",
+  "bridge_decision": "retain local High-comparability evidence only; no general Loss-to-Benchmark map"
+}

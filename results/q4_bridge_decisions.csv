@@ -1,0 +1,8 @@
+﻿target,constant_rmse,best_nonconstant,best_nonconstant_rmse,relative_rmse_improvement,accepted_for_bridge,decision,support_loss_min,support_loss_max,n_high,n_medium_sensitivity
+LB_Average,0.42444846214318305,isotonic,0.436634672876873,-0.028710695927976027,False,not_identified_beyond_constant,2.0933,2.5978,7,68
+LB_BBH,1.6119781732476235,isotonic,0.7595357324361871,0.5288176074332545,True,local_monotone_bridge,2.0933,2.5978,7,68
+LB_GPQA,0.6900356272677753,linear,0.6563785831479362,0.04877580633496509,False,not_identified_beyond_constant,2.0933,2.5978,7,68
+LB_IFEval,2.2318735716514757,linear,1.551440983076071,0.3048705792380159,True,local_monotone_bridge,2.0933,2.5978,7,68
+LB_MATH,0.3391790932856869,logistic,0.20678629698647902,0.3903330096695991,True,local_monotone_bridge,2.0933,2.5978,7,68
+LB_MMLU_PRO,0.15298430900055565,logistic,0.1849114426891724,-0.20869547927624904,False,not_identified_beyond_constant,2.0933,2.5978,7,68
+LB_MUSR,2.9668525323257486,isotonic,3.1795691406344915,-0.07169773556018032,False,not_identified_beyond_constant,2.0933,2.5978,7,68

@@ -1,0 +1,22 @@
+﻿check,status,evidence
+final_backtest_metrics_recomputed,PASS,max_abs_diff=1.421e-14
+backtest_window_completeness_audited,PASS,cases=18; incomplete=1; complete30=9; complete60=8
+nested_selection_no_future_cutoff,PASS,violations=0; outer_cutoffs=9
+nested_selection_fallback_predeclared,PASS,fallback_cases=4
+record_process_beats_persistence_after_nested_selection,PASS,mae_gain=1.964513
+formal_model_selection_rule_recomputed,PASS,robust_supported=False; selected=legacy_record_iid
+cluster_bootstrap_gain_lower_bound_positive,PASS,gain_p05=0.248459; probability_positive=0.9996
+family_arrival_rate_below_record_rate,PASS,family=1.3190; record=1.7706
+arrival_overdispersion_detected,PASS,min_fano=2.857
+tail_cap_limits_repeated_extreme_search,PASS,cap95=0.060046; iid=0.326468
+forecast_bounds_and_cumulative_floor,PASS,rows=24
+compute_slowdown_direction_family_nb_tail95,PASS,min_historical_minus_zero=3.0356
+compute_slowdown_direction_family_poisson_block,PASS,min_historical_minus_zero=3.2000
+compute_slowdown_direction_legacy_record_iid,PASS,min_historical_minus_zero=3.1254
+frozen_forecast_unique_and_ordered,PASS,rows=8; paths=[5000]
+compute_mapping_forecast_monotonicity,PASS,rows=6
+monte_carlo_median_stability,PASS,12m_range=0.3273; 24m_range=0.5360
+endpoint_decomposition_identity,PASS,max_abs_error=2.776e-17
+decomposition_time_gate_flag_preserved,PASS,rows=12
+c8_bh_recomputed_independently,PASS,max_abs_diff=1.388e-15
+bridge_loo_recomputed,PASS,max_abs_diff=1.776e-15

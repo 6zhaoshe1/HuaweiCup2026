@@ -1,0 +1,11 @@
+{
+  "bootstrap_success": 300,
+  "bootstrap_total": 300,
+  "active_bounds": 0,
+  "N_compute_exponent": 0.4515283894053452,
+  "D_compute_exponent": 0.5484716105946549,
+  "unsupported_unconstrained_optima": 9,
+  "extrapolated_equivalent_scenarios": 20,
+  "scope": "base+Q refit; fixed model; independent resampling assumption; excludes generator/source/residual/p uncertainty",
+  "note": "Fixed Q,p factors do not alter N:D optimum; not full Q3 optimization"
+}

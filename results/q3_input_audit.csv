@@ -1,0 +1,8 @@
+﻿item,rows,role,fact,path
+Q2 interface,1,frozen model,"L=E+R_Q(N,D,Q)*exp(-eta_p*R_A(p)); eta_p=0 for identified main prediction",E:\读研\26届数学建模比赛\results\q2_interface_to_q3.json
+Q2 bootstrap,300,conditional parameter uncertainty,joint successful refits,E:\读研\26届数学建模比赛\results\q2_joint_bootstrap.csv
+B1,1176,real observational N-D trajectories,"N=8,D=147,Cartesian=True",E:\读研\26届数学建模比赛\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\F题\real_attachments\B_scaling_laws\pythia_training_log_existing.csv
+B7,450,semi-synthetic Q support,"N=9,D=5,Q=10",E:\读研\26届数学建模比赛\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\F题\real_attachments\B_scaling_laws\supplementary_NQ_experiment_expanded.csv
+B9,132,extrapolation guardrail metadata,"Nmax=10000.0,Dmax=36000.0",E:\读研\26届数学建模比赛\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\F题\real_attachments\B_scaling_laws\supplementary_large_models.csv
+C7,45,external context scenarios,"[2048, 4096, 8192, 32768, 131072]",E:\读研\26届数学建模比赛\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\F题\real_attachments\C_efficiency_evolution\model_architecture_metadata.csv
+A4,512,supported recipe candidates,17 shares sum to one,E:\读研\26届数学建模比赛\第二十三届中国研究生数学建模竞赛 - 中文题目\中文题目\F题\real_attachments\A_data_value\regmix_tables\train_mixture_1m.csv

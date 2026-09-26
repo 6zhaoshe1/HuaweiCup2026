@@ -1,0 +1,9 @@
+﻿scenario,compute_growth_factor,horizon_months,forecast_date,model,paths,current_frontier,p05,p50,p95,probability_frontier_update,logN_shift_per_year,evidence_level
+historical_trend,1.0,12,2026-03-13,frozen_family_balanced_record_process,5000,51.23132307602696,55.66495257285811,62.41592617926098,67.19224908224643,0.9962,0.44795409198933667,conditional_scenario_extrapolation
+historical_trend,1.0,24,2027-03-13,frozen_family_balanced_record_process,5000,51.23132307602696,62.75085763999833,68.08922118591576,72.63339670392462,1.0,0.44795409198933667,conditional_scenario_extrapolation
+moderate_slowdown,0.5,12,2026-03-13,frozen_family_balanced_record_process,5000,51.23132307602696,53.779652891676314,60.82671204770231,65.9336953311825,0.99,0.22397704599466833,conditional_scenario_extrapolation
+moderate_slowdown,0.5,24,2027-03-13,frozen_family_balanced_record_process,5000,51.23132307602696,59.754599282722175,63.958043496455765,68.90479014771972,1.0,0.22397704599466833,conditional_scenario_extrapolation
+strong_slowdown,0.25,12,2026-03-13,frozen_family_balanced_record_process,5000,51.23132307602696,52.91798992641284,60.07587710994591,65.71903958941448,0.9794,0.11198852299733417,conditional_scenario_extrapolation
+strong_slowdown,0.25,24,2027-03-13,frozen_family_balanced_record_process,5000,51.23132307602696,58.63765071399354,62.275571895288124,67.14716410776374,1.0,0.11198852299733417,conditional_scenario_extrapolation
+zero_scale_growth,0.0,12,2026-03-13,frozen_family_balanced_record_process,5000,51.23132307602696,52.29027063452533,59.5205462128897,65.0796163521413,0.9754,0.0,conditional_scenario_extrapolation
+zero_scale_growth,0.0,24,2027-03-13,frozen_family_balanced_record_process,5000,51.23132307602696,57.14059324771507,60.97886792630524,65.72787830551819,0.9984,0.0,conditional_scenario_extrapolation

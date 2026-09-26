@@ -1,0 +1,195 @@
+﻿source,protocol,record_id,group_id,fold,observed,predicted,train_mean_prediction,calibration_E,calibration_scale,evidence_level,scope
+B4,leave_family_out,B4:37,BLOOM,0,2.75,2.672329321885825,2.4042509433962262,1.630542322297541,1.5507718203090899,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:38,BLOOM,0,2.55,2.4621071335186757,2.4042509433962262,1.630542322297541,1.5507718203090899,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:39,BLOOM,0,2.45,2.381624529565657,2.4042509433962262,1.630542322297541,1.5507718203090899,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:40,BLOOM,0,2.3,2.2856942031882106,2.4042509433962262,1.630542322297541,1.5507718203090899,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:50,Cerebras-GPT,1,2.95,3.0333094598848733,2.413506,1.6396746121410772,1.554642711879044,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:51,Cerebras-GPT,1,2.7,2.737774402405024,2.413506,1.6396746121410772,1.554642711879044,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:52,Cerebras-GPT,1,2.5,2.5262401053104413,2.413506,1.6396746121410772,1.554642711879044,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:53,Cerebras-GPT,1,2.35,2.371155105576807,2.413506,1.6396746121410772,1.554642711879044,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:54,Cerebras-GPT,1,2.22,2.260409915255534,2.413506,1.6396746121410772,1.554642711879044,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:55,Cerebras-GPT,1,2.08,2.15605287902567,2.413506,1.6396746121410772,1.554642711879044,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:56,Cerebras-GPT,1,2.0,2.097896769278665,2.413506,1.6396746121410772,1.554642711879044,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:41,Falcon,2,2.25,2.1637788826780495,2.4213690909090912,1.6299612252755276,1.5571364190162371,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:42,Falcon,2,2.05,2.0366107065984687,2.4213690909090912,1.6299612252755276,1.5571364190162371,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:26,GPT2,3,3.0,3.561326348281134,2.380666037735849,1.589947332405153,1.6856373365855088,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:27,GPT2,3,2.85,3.1870573031073404,2.380666037735849,1.589947332405153,1.6856373365855088,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:28,GPT2,3,2.75,2.9865787402995574,2.380666037735849,1.589947332405153,1.6856373365855088,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:29,GPT2,3,2.7,2.8542983150572945,2.380666037735849,1.589947332405153,1.6856373365855088,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:20,Gemma,4,2.394,2.341083390778241,2.4237777777777776,1.6302876897009722,1.556461765884787,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:21,Gemma,4,2.0973,2.1026089956374867,2.4237777777777776,1.6302876897009722,1.556461765884787,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:49,Gemma,4,2.1,2.0473392785076863,2.4237777777777776,1.6302876897009722,1.556461765884787,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:1,LLaMA,5,1.8828,1.9146140796404258,2.4571450980392155,1.6427685999126747,1.5399791094780515,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:2,LLaMA,5,2.0796,2.091435086453541,2.4571450980392155,1.6427685999126747,1.5399791094780515,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:3,LLaMA,5,1.9757,1.9892346580226299,2.4571450980392155,1.6427685999126747,1.5399791094780515,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:11,LLaMA,5,2.187,2.184851130302652,2.4571450980392155,1.6427685999126747,1.5399791094780515,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:12,LLaMA,5,2.3258,2.220384719480101,2.4571450980392155,1.6427685999126747,1.5399791094780515,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:46,LLaMA,5,1.71,1.900820661905604,2.4571450980392155,1.6427685999126747,1.5399791094780515,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:43,Mistral,6,2.1,2.0722312148383657,2.4174160714285717,1.6323338487646728,1.554916408620483,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:30,OPT,7,3.11,3.117417025629229,2.393706,1.634543224430854,1.5453219246954706,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:31,OPT,7,2.88,2.8044977888609974,2.393706,1.634543224430854,1.5453219246954706,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:32,OPT,7,2.65,2.5231970928529996,2.393706,1.634543224430854,1.5453219246954706,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:33,OPT,7,2.5,2.4131158701062065,2.393706,1.634543224430854,1.5453219246954706,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:34,OPT,7,2.33,2.3093845015737333,2.393706,1.634543224430854,1.5453219246954706,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:35,OPT,7,2.22,2.2515770640446178,2.393706,1.634543224430854,1.5453219246954706,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:36,OPT,7,2.1,2.194981955083511,2.393706,1.634543224430854,1.5453219246954706,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:0,Phi,8,2.5317,2.4920060433814633,2.430686274509804,1.6273274511571874,1.5585002321854586,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:10,Phi,8,2.32,2.294255539544807,2.430686274509804,1.6273274511571874,1.5585002321854586,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:16,Phi,8,2.0512,2.032589785347931,2.430686274509804,1.6273274511571874,1.5585002321854586,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:17,Phi,8,2.3867,2.3411074764672586,2.430686274509804,1.6273274511571874,1.5585002321854586,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:18,Phi,8,2.1464,2.09613606609102,2.430686274509804,1.6273274511571874,1.5585002321854586,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:25,Phi,8,2.0743,2.0434166276633703,2.430686274509804,1.6273274511571874,1.5585002321854586,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:6,Pythia,9,2.6238,2.580771273657729,2.3253510204081635,1.6966002715861075,1.394669040940945,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:7,Pythia,9,2.1077,2.2591736870599104,2.3253510204081635,1.6966002715861075,1.394669040940945,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:8,Pythia,9,2.4276,2.394942299693141,2.3253510204081635,1.6966002715861075,1.394669040940945,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:9,Pythia,9,3.725,3.460832262075284,2.3253510204081635,1.6966002715861075,1.394669040940945,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:13,Pythia,9,3.1611,2.9768359707697627,2.3253510204081635,1.6966002715861075,1.394669040940945,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:14,Pythia,9,2.3285,2.3030785970321954,2.3253510204081635,1.6966002715861075,1.394669040940945,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:22,Pythia,9,4.3629,3.963418543195184,2.3253510204081635,1.6966002715861075,1.394669040940945,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:24,Pythia,9,2.7965,2.653202901948338,2.3253510204081635,1.6966002715861075,1.394669040940945,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:4,Qwen2,10,2.0858,2.029922639835923,2.4427119999999998,1.6264809968754848,1.5532138567117753,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:5,Qwen2,10,1.8505,1.8590078520817657,2.4427119999999998,1.6264809968754848,1.5532138567117753,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:15,Qwen2,10,2.8399,2.692987427551948,2.4427119999999998,1.6264809968754848,1.5532138567117753,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:19,Qwen2,10,2.2237,2.1330735137611248,2.4427119999999998,1.6264809968754848,1.5532138567117753,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:23,Qwen2,10,2.5398,2.415893443503952,2.4427119999999998,1.6264809968754848,1.5532138567117753,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:47,Qwen2,10,1.95,1.9197951729539109,2.4427119999999998,1.6264809968754848,1.5532138567117753,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:48,Qwen2,10,1.85,1.879018007068758,2.4427119999999998,1.6264809968754848,1.5532138567117753,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:44,Yi,11,2.1,2.1414002636035674,2.426823636363637,1.6397744392182552,1.5462968378691648,real_observational,source labels retained; loss comparability unverified
+B4,leave_family_out,B4:45,Yi,11,1.9,2.0087913456507347,2.426823636363637,1.6397744392182552,1.5462968378691648,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:32,Chowdhery et al. 2022,0,1.901,2.0415574991843073,2.2430975609756096,1.5201209945829515,1.4212687979831586,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:33,Chowdhery et al. 2022,0,1.653,1.9171377553316624,2.2430975609756096,1.5201209945829515,1.4212687979831586,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:34,Chowdhery et al. 2022,0,1.473,1.8527177833703337,2.2430975609756096,1.5201209945829515,1.4212687979831586,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:9,Hoffmann et al. 2022,1,3.015,3.555136715026097,2.1487857142857147,1.3407174833438513,1.7879899133210198,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:10,Hoffmann et al. 2022,1,2.628,2.9324241279452163,2.1487857142857147,1.3407174833438513,1.7879899133210198,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:11,Hoffmann et al. 2022,1,2.517,2.8640116118414616,2.1487857142857147,1.3407174833438513,1.7879899133210198,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:12,Hoffmann et al. 2022,1,2.227,2.3862176550481173,2.1487857142857147,1.3407174833438513,1.7879899133210198,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:13,Hoffmann et al. 2022,1,2.106,2.223469609798883,2.1487857142857147,1.3407174833438513,1.7879899133210198,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:14,Hoffmann et al. 2022,1,1.989,2.073008372675033,2.1487857142857147,1.3407174833438513,1.7879899133210198,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:15,Hoffmann et al. 2022,1,1.917,1.9838352959515873,2.1487857142857147,1.3407174833438513,1.7879899133210198,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:16,Hoffmann et al. 2022,1,1.818,1.8627427171155218,2.1487857142857147,1.3407174833438513,1.7879899133210198,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:17,Hoffmann et al. 2022,1,1.71,1.7819529296567547,2.1487857142857147,1.3407174833438513,1.7879899133210198,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:18,Hoffmann et al. 2022,1,2.819,2.8839167719431003,2.1487857142857147,1.3407174833438513,1.7879899133210198,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:19,Hoffmann et al. 2022,1,2.679,2.5911168326643397,2.1487857142857147,1.3407174833438513,1.7879899133210198,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:20,Hoffmann et al. 2022,1,2.484,2.3545170540743636,2.1487857142857147,1.3407174833438513,1.7879899133210198,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:21,Hoffmann et al. 2022,1,2.381,2.2360040822785376,2.1487857142857147,1.3407174833438513,1.7879899133210198,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:22,Hoffmann et al. 2022,1,2.312,2.107626591447401,2.1487857142857147,1.3407174833438513,1.7879899133210198,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:23,Hoffmann et al. 2022,1,2.169,1.9706101060021757,2.1487857142857147,1.3407174833438513,1.7879899133210198,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:24,Hoffmann et al. 2022,1,2.057,1.88321903844747,2.1487857142857147,1.3407174833438513,1.7879899133210198,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:0,Kaplan et al. 2020,2,2.906,2.9048323952222557,2.146457142857143,1.441132475684344,1.5255553545976788,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:1,Kaplan et al. 2020,2,2.761,2.919543362106138,2.146457142857143,1.441132475684344,1.5255553545976788,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:2,Kaplan et al. 2020,2,2.632,2.596121880726357,2.146457142857143,1.441132475684344,1.5255553545976788,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:3,Kaplan et al. 2020,2,2.506,2.4146824107197276,2.146457142857143,1.441132475684344,1.5255553545976788,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:4,Kaplan et al. 2020,2,2.415,2.318419366972387,2.146457142857143,1.441132475684344,1.5255553545976788,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:5,Kaplan et al. 2020,2,2.318,2.21472119086472,2.146457142857143,1.441132475684344,1.5255553545976788,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:6,Kaplan et al. 2020,2,2.199,2.107341701992795,2.146457142857143,1.441132475684344,1.5255553545976788,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:7,Kaplan et al. 2020,2,2.12,2.0502736927652085,2.146457142857143,1.441132475684344,1.5255553545976788,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:8,Kaplan et al. 2020,2,2.011,1.917783466199946,2.146457142857143,1.441132475684344,1.5255553545976788,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:40,Scao et al. 2022,3,2.628,2.451457301003348,2.194925,1.4619836179510397,1.479490364608052,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:41,Scao et al. 2022,3,2.456,2.2508980065650297,2.194925,1.4619836179510397,1.479490364608052,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:42,Scao et al. 2022,3,2.267,2.0825939226256054,2.194925,1.4619836179510397,1.479490364608052,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:43,Scao et al. 2022,3,1.846,1.9039392121921486,2.194925,1.4619836179510397,1.479490364608052,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:25,Touvron et al. 2023,4,1.943,2.0508494364709615,2.284783783783784,1.5499633552858905,1.3834047897797577,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:26,Touvron et al. 2023,4,1.835,2.002890327007293,2.284783783783784,1.5499633552858905,1.3834047897797577,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:27,Touvron et al. 2023,4,1.778,1.9473127589204562,2.284783783783784,1.5499633552858905,1.3834047897797577,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:28,Touvron et al. 2023,4,1.685,1.8943035899851064,2.284783783783784,1.5499633552858905,1.3834047897797577,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:29,Touvron et al. 2023,4,1.849,2.007081177328427,2.284783783783784,1.5499633552858905,1.3834047897797577,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:30,Touvron et al. 2023,4,1.75,1.959122067864759,2.284783783783784,1.5499633552858905,1.3834047897797577,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:31,Touvron et al. 2023,4,1.617,1.8698950607402167,2.284783783783784,1.5499633552858905,1.3834047897797577,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:35,Zhang et al. 2022,5,2.723,2.3590115231972066,2.1891538461538462,1.4379934515235882,1.5007972103314726,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:36,Zhang et al. 2022,5,2.417,2.1513594246942347,2.1891538461538462,1.4379934515235882,1.5007972103314726,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:37,Zhang et al. 2022,5,2.256,2.0402531109329916,2.1891538461538462,1.4379934515235882,1.5007972103314726,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:38,Zhang et al. 2022,5,2.179,2.000950998415611,2.1891538461538462,1.4379934515235882,1.5007972103314726,real_observational,source labels retained; loss comparability unverified
+B5,leave_source_out,B5:39,Zhang et al. 2022,5,2.042,1.964877517881821,2.1891538461538462,1.4379934515235882,1.5007972103314726,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:40,BLOOM,0,2.628,2.451457301003348,2.194925,1.4619836179510397,1.479490364608052,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:41,BLOOM,0,2.456,2.2508980065650297,2.194925,1.4619836179510397,1.479490364608052,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:42,BLOOM,0,2.267,2.0825939226256054,2.194925,1.4619836179510397,1.479490364608052,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:43,BLOOM,0,1.846,1.9039392121921486,2.194925,1.4619836179510397,1.479490364608052,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:9,Chinchilla,1,3.015,3.553277179009549,2.201914285714286,1.3819682497650752,1.7531813347031409,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:10,Chinchilla,1,2.628,2.942687557434378,2.201914285714286,1.3819682497650752,1.7531813347031409,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:11,Chinchilla,1,2.517,2.8756068958492103,2.201914285714286,1.3819682497650752,1.7531813347031409,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:12,Chinchilla,1,2.227,2.407114629397786,2.201914285714286,1.3819682497650752,1.7531813347031409,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:13,Chinchilla,1,2.106,2.2475349622729235,2.201914285714286,1.3819682497650752,1.7531813347031409,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:14,Chinchilla,1,1.989,2.100002903754808,2.201914285714286,1.3819682497650752,1.7531813347031409,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:15,Chinchilla,1,1.917,2.012565848039423,2.201914285714286,1.3819682497650752,1.7531813347031409,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:16,Chinchilla,1,1.818,1.893830698917616,2.201914285714286,1.3819682497650752,1.7531813347031409,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:17,Chinchilla,1,1.71,1.8146137266337719,2.201914285714286,1.3819682497650752,1.7531813347031409,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:0,GPT-2,2,2.906,2.8995130009999652,2.188093023255814,1.4663514771870876,1.4937264171923559,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:1,GPT-3,3,2.761,2.919716941585528,2.167555555555556,1.4410285735327926,1.5258416847321317,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:2,GPT-3,3,2.632,2.5962347575141216,2.167555555555556,1.4410285735327926,1.5258416847321317,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:3,GPT-3,3,2.506,2.414761233293933,2.167555555555556,1.4410285735327926,1.5258416847321317,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:4,GPT-3,3,2.415,2.3184801220211,2.167555555555556,1.4410285735327926,1.5258416847321317,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:5,GPT-3,3,2.318,2.214762482894528,2.167555555555556,1.4410285735327926,1.5258416847321317,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:6,GPT-3,3,2.199,2.1073628400613624,2.167555555555556,1.4410285735327926,1.5258416847321317,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:7,GPT-3,3,2.12,2.050284119789627,2.167555555555556,1.4410285735327926,1.5258416847321317,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:8,GPT-3,3,2.011,1.9177690262509886,2.167555555555556,1.4410285735327926,1.5258416847321317,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:18,Gopher,4,2.819,2.7243081741171977,2.1646756756756758,1.439778932531388,1.4882882232313943,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:19,Gopher,4,2.679,2.480587167558473,2.1646756756756758,1.439778932531388,1.4882882232313943,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:20,Gopher,4,2.484,2.2836460878179436,2.1646756756756758,1.439778932531388,1.4882882232313943,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:21,Gopher,4,2.381,2.1849981821951037,2.1646756756756758,1.439778932531388,1.4882882232313943,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:22,Gopher,4,2.312,2.0781392417119906,2.1646756756756758,1.439778932531388,1.4882882232313943,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:23,Gopher,4,2.169,1.9640893691945767,2.1646756756756758,1.439778932531388,1.4882882232313943,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:24,Gopher,4,2.057,1.891346734748889,2.1646756756756758,1.439778932531388,1.4882882232313943,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:25,LLaMA,5,1.943,2.025332417519725,2.243825,1.500385505665455,1.449858759343251,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:26,LLaMA,5,1.835,1.9750695187211234,2.243825,1.500385505665455,1.449858759343251,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:27,LLaMA,5,1.778,1.9168221969617958,2.243825,1.500385505665455,1.449858759343251,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:28,LLaMA,5,1.685,1.8612666513440457,2.243825,1.500385505665455,1.449858759343251,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:29,LLaMA-2,6,1.849,1.9798934827138717,2.2384878048780488,1.502027410712067,1.4461965405912767,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:30,LLaMA-2,6,1.75,1.9297575436824352,2.2384878048780488,1.502027410712067,1.4461965405912767,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:31,LLaMA-2,6,1.617,1.836480586725123,2.2384878048780488,1.502027410712067,1.4461965405912767,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:35,OPT,7,2.723,2.3590115231972066,2.1891538461538462,1.4379934515235882,1.5007972103314726,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:36,OPT,7,2.417,2.1513594246942347,2.1891538461538462,1.4379934515235882,1.5007972103314726,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:37,OPT,7,2.256,2.0402531109329916,2.1891538461538462,1.4379934515235882,1.5007972103314726,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:38,OPT,7,2.179,2.000950998415611,2.1891538461538462,1.4379934515235882,1.5007972103314726,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:39,OPT,7,2.042,1.964877517881821,2.1891538461538462,1.4379934515235882,1.5007972103314726,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:32,PaLM,8,1.901,2.0415574991843073,2.2430975609756096,1.5201209945829515,1.4212687979831586,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:33,PaLM,8,1.653,1.9171377553316624,2.2430975609756096,1.5201209945829515,1.4212687979831586,real_observational,source labels retained; loss comparability unverified
+B5,leave_family_out,B5:34,PaLM,8,1.473,1.8527177833703337,2.2430975609756096,1.5201209945829515,1.4212687979831586,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:29,BLOOM,0,2.75,2.6230971215463876,2.308715555555555,1.696323290148406,1.379566784860885,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:30,BLOOM,0,2.55,2.4360834392534736,2.308715555555555,1.696323290148406,1.379566784860885,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:31,BLOOM,0,2.45,2.3644861057717703,2.308715555555555,1.696323290148406,1.379566784860885,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:32,BLOOM,0,2.3,2.2791464766928695,2.308715555555555,1.696323290148406,1.379566784860885,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:42,Cerebras-GPT,1,2.95,2.9450317350102675,2.3129095238095236,1.7073780120269972,1.3806409500888372,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:43,Cerebras-GPT,1,2.7,2.682574130169108,2.3129095238095236,1.7073780120269972,1.3806409500888372,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:44,Cerebras-GPT,1,2.5,2.4947155883411636,2.3129095238095236,1.7073780120269972,1.3806409500888372,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:45,Cerebras-GPT,1,2.35,2.3569883152251587,2.3129095238095236,1.7073780120269972,1.3806409500888372,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:46,Cerebras-GPT,1,2.22,2.258638164663473,2.3129095238095236,1.7073780120269972,1.3806409500888372,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:47,Cerebras-GPT,1,2.08,2.1659611807185826,2.3129095238095236,1.7073780120269972,1.3806409500888372,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:48,Cerebras-GPT,1,2.0,2.114314132814226,2.3129095238095236,1.7073780120269972,1.3806409500888372,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:33,Falcon,2,2.25,2.173064370015007,2.332812765957447,1.6940891932333093,1.3971618983167766,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:34,Falcon,2,2.05,2.058960988880887,2.332812765957447,1.6940891932333093,1.3971618983167766,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:18,GPT2,3,3.0,3.5336213215625296,2.2809377777777775,1.6078285922866093,1.6466585577152235,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:19,GPT2,3,2.85,3.1680068962367827,2.2809377777777775,1.6078285922866093,1.6466585577152235,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:20,GPT2,3,2.75,2.972164211739423,2.2809377777777775,1.6078285922866093,1.6466585577152235,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:21,GPT2,3,2.7,2.8429426469842154,2.2809377777777775,1.6078285922866093,1.6466585577152235,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:14,Gemma,4,2.394,2.3320373842854734,2.3337152173913043,1.6947346620231716,1.3955308381750229,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:15,Gemma,4,2.0973,2.1182201355560286,2.3337152173913043,1.6947346620231716,1.3955308381750229,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:41,Gemma,4,2.1,2.068665050836038,2.3337152173913043,1.6947346620231716,1.3955308381750229,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:1,LLaMA,5,1.8828,1.9593941278597191,2.367006976744186,1.7197756562162083,1.3574161356135868,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:2,LLaMA,5,2.0796,2.1152531822367053,2.367006976744186,1.7197756562162083,1.3574161356135868,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:3,LLaMA,5,1.9757,2.0251685117597407,2.367006976744186,1.7197756562162083,1.3574161356135868,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:7,LLaMA,5,2.187,2.1975948480849827,2.367006976744186,1.7197756562162083,1.3574161356135868,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:8,LLaMA,5,2.3258,2.2289159660202005,2.367006976744186,1.7197756562162083,1.3574161356135868,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:38,LLaMA,5,1.71,1.9472359059180906,2.367006976744186,1.7197756562162083,1.3574161356135868,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:35,Mistral,6,2.1,2.0908793443980516,2.330045833333333,1.6961537351302918,1.395246650897967,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:22,OPT,7,3.11,2.9988944546805207,2.289338095238095,1.7111196631652084,1.342006728954631,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:23,OPT,7,2.88,2.7271454329062585,2.289338095238095,1.7111196631652084,1.342006728954631,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:24,OPT,7,2.65,2.4828549579770636,2.289338095238095,1.7111196631652084,1.342006728954631,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:25,OPT,7,2.5,2.3872569215440644,2.289338095238095,1.7111196631652084,1.342006728954631,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:26,OPT,7,2.33,2.2971733005524806,2.289338095238095,1.7111196631652084,1.342006728954631,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:27,OPT,7,2.22,2.2469714824665923,2.289338095238095,1.7111196631652084,1.342006728954631,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:28,OPT,7,2.1,2.1978224890834213,2.289338095238095,1.7111196631652084,1.342006728954631,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:0,Phi,8,2.5317,2.4664867642806625,2.3356255813953486,1.692803569134004,1.394489756213722,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:6,Phi,8,2.32,2.289546750932301,2.3356255813953486,1.692803569134004,1.394489756213722,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:10,Phi,8,2.0512,2.0554176784792273,2.3356255813953486,1.692803569134004,1.394489756213722,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:11,Phi,8,2.3867,2.3314681730456055,2.3356255813953486,1.692803569134004,1.394489756213722,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:12,Phi,8,2.1464,2.1122765968878925,2.3356255813953486,1.692803569134004,1.394489756213722,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:17,Phi,8,2.0743,2.065105146205716,2.3356255813953486,1.692803569134004,1.394489756213722,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:4,Qwen2,9,2.0858,2.058842566192431,2.3476785714285717,1.7047609146187648,1.363182351717567,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:5,Qwen2,9,1.8505,1.9088387394127322,2.3476785714285717,1.7047609146187648,1.363182351717567,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:9,Qwen2,9,2.8399,2.6407831745342802,2.3476785714285717,1.7047609146187648,1.363182351717567,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:13,Qwen2,9,2.2237,2.149373210309117,2.3476785714285717,1.7047609146187648,1.363182351717567,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:16,Qwen2,9,2.5398,2.3975908883020365,2.3476785714285717,1.7047609146187648,1.363182351717567,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:39,Qwen2,9,1.95,1.9621888963554013,2.3476785714285717,1.7047609146187648,1.363182351717567,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:40,Qwen2,9,1.85,1.926400706179594,2.3476785714285717,1.7047609146187648,1.363182351717567,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:36,Yi,10,2.1,2.154638965079044,2.339195744680851,1.7065825367752074,1.3811654117332572,real_observational,source labels retained; loss comparability unverified
+B4_without_Pythia,leave_family_out,B4_without_Pythia:37,Yi,10,1.9,2.0361915581657515,2.339195744680851,1.7065825367752074,1.3811654117332572,real_observational,source labels retained; loss comparability unverified

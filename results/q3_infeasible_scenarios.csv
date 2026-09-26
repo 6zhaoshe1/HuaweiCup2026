@@ -1,0 +1,4 @@
+﻿budget_FLOPs,context_tokens,cost_family,minimum_feasible_cost_FLOPs,budget_gap_FLOPs,witness_N_B,witness_D_B,witness_Q,evidence_level
+1e+19,131072,exponential,2.2724682048e+19,1.2724682048e+19,0.070542,10.0,0.5,semi_synthetic_supported_joint_box
+1e+19,131072,power,2.2724682048e+19,1.2724682048e+19,0.070542,10.0,0.5,semi_synthetic_supported_joint_box
+1e+19,131072,logarithmic,2.2724682048e+19,1.2724682048e+19,0.070542,10.0,0.5,semi_synthetic_supported_joint_box

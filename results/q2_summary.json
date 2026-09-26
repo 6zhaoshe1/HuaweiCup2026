@@ -1,0 +1,259 @@
+{
+  "data": {
+    "B1": 1176,
+    "B2": 1029,
+    "B4": 57,
+    "B5": 44,
+    "B6": 360,
+    "B7": 450,
+    "B8": 1704,
+    "B10": 128,
+    "B3": 4000,
+    "B9": 132,
+    "B11": 18,
+    "B12": 1386
+  },
+  "overlap": [
+    {
+      "pair": "B6_B7",
+      "overlap_keys": 360,
+      "left_rows": 360,
+      "right_rows": 450,
+      "identical_loss": 360,
+      "conflicting_loss": 0,
+      "decision": "B6 is subset; never pool B6+B7",
+      "evidence_level": "metadata"
+    },
+    {
+      "pair": "B7_B8",
+      "overlap_keys": 224,
+      "left_rows": 450,
+      "right_rows": 1704,
+      "identical_loss": 0,
+      "conflicting_loss": 224,
+      "decision": "versioned sensitivity only; never pool as independent",
+      "evidence_level": "metadata"
+    }
+  ],
+  "classic_selected": "log_huber",
+  "classic_parameters": {
+    "E": 1.6898377701724516,
+    "A": 0.35396872032343074,
+    "alpha": 0.3399854249374161,
+    "B": 1.240274629904435,
+    "beta": 0.2798924654948758
+  },
+  "classic_validation": [
+    {
+      "model": "raw_huber",
+      "split": "leave_one_size_out",
+      "n": 1176,
+      "mae": 0.0001078781698720556,
+      "rmse": 0.00015117977855332143,
+      "r2": 0.999999804666357,
+      "spearman": 0.9999996310821825,
+      "bias": 7.351464663815096e-06,
+      "log_rmse": 5.505892383271105e-05,
+      "evidence_level": "real_holdout"
+    },
+    {
+      "model": "raw_huber",
+      "split": "late_token_block",
+      "n": 296,
+      "mae": 8.74067471633793e-05,
+      "rmse": 0.00011237771298904401,
+      "r2": 0.9999997679296057,
+      "spearman": 1.0,
+      "bias": -2.2142985777436926e-05,
+      "log_rmse": 4.5519299830773927e-05,
+      "evidence_level": "real_holdout"
+    },
+    {
+      "model": "raw_huber",
+      "split": "random_row_diagnostic_only",
+      "n": 1176,
+      "mae": 0.00010606293155187015,
+      "rmse": 0.0001485555428375976,
+      "r2": 0.9999998113888507,
+      "spearman": 0.9999996310821825,
+      "bias": 2.3534128315930856e-07,
+      "log_rmse": 5.422274623574135e-05,
+      "evidence_level": "optimistic_diagnostic"
+    },
+    {
+      "model": "log_huber",
+      "split": "leave_one_size_out",
+      "n": 1176,
+      "mae": 0.00010709948814422549,
+      "rmse": 0.00015011597459768194,
+      "r2": 0.9999998074056864,
+      "spearman": 0.9999996310821825,
+      "bias": 5.889911077839063e-06,
+      "log_rmse": 5.469177725515317e-05,
+      "evidence_level": "real_holdout"
+    },
+    {
+      "model": "log_huber",
+      "split": "late_token_block",
+      "n": 296,
+      "mae": 8.676183514431683e-05,
+      "rmse": 0.00011168438465983282,
+      "r2": 0.9999997707843467,
+      "spearman": 1.0,
+      "bias": -1.8312337708171544e-05,
+      "log_rmse": 4.521111085354877e-05,
+      "evidence_level": "real_holdout"
+    },
+    {
+      "model": "log_huber",
+      "split": "random_row_diagnostic_only",
+      "n": 1176,
+      "mae": 0.00010591272676907137,
+      "rmse": 0.00014858130773683204,
+      "r2": 0.9999998113234211,
+      "spearman": 0.999999638460539,
+      "bias": 2.877041609628966e-07,
+      "log_rmse": 5.418189077495347e-05,
+      "evidence_level": "optimistic_diagnostic"
+    }
+  ],
+  "quality_selected": "reducible_linear",
+  "quality_parameters": [
+    0.47754320017108975
+  ],
+  "quality_grouped_cv": [
+    {
+      "model": "reducible_linear",
+      "split": "grouped_ND_5fold",
+      "n": 450,
+      "mae": 0.048660625325370556,
+      "rmse": 0.06282562509812763,
+      "r2": 0.9659840269555267,
+      "spearman": 0.9846977645283894,
+      "bias": 0.002032343958616725,
+      "log_rmse": 0.023244881729816123,
+      "parameter_count_q": 1,
+      "fold_parameters_json": "[[0.46129187876422434], [0.4912263695461692], [0.4623756412897489], [0.4684493055601478], [0.5117064282716992]]",
+      "evidence_level": "semi_synthetic_holdout"
+    },
+    {
+      "model": "reducible_power",
+      "split": "grouped_ND_5fold",
+      "n": 450,
+      "mae": 0.0486225392714945,
+      "rmse": 0.06294174977088918,
+      "r2": 0.9658581628884567,
+      "spearman": 0.9845559366348261,
+      "bias": 0.0025639908859082005,
+      "log_rmse": 0.02328418175358098,
+      "parameter_count_q": 2,
+      "fold_parameters_json": "[[0.45652946456750054, 0.9750860454540574], [0.48150135560507507, 0.9593692150049015], [0.4521914542160371, 0.9483694755238601], [0.4590926898637095, 0.9512534094695226], [0.5118770166779536, 1.000728789897729]]",
+      "evidence_level": "semi_synthetic_holdout"
+    },
+    {
+      "model": "additive",
+      "split": "grouped_ND_5fold",
+      "n": 450,
+      "mae": 0.05699373030731969,
+      "rmse": 0.07395714262702485,
+      "r2": 0.9528621783232705,
+      "spearman": 0.9830656244050641,
+      "bias": -0.008098998440482027,
+      "log_rmse": 0.027018064753101093,
+      "parameter_count_q": 1,
+      "fold_parameters_json": "[[0.34737318229711583], [0.34401157369411084], [0.3500159231377436], [0.3487230652557977], [0.33978506440344153]]",
+      "evidence_level": "semi_synthetic_holdout"
+    },
+    {
+      "model": "n_power",
+      "split": "grouped_ND_5fold",
+      "n": 450,
+      "mae": 0.07525771103407909,
+      "rmse": 0.10897991104653004,
+      "r2": 0.8976466267924952,
+      "spearman": 0.9786367620073225,
+      "bias": -0.023955079623834825,
+      "log_rmse": 0.03699745969168656,
+      "parameter_count_q": 1,
+      "fold_parameters_json": "[[0.34344315659181357], [0.3465308183496986], [0.34452780818883055], [0.34115174191330394], [0.33757640470073735]]",
+      "evidence_level": "semi_synthetic_holdout"
+    },
+    {
+      "model": "effective_data",
+      "split": "grouped_ND_5fold",
+      "n": 450,
+      "mae": 0.08515796130723252,
+      "rmse": 0.11760681427491201,
+      "r2": 0.8808005548425419,
+      "spearman": 0.9597242033481712,
+      "bias": -0.010443263190379705,
+      "log_rmse": 0.04156340057475984,
+      "parameter_count_q": 1,
+      "fold_parameters_json": "[[2.396251368715028], [2.5717380483801024], [2.3565338034707124], [2.40197348085948], [2.873452287232458]]",
+      "evidence_level": "semi_synthetic_holdout"
+    },
+    {
+      "model": "none",
+      "split": "grouped_ND_5fold",
+      "n": 450,
+      "mae": 0.17000345390380395,
+      "rmse": 0.20730671923081523,
+      "r2": 0.6296298143277503,
+      "spearman": 0.9351160789247871,
+      "bias": -0.1637907912314209,
+      "log_rmse": 0.07729931707420744,
+      "parameter_count_q": 0,
+      "fold_parameters_json": "[[], [], [], [], []]",
+      "evidence_level": "semi_synthetic_holdout"
+    }
+  ],
+  "p_bridge": [
+    {
+      "scale": "1M_train",
+      "n": 512,
+      "spearman_p_index_vs_better_loss": 0.9162721122154701,
+      "eta_A_within_source": 0.38845470969708035,
+      "standardized_loss_rmse": 0.19402213531217,
+      "evidence_level": "real_observational",
+      "interpretation": "A-source relative effect only; not an identified B-source coefficient"
+    },
+    {
+      "scale": "1M_holdout",
+      "n": 256,
+      "spearman_p_index_vs_better_loss": 0.9088642996108949,
+      "eta_A_within_source": 0.3690830703773464,
+      "standardized_loss_rmse": 0.17233819527876842,
+      "evidence_level": "real_holdout",
+      "interpretation": "A-source relative effect only; not an identified B-source coefficient"
+    },
+    {
+      "scale": "60M_holdout",
+      "n": 256,
+      "spearman_p_index_vs_better_loss": 0.8927908274204623,
+      "eta_A_within_source": 0.3790572109399676,
+      "standardized_loss_rmse": 0.20356331870559663,
+      "evidence_level": "real_holdout",
+      "interpretation": "A-source relative effect only; not an identified B-source coefficient"
+    },
+    {
+      "scale": "1B_holdout",
+      "n": 64,
+      "spearman_p_index_vs_better_loss": 0.7521520146520146,
+      "eta_A_within_source": 0.4145782342366113,
+      "standardized_loss_rmse": 0.1888798009468292,
+      "evidence_level": "real_holdout",
+      "interpretation": "A-source relative effect only; not an identified B-source coefficient"
+    }
+  ],
+  "unidentified": [
+    "eta_p linking A-relative mixture effect to B absolute Loss",
+    "absolute A/B Loss mapping",
+    "real-world causal quality intervention"
+  ],
+  "revision_results": {
+    "metrics": "results/q2_quality_nested_metrics.csv",
+    "source_holdout": "results/q2_source_heldout_metrics.csv",
+    "summary": "results/q2_revision_summary.json",
+    "note": "original CV scores are selection comparisons; revised interpretation overrides v1"
+  }
+}

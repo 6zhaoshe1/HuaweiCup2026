@@ -1,0 +1,9 @@
+﻿scope,stratum,best_scale_model,best_scale_pinball,best_time_model,best_time_pinball,relative_time_improvement,time_model_pass_5pct_gate,selected_model,selection_rule
+strict,chat_finetuned,scale_linear,0.0833537315644114,gradient_boosting,0.08161160841249528,0.020900361858064015,False,scale_linear,time candidate only if rolling pinball improves >=5%; otherwise best scale-only
+strict,core_combined,scale_quadratic,0.08386851090936823,gradient_boosting,0.08695807088678008,-0.03683814036892294,False,scale_quadratic,time candidate only if rolling pinball improves >=5%; otherwise best scale-only
+strict,derived,scale_linear,0.09664163575574755,gradient_boosting,0.06751854281390728,0.30135140733178495,True,gradient_boosting,time candidate only if rolling pinball improves >=5%; otherwise best scale-only
+strict,pretrained,scale_quadratic,0.08741755215195277,scale_time_interaction,0.08881775540822116,-0.016017415516674585,False,scale_quadratic,time candidate only if rolling pinball improves >=5%; otherwise best scale-only
+wide,chat_finetuned,scale_linear,0.0801533334046443,gradient_boosting,0.07344618145935174,0.08367901446384425,True,gradient_boosting,time candidate only if rolling pinball improves >=5%; otherwise best scale-only
+wide,core_combined,scale_linear,0.08386630590213152,gradient_boosting,0.07371945308203752,0.12098843165853708,True,gradient_boosting,time candidate only if rolling pinball improves >=5%; otherwise best scale-only
+wide,derived,scale_linear,0.09041037593199926,gradient_boosting,0.0652925385112144,0.2778202961978263,True,gradient_boosting,time candidate only if rolling pinball improves >=5%; otherwise best scale-only
+wide,pretrained,scale_quadratic,0.09426159897034739,gradient_boosting,0.0972108693282755,-0.031288142681049604,False,scale_quadratic,time candidate only if rolling pinball improves >=5%; otherwise best scale-only

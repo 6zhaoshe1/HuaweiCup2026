@@ -1,0 +1,10 @@
+{
+  "n": 222,
+  "date_min": "2018-01-18",
+  "date_max": "2025-03-13",
+  "q90_log10_compute_slope_per_year": 0.4156637825390236,
+  "q90_log10_compute_intercept": 21.204469535289423,
+  "log10_params_per_log10_compute": 0.4680320934111845,
+  "parameter_relation_intercept": -0.7759558963178678,
+  "evidence": "C4 observational/partly estimated compute; scenario calibration only"
+}

@@ -1,0 +1,42 @@
+{
+  "data_cutoff": "2025-03-13",
+  "n_core_records": 494,
+  "n_families": 368,
+  "confirmed_defect": "original record backtest reused a model specification selected across later rolling windows",
+  "overlap_warning": "18 cases are overlapping forecast windows; disjoint_60d subset is reported separately",
+  "final_conditional_model": "legacy_record_iid",
+  "selection_rule": "robust model only if MAE <= legacy*1.05, beats persistence, and interval score <= legacy*1.10",
+  "robust_supported": false,
+  "compute_mapping_uncertainty": {
+    "n_source": 222,
+    "bootstrap_success": 200,
+    "compute_slope_p05_p50_p95": [
+      0.3704177178581155,
+      0.4175499144476371,
+      0.5095649309638508
+    ],
+    "elasticity_p05_p50_p95": [
+      0.4303166417230135,
+      0.4603011735280449,
+      0.5024124544764423
+    ],
+    "logN_shift_p05_p50_p95": [
+      0.38669958254779924,
+      0.44539398748314174,
+      0.5631943112217203
+    ],
+    "evidence": "row bootstrap of observational/partly estimated C4; scenario uncertainty, not causal confidence interval"
+  },
+  "artifact_rows": {
+    "arrival": 8,
+    "backtest": 72,
+    "selection": 9,
+    "cluster_bootstrap_summary": 3,
+    "extreme": 24,
+    "forecast_sensitivity": 24,
+    "frozen_forecast": 8,
+    "mapping_forecast": 6,
+    "monte_carlo_stability": 16,
+    "decomposition": 12
+  }
+}

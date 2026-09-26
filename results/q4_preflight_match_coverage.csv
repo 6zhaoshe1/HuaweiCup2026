@@ -1,0 +1,6 @@
+﻿left,right,left_unique,right_unique,exact_normalized_matches,left_coverage,right_coverage,rule,interpretation
+C1_unique_model_name,C2,4492,4492,4492,1.0,1.0,Unicode NFKC + lower + remove punctuation; no fuzzy matching,lower-bound linkage coverage; entity/SHA validation still required
+C1_unique_model_name,C3,4492,4515,4489,0.9993321460373998,0.9942414174972315,Unicode NFKC + lower + remove punctuation; no fuzzy matching,lower-bound linkage coverage; entity/SHA validation still required
+C1_unique_model_name,C4,4492,3487,1,0.0002226179875333927,0.00028677946659019213,Unicode NFKC + lower + remove punctuation; no fuzzy matching,lower-bound linkage coverage; entity/SHA validation still required
+C1_unique_model_name,C8_latest_valid,4492,1859,1857,0.4134016028495102,0.9989241527703067,Unicode NFKC + lower + remove punctuation; no fuzzy matching,lower-bound linkage coverage; entity/SHA validation still required
+C1_unique_model_name,C9_fullname,4492,4492,4492,1.0,1.0,Unicode NFKC + lower + remove punctuation; no fuzzy matching,lower-bound linkage coverage; entity/SHA validation still required

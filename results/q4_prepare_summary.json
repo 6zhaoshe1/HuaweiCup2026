@@ -1,0 +1,76 @@
+{
+  "status": "complete",
+  "contract": {
+    "generated_at": "2026-09-25T22:43:37+08:00",
+    "competition": "2026 Huawei Cup 23rd China Graduate Mathematical Modeling Competition",
+    "problem": "F-Q4 technical evolution and frontier forecast",
+    "user_role": "competition team",
+    "target_reader": "competition judges",
+    "time_axis_main": "leaderboard submission date",
+    "prediction_origin": "2025-03-13",
+    "prediction_end_12m": "2026-03-13",
+    "prediction_end_24m": "2027-03-13",
+    "strict_open_rule": {
+      "available_on_hub": true,
+      "not_flagged": true,
+      "nonblank_model_sha": true,
+      "license_whitelist": [
+        "apache-2.0",
+        "mit",
+        "gpl-3.0",
+        "cc-by-sa-4.0",
+        "cc-by-4.0",
+        "wtfpl",
+        "afl-3.0",
+        "bsd-3-clause-clear",
+        "osl-3.0",
+        "creativeml-openrail-m",
+        "bigscience-bloom-rail-1.0",
+        "bigcode-openrail-m",
+        "openrail",
+        "bigscience-openrail-m"
+      ]
+    },
+    "wide_open_rule": {
+      "available_on_hub": true,
+      "not_flagged": true,
+      "nonblank_model_sha": true,
+      "excluded_license_values": [
+        "",
+        "unknown",
+        "other"
+      ]
+    },
+    "entity_rule": "Model SHA; blank SHA falls back to normalized fullname plus submission date and is excluded from strict/wide",
+    "dedup_rule": "earliest submission per entity; deterministic eval_name tie break; never choose by score",
+    "main_types": [
+      "pretrained",
+      "chat_finetuned"
+    ],
+    "derived_role": "separate extension only",
+    "c8_damage_rule": "skip all four directories containing an invalid official JSON",
+    "evidence_levels": {
+      "C1_C8_C9": "real observational leaderboard records",
+      "C3": "mixed source sensitivity only",
+      "C4_compute": "observational and partly estimated metadata",
+      "C5_C6_medium": "mixed validation-set bridge sensitivity",
+      "C5_C6_high": "local same-model/same-validation bridge",
+      "Q2_Q3": "frozen model outputs/conditional scenarios, not real future models"
+    },
+    "input_hashes": {
+      "C9": "f13a7061e63133bc8745d89f8c7a56148584940ede22d3b27e21cad1e078dca5",
+      "C8_selection": "7ff319a75d4791f6e5d7ec1796ea755ef7f842c8ed347058c52ca93190d318dd"
+    }
+  },
+  "c8": {
+    "selected_model_directories": 1859,
+    "matched_family_rows": 1844,
+    "task_long_rows": 71864,
+    "unique_tasks": 39,
+    "unique_task_families": 6,
+    "skipped": {
+      "no_c9_match": 15
+    },
+    "all_four_weighted_groups_max_abs_error": 5.551115123125783e-17
+  }
+}

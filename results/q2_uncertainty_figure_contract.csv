@@ -1,0 +1,4 @@
+﻿figure,result_source,assertion,evidence_level
+q2_09_parameter_uncertainty.pdf,q2_joint_bootstrap.csv,base+Q refit; fixed model; independent resampling assumption; excludes generator/source/residual/p uncertainty,metadata
+q2_10_compute_optimal.pdf,q2_compute_optimal.csv,Budget support does not imply N/D support,metadata
+q2_07_quality_substitution.pdf,q2_marginal_and_substitution.csv,Conditional parameter intervals; extrapolated solutions marked,metadata

@@ -1,0 +1,37 @@
+﻿column,dtype,nonnull,blank_string,unique_nonnull
+eval_name,object,4576,0,4576
+Precision,object,4576,0,3
+Type,object,4576,0,7
+T,object,4576,0,7
+Weight type,object,4576,0,2
+Architecture,object,4576,6,64
+Model,object,4576,0,4497
+fullname,object,4576,0,4497
+Model sha,object,4576,16,4477
+Average ⬆️,float64,4576,0,4522
+Hub License,object,4576,1753,27
+Hub ❤️,int64,4576,0,336
+#Params (B),float64,4576,0,483
+Available on the hub,bool,4576,0,2
+MoE,bool,4576,0,2
+Flagged,bool,4576,0,2
+Chat Template,bool,4576,0,2
+CO₂ cost (kg),float64,4576,0,4576
+IFEval Raw,float64,4576,0,3769
+IFEval,float64,4576,0,3769
+BBH Raw,float64,4576,0,4470
+BBH,float64,4576,0,4477
+MATH Lvl 5 Raw,float64,4576,0,743
+MATH Lvl 5,float64,4576,0,739
+GPQA Raw,float64,4576,0,259
+GPQA,float64,4576,0,227
+MUSR Raw,float64,4576,0,2882
+MUSR,float64,4576,0,3338
+MMLU-PRO Raw,float64,4576,0,2697
+MMLU-PRO,float64,4576,0,2697
+Merged,bool,4576,0,2
+Official Providers,bool,4576,0,2
+Upload To Hub Date,object,4576,530,525
+Submission Date,object,4576,12,263
+Generation,int64,4576,0,10
+Base Model,object,4576,0,3291

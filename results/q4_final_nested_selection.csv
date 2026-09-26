@@ -1,0 +1,10 @@
+﻿outer_cutoff,selected_model,inner_folds,selection_evidence
+2024-07-01,scale_linear,0,predeclared_linear_fallback
+2024-07-15,scale_linear,0,predeclared_linear_fallback
+2024-08-01,scale_linear,0,predeclared_linear_fallback
+2024-08-15,scale_linear,0,predeclared_linear_fallback
+2024-09-01,scale_linear,1,nested_rolling
+2024-09-15,scale_linear,1,nested_rolling
+2024-10-01,scale_linear,2,nested_rolling
+2024-12-01,scale_linear,4,nested_rolling
+2025-02-01,scale_linear,6,nested_rolling
